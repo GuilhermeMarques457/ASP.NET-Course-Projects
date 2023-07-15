@@ -1,0 +1,3 @@
+2023-07-13 08:40:59.304 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-13 08:40:59.313 -03:00 [INF] Hosting environment: Development
+2023-07-13 08:40:59.314 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD

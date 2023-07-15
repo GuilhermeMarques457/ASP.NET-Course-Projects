@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link href="~/Css/general.css" rel="stylesheet" />
+    <link href="~/Css/@ViewBag.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <div class="container">
+        <header class="header-container">
+            <div class="flex flex-spaced">
+                <div class="logo-box">
+                    <a class="logo-text" asp-action="index" asp-controller="home">
+                        <i class="fa-solid fa-money-bill-trend-up"></i>
+                        Stocks
+                    </a>
+                    
+                </div>
+                <nav class="nav-item">
+                    <ul class="list nav-list">
+                        <li class="nav-item">
+                            <a asp-action="Explore" asp-controller="Trade" class="nav-item">Explore Stocks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="SeeOrders" asp-controller="Trade" class="nav-item">See Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn-full">Login</a>
+                        </li>
+                    </ul>
+                    
+                    
+                    
+                </nav>
+            </div>
+        </header>
+        <main>
+            @RenderBody()
+        </main>
+        
+    </div>
+</body>
+</html>
+

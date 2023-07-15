@@ -1,0 +1,1794 @@
+2023-07-13 09:17:57.072 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-13 09:17:57.079 -03:00 [INF] Hosting environment: Development
+2023-07-13 09:17:57.080 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD
+2023-07-13 09:23:12.737 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-13 09:23:12.844 -03:00 [INF] Now listening on: http://localhost:5159
+2023-07-13 09:23:14.320 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:14.320 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:14.330 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 12.8180ms
+2023-07-13 09:23:14.339 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:14.350 -03:00 [INF] Sending file. Request path: '/StyleSheet.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD\wwwroot\StyleSheet.css'
+2023-07-13 09:23:14.353 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Thu, 13 Jul 2023 12:23:13 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+Content-Length: 11116
+2023-07-13 09:23:14.355 -03:00 [INF] HTTP GET /StyleSheet.css responded 200 in 19.1545 ms
+2023-07-13 09:23:14.358 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 200 11116 text/css 41.8798ms
+2023-07-13 09:23:14.409 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:14.458 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.2524ms
+2023-07-13 09:23:14.529 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/favicon.ico - -
+2023-07-13 09:23:14.562 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:14.611 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-13 09:23:14.612 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 50.1269 ms
+2023-07-13 09:23:14.614 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/favicon.ico - - - 404 0 - 84.7434ms
+2023-07-13 09:23:16.189 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/ - -
+2023-07-13 09:23:16.198 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:16.201 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 09:23:16.231 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-13 09:23:16.341 -03:00 [INF] Reached the filter factory before
+2023-07-13 09:23:16.343 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-13 09:23:16.345 -03:00 [INF] Index action of personsControler reached
+2023-07-13 09:23:16.348 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-13 09:23:16.799 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-13 09:23:17.045 -03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-13 09:23:17.108 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-13 09:23:17.117 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-13 09:23:17.144 -03:00 [INF] Reached the filter factory after
+2023-07-13 09:23:17.148 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 09:23:17.158 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-13 09:23:17.321 -03:00 [INF] Executed ViewResult - view Index executed in 165.0354ms.
+2023-07-13 09:23:17.324 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 09:23:17.327 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 1092.8371ms
+2023-07-13 09:23:17.329 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 09:23:17.330 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:23:16 GMT
+Server: Kestrel
+Last-Modified: 13-07-13 09:23
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+X-MyCustomKeyIndex-Factory: [Redacted]
+2023-07-13 09:23:17.331 -03:00 [INF] HTTP GET / responded 200 in 1133.2482 ms
+2023-07-13 09:23:17.339 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:17.341 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:17.346 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:17.346 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:17.348 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.6418ms
+2023-07-13 09:23:17.364 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.5779ms
+2023-07-13 09:23:17.366 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/ - - - 200 - text/html;+charset=utf-8 1176.4946ms
+2023-07-13 09:23:17.367 -03:00 [INF] Sending file. Request path: '/StyleSheet.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD\wwwroot\StyleSheet.css'
+2023-07-13 09:23:17.369 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Thu, 13 Jul 2023 12:23:16 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+Content-Length: 11116
+2023-07-13 09:23:17.370 -03:00 [INF] HTTP GET /StyleSheet.css responded 200 in 29.2874 ms
+2023-07-13 09:23:17.371 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 200 11116 text/css 32.3383ms
+2023-07-13 09:23:17.476 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/favicon.ico - -
+2023-07-13 09:23:17.477 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:17.479 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-13 09:23:17.480 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 2.4882 ms
+2023-07-13 09:23:17.480 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/favicon.ico - - - 404 0 - 4.1320ms
+2023-07-13 09:23:19.167 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:19.168 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:19.168 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:19.169 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:19.169 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.7648ms
+2023-07-13 09:23:19.174 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:19.176 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:19.177 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 8.3366 ms
+2023-07-13 09:23:19.179 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 11.5072ms
+2023-07-13 09:23:19.182 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.8100ms
+2023-07-13 09:23:20.095 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:20.095 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:20.095 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:20.096 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 0.9632ms
+2023-07-13 09:23:20.097 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:20.104 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:20.106 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:20.108 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 10.8932 ms
+2023-07-13 09:23:20.110 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 15.1677ms
+2023-07-13 09:23:20.112 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.0245ms
+2023-07-13 09:23:20.640 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:20.640 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:20.640 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:20.642 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:20.643 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.2864ms
+2023-07-13 09:23:20.646 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:20.648 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:20.649 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 7.1448 ms
+2023-07-13 09:23:20.650 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.9858ms
+2023-07-13 09:23:20.651 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 10.2690ms
+2023-07-13 09:23:21.145 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:21.145 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:21.145 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:21.146 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:21.146 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.2542ms
+2023-07-13 09:23:21.149 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:21.151 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:21.154 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 8.5652 ms
+2023-07-13 09:23:21.155 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 10.6487ms
+2023-07-13 09:23:21.155 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.7442ms
+2023-07-13 09:23:21.316 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:21.316 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:21.316 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:21.317 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 0.6856ms
+2023-07-13 09:23:21.317 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:21.322 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:21.324 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:21.326 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 8.7393 ms
+2023-07-13 09:23:21.328 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 11.8065ms
+2023-07-13 09:23:21.328 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.0165ms
+2023-07-13 09:23:21.630 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:21.635 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:21.635 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:21.637 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:21.639 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 3.7716ms
+2023-07-13 09:23:21.641 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:21.644 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:21.645 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 8.6723 ms
+2023-07-13 09:23:21.647 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 16.5745ms
+2023-07-13 09:23:21.655 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.8972ms
+2023-07-13 09:23:22.283 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:22.283 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:22.284 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:22.284 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:22.285 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.2866ms
+2023-07-13 09:23:22.291 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:22.295 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:22.296 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 11.7703 ms
+2023-07-13 09:23:22.298 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 14.5332ms
+2023-07-13 09:23:22.299 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.5708ms
+2023-07-13 09:23:22.714 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:22.714 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:22.714 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:22.714 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 0.6804ms
+2023-07-13 09:23:22.716 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:22.721 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:22.723 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:22.724 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.3209ms
+2023-07-13 09:23:22.724 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 8.0188 ms
+2023-07-13 09:23:22.726 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 12.7635ms
+2023-07-13 09:23:22.868 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:22.868 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:22.868 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:22.869 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:22.872 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 4.2740ms
+2023-07-13 09:23:22.874 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:22.876 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:22.878 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 9.2205 ms
+2023-07-13 09:23:22.880 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 11.8873ms
+2023-07-13 09:23:22.882 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.8607ms
+2023-07-13 09:23:23.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:23.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:23.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:23.036 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:23.036 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.5383ms
+2023-07-13 09:23:23.042 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:23.044 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:23.045 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 9.2777 ms
+2023-07-13 09:23:23.046 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.9361ms
+2023-07-13 09:23:23.046 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 11.5071ms
+2023-07-13 09:23:23.413 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:23.413 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:23.413 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:23.414 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:23.414 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.8088ms
+2023-07-13 09:23:23.424 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:23.428 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.8259ms
+2023-07-13 09:23:23.429 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:23.431 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 16.7756 ms
+2023-07-13 09:23:23.432 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 19.2517ms
+2023-07-13 09:23:24.743 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:24.744 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:24.745 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:24.746 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:24.747 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 3.0948 ms
+2023-07-13 09:23:24.748 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 4.9014ms
+2023-07-13 09:23:48.395 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/ - -
+2023-07-13 09:23:48.397 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:48.399 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 09:23:48.404 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-13 09:23:48.407 -03:00 [INF] Reached the filter factory before
+2023-07-13 09:23:48.407 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-13 09:23:48.408 -03:00 [INF] Index action of personsControler reached
+2023-07-13 09:23:48.408 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-13 09:23:48.416 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-13 09:23:48.420 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-13 09:23:48.423 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-13 09:23:48.423 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-13 09:23:48.424 -03:00 [INF] Reached the filter factory after
+2023-07-13 09:23:48.424 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 09:23:48.426 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-13 09:23:48.445 -03:00 [INF] Executed ViewResult - view Index executed in 20.2922ms.
+2023-07-13 09:23:48.446 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 09:23:48.447 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 41.9784ms
+2023-07-13 09:23:48.448 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 09:23:48.449 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:23:48 GMT
+Server: Kestrel
+Last-Modified: 13-07-13 09:23
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+X-MyCustomKeyIndex-Factory: [Redacted]
+2023-07-13 09:23:48.450 -03:00 [INF] HTTP GET / responded 200 in 52.8195 ms
+2023-07-13 09:23:48.456 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:48.457 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/ - - - 200 - text/html;+charset=utf-8 61.3217ms
+2023-07-13 09:23:48.457 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:48.459 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:48.460 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:48.461 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 4.2883 ms
+2023-07-13 09:23:48.464 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:48.464 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:48.465 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 8.9569ms
+2023-07-13 09:23:48.471 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 7.3339ms
+2023-07-13 09:23:48.475 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.6305ms
+2023-07-13 09:23:50.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:50.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:50.036 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 0.8897ms
+2023-07-13 09:23:50.044 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.1037ms
+2023-07-13 09:23:54.294 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:54.295 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.1342ms
+2023-07-13 09:23:55.611 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:55.611 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:55.611 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:55.612 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:55.613 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.3190ms
+2023-07-13 09:23:55.615 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:23:55.618 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:23:55.620 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 7.5529 ms
+2023-07-13 09:23:55.622 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 10.5667ms
+2023-07-13 09:23:55.624 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.7313ms
+2023-07-13 09:23:56.535 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Persons/Index - -
+2023-07-13 09:23:56.538 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:56.540 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 09:23:56.544 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-13 09:23:56.548 -03:00 [INF] Reached the filter factory before
+2023-07-13 09:23:56.548 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-13 09:23:56.549 -03:00 [INF] Index action of personsControler reached
+2023-07-13 09:23:56.549 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-13 09:23:56.586 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-13 09:23:56.591 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-13 09:23:56.593 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-13 09:23:56.594 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-13 09:23:56.594 -03:00 [INF] Reached the filter factory after
+2023-07-13 09:23:56.595 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 09:23:56.595 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-13 09:23:56.600 -03:00 [INF] Executed ViewResult - view Index executed in 4.6135ms.
+2023-07-13 09:23:56.600 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 09:23:56.601 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 56.1595ms
+2023-07-13 09:23:56.602 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 09:23:56.603 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:23:56 GMT
+Server: Kestrel
+Last-Modified: 13-07-13 09:23
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+X-MyCustomKeyIndex-Factory: [Redacted]
+2023-07-13 09:23:56.603 -03:00 [INF] HTTP GET /Persons/Index responded 200 in 65.1189 ms
+2023-07-13 09:23:56.609 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:23:56.610 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Persons/Index - - - 200 - text/html;+charset=utf-8 75.5137ms
+2023-07-13 09:23:56.614 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:56.615 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:56.616 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:56.616 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 3.1323ms
+2023-07-13 09:23:56.618 -03:00 [INF] Sending file. Request path: '/StyleSheet.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD\wwwroot\StyleSheet.css'
+2023-07-13 09:23:56.620 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Thu, 13 Jul 2023 12:23:56 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+Content-Length: 11116
+2023-07-13 09:23:56.621 -03:00 [INF] HTTP GET /StyleSheet.css responded 200 in 6.1438 ms
+2023-07-13 09:23:56.623 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 200 11116 text/css 13.7782ms
+2023-07-13 09:23:56.623 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.0763ms
+2023-07-13 09:23:56.738 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/favicon.ico - -
+2023-07-13 09:23:56.739 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:56.742 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-13 09:23:56.743 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 3.8424 ms
+2023-07-13 09:23:56.744 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/favicon.ico - - - 404 0 - 5.6842ms
+2023-07-13 09:23:58.607 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - -
+2023-07-13 09:23:58.609 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:23:58.610 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:23:58.612 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadFromExcel() on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:23:58.615 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:23:58.640 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 26.1919ms.
+2023-07-13 09:23:58.641 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 27.9779ms
+2023-07-13 09:23:58.642 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:23:58.643 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:23:58 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-13 09:23:58.644 -03:00 [INF] HTTP GET /Countries/UploadFromExcel responded 200 in 35.0634 ms
+2023-07-13 09:23:58.646 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - - - 200 - text/html;+charset=utf-8 38.9718ms
+2023-07-13 09:23:58.649 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:23:58.649 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:23:58.650 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.4832ms
+2023-07-13 09:23:58.661 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.4335ms
+2023-07-13 09:24:36.909 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - -
+2023-07-13 09:24:36.910 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:24:36.912 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:24:36.913 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadFromExcel() on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:24:36.915 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:24:36.935 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 19.954ms.
+2023-07-13 09:24:36.935 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 21.136ms
+2023-07-13 09:24:36.936 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:24:36.937 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:24:36 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:24:36.940 -03:00 [INF] HTTP GET /Countries/UploadFromExcel responded 200 in 30.0318 ms
+2023-07-13 09:24:36.943 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - - - 200 - text/html;+charset=utf-8 33.4270ms
+2023-07-13 09:24:36.944 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:24:36.944 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:24:36.945 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:24:36.945 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:24:36.946 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:24:36.946 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.1798ms
+2023-07-13 09:24:36.951 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:24:36.960 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 15.3981 ms
+2023-07-13 09:24:36.961 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.9897ms
+2023-07-13 09:24:36.961 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 17.8053ms
+2023-07-13 09:25:01.109 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - -
+2023-07-13 09:25:01.110 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:25:01.112 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:25:01.114 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadFromExcel() on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:25:01.115 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:25:01.129 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 14.402ms.
+2023-07-13 09:25:01.130 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 15.3587ms
+2023-07-13 09:25:01.131 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:25:01.131 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:25:01 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:25:01.132 -03:00 [INF] HTTP GET /Countries/UploadFromExcel responded 200 in 22.0208 ms
+2023-07-13 09:25:01.135 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - - - 200 - text/html;+charset=utf-8 25.8190ms
+2023-07-13 09:25:01.137 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:25:01.139 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:25:01.141 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:25:01.141 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:25:01.142 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 3.9277ms
+2023-07-13 09:25:01.146 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:25:01.154 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:25:01.156 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 14.5623 ms
+2023-07-13 09:25:01.157 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.7008ms
+2023-07-13 09:25:01.158 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 21.3235ms
+2023-07-13 09:25:19.384 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - -
+2023-07-13 09:25:19.386 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:25:19.389 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:25:19.392 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadFromExcel() on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:25:19.395 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:25:19.420 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 25.2597ms.
+2023-07-13 09:25:19.421 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 26.6918ms
+2023-07-13 09:25:19.422 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:25:19.426 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:25:19 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:25:19.427 -03:00 [INF] HTTP GET /Countries/UploadFromExcel responded 200 in 41.3680 ms
+2023-07-13 09:25:19.430 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - - - 200 - text/html;+charset=utf-8 45.9764ms
+2023-07-13 09:25:19.433 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:25:19.433 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:25:19.434 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:25:19.434 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.1737ms
+2023-07-13 09:25:19.435 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:25:19.442 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:25:19.445 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:25:19.446 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 11.6197 ms
+2023-07-13 09:25:19.448 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.9746ms
+2023-07-13 09:25:19.449 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 15.8063ms
+2023-07-13 09:25:41.331 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - -
+2023-07-13 09:25:41.332 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:25:41.334 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:25:41.336 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadFromExcel() on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:25:41.339 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:25:41.356 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 17.9489ms.
+2023-07-13 09:25:41.357 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 19.5394ms
+2023-07-13 09:25:41.358 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:25:41.360 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:25:40 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:25:41.361 -03:00 [INF] HTTP GET /Countries/UploadFromExcel responded 200 in 28.7790 ms
+2023-07-13 09:25:41.364 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - - - 200 - text/html;+charset=utf-8 33.2374ms
+2023-07-13 09:25:41.369 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:25:41.369 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:25:41.370 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:25:41.371 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:25:41.372 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.3483ms
+2023-07-13 09:25:41.376 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:25:41.378 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:25:41.381 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 10.2534 ms
+2023-07-13 09:25:41.383 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 13.6870ms
+2023-07-13 09:25:41.393 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.0360ms
+2023-07-13 09:26:08.355 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461
+2023-07-13 09:26:08.358 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 461
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:26:08.360 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:26:08.363 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFromExcel(Microsoft.AspNetCore.Http.IFormFile) on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:26:08.382 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:26:08.387 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 4.8346ms.
+2023-07-13 09:26:08.387 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 23.2715ms
+2023-07-13 09:26:08.388 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:26:08.389 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:26:07 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:26:08.389 -03:00 [INF] HTTP POST /Countries/UploadFromExcel responded 200 in 31.7719 ms
+2023-07-13 09:26:08.392 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461 - 200 - text/html;+charset=utf-8 37.1540ms
+2023-07-13 09:26:08.394 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:26:08.395 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:26:08.396 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:26:08.396 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.4556ms
+2023-07-13 09:26:08.401 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:26:08.402 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:26:08.403 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:26:08.405 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 9.9601 ms
+2023-07-13 09:26:08.407 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 12.6677ms
+2023-07-13 09:26:08.429 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.7057ms
+2023-07-13 09:26:26.018 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461
+2023-07-13 09:26:26.019 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 461
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:26:26.021 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:26:26.024 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFromExcel(Microsoft.AspNetCore.Http.IFormFile) on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:26:26.028 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:26:26.042 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 15.0129ms.
+2023-07-13 09:26:26.043 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 17.1085ms
+2023-07-13 09:26:26.043 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:26:26.044 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:26:26 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:26:26.046 -03:00 [INF] HTTP POST /Countries/UploadFromExcel responded 200 in 26.4276 ms
+2023-07-13 09:26:26.048 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461 - 200 - text/html;+charset=utf-8 30.1787ms
+2023-07-13 09:26:26.053 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:26:26.053 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:26:26.054 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:26:26.056 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.7384ms
+2023-07-13 09:26:26.057 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:26:26.062 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:26:26.065 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:26:26.067 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 10.1209 ms
+2023-07-13 09:26:26.067 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.3925ms
+2023-07-13 09:26:26.068 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 15.9608ms
+2023-07-13 09:26:54.381 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461
+2023-07-13 09:26:54.384 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 461
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:26:54.386 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:26:54.390 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFromExcel(Microsoft.AspNetCore.Http.IFormFile) on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:26:54.394 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:26:54.409 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 15.5246ms.
+2023-07-13 09:26:54.410 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 17.0813ms
+2023-07-13 09:26:54.411 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:26:54.412 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:26:54 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:26:54.413 -03:00 [INF] HTTP POST /Countries/UploadFromExcel responded 200 in 28.9281 ms
+2023-07-13 09:26:54.416 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461 - 200 - text/html;+charset=utf-8 34.6769ms
+2023-07-13 09:26:54.421 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:26:54.423 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:26:54.423 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:26:54.424 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:26:54.425 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.9800ms
+2023-07-13 09:26:54.429 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:26:54.431 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:26:54.432 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 8.2303 ms
+2023-07-13 09:26:54.434 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 12.8732ms
+2023-07-13 09:26:54.441 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.0985ms
+2023-07-13 09:27:00.928 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461
+2023-07-13 09:27:00.930 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 461
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:27:00.933 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:00.937 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFromExcel(Microsoft.AspNetCore.Http.IFormFile) on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:27:00.941 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:27:00.960 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 20.4647ms.
+2023-07-13 09:27:00.962 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 22.3779ms
+2023-07-13 09:27:00.963 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:00.966 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:27:00 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:27:00.974 -03:00 [INF] HTTP POST /Countries/UploadFromExcel responded 200 in 43.8404 ms
+2023-07-13 09:27:00.982 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461 - 200 - text/html;+charset=utf-8 54.7526ms
+2023-07-13 09:27:00.987 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:27:00.987 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:27:00.988 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.5379ms
+2023-07-13 09:27:01.005 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.3206ms
+2023-07-13 09:27:11.523 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461
+2023-07-13 09:27:11.525 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 461
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:27:11.528 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:11.532 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFromExcel(Microsoft.AspNetCore.Http.IFormFile) on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:27:11.535 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:27:11.551 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 17.3043ms.
+2023-07-13 09:27:11.552 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 18.7366ms
+2023-07-13 09:27:11.553 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:11.554 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:27:11 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:27:11.555 -03:00 [INF] HTTP POST /Countries/UploadFromExcel responded 200 in 30.4105 ms
+2023-07-13 09:27:11.558 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461 - 200 - text/html;+charset=utf-8 34.8029ms
+2023-07-13 09:27:11.566 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:27:11.567 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:27:11.568 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.5167ms
+2023-07-13 09:27:11.575 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.5801ms
+2023-07-13 09:27:27.566 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461
+2023-07-13 09:27:27.567 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 461
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:27:27.569 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:27.571 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFromExcel(Microsoft.AspNetCore.Http.IFormFile) on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:27:27.573 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:27:27.588 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 14.9431ms.
+2023-07-13 09:27:27.589 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 16.096ms
+2023-07-13 09:27:27.589 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:27.590 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:27:26 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:27:27.591 -03:00 [INF] HTTP POST /Countries/UploadFromExcel responded 200 in 24.0535 ms
+2023-07-13 09:27:27.595 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461 - 200 - text/html;+charset=utf-8 28.9606ms
+2023-07-13 09:27:27.598 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:27:27.601 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:27:27.601 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:27:27.605 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:27:27.605 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 4.1797ms
+2023-07-13 09:27:27.609 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:27:27.611 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:27:27.615 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 9.7327 ms
+2023-07-13 09:27:27.616 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 18.6673ms
+2023-07-13 09:27:27.620 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.5894ms
+2023-07-13 09:27:43.145 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461
+2023-07-13 09:27:43.148 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 461
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:27:43.149 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:43.150 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFromExcel(Microsoft.AspNetCore.Http.IFormFile) on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:27:43.151 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:27:43.154 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 3.148ms.
+2023-07-13 09:27:43.155 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 4.1624ms
+2023-07-13 09:27:43.156 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:43.156 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:27:42 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:27:43.157 -03:00 [INF] HTTP POST /Countries/UploadFromExcel responded 200 in 10.0482 ms
+2023-07-13 09:27:43.160 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Countries/UploadFromExcel multipart/form-data;+boundary=----WebKitFormBoundaryE9nSPzgKIY179S6M 461 - 200 - text/html;+charset=utf-8 14.5618ms
+2023-07-13 09:27:43.163 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:27:43.163 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:27:43.164 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 0.8249ms
+2023-07-13 09:27:43.168 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.7662ms
+2023-07-13 09:27:47.480 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:27:47.481 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 0.8568ms
+2023-07-13 09:27:47.483 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:27:47.489 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.6599ms
+2023-07-13 09:27:48.142 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - -
+2023-07-13 09:27:48.143 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:27:48.146 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:48.147 -03:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadFromExcel() on controller SampleApplicationCRUD.Controllers.CountriesController (SampleApplicationCRUD).
+2023-07-13 09:27:48.148 -03:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2023-07-13 09:27:48.151 -03:00 [INF] Executed ViewResult - view UploadFromExcel executed in 3.1277ms.
+2023-07-13 09:27:48.152 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD) in 4.2084ms
+2023-07-13 09:27:48.153 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.CountriesController.UploadFromExcel (SampleApplicationCRUD)'
+2023-07-13 09:27:48.154 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 13 Jul 2023 12:27:47 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-13 09:27:48.154 -03:00 [INF] HTTP GET /Countries/UploadFromExcel responded 200 in 11.0877 ms
+2023-07-13 09:27:48.157 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Countries/UploadFromExcel - - - 200 - text/html;+charset=utf-8 14.7249ms
+2023-07-13 09:27:48.159 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:27:48.161 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:27:48.162 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.0369ms
+2023-07-13 09:27:48.168 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.6170ms
+2023-07-13 09:27:55.343 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/StyleSheet.css - -
+2023-07-13 09:27:55.343 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:27:55.344 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:27:55.345 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.5660ms
+2023-07-13 09:27:55.347 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-13 09:27:55.348 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-13 09:27:55.349 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Thu, 13 Jul 2023 12:23:08 GMT
+2023-07-13 09:27:55.350 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 6.0546 ms
+2023-07-13 09:27:55.352 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/StyleSheet.css - - - 304 - text/css 8.5353ms
+2023-07-13 09:27:55.354 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.9191ms
+2023-07-13 09:27:55.658 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Persons/PeopleCSV - -
+2023-07-13 09:27:55.659 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/PeopleCSV
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-13 09:27:55.661 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.PeopleCSV (SampleApplicationCRUD)'
+2023-07-13 09:27:55.666 -03:00 [INF] Route matched with {action = "PeopleCSV", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PeopleCSV() on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-13 09:27:55.767 -03:00 [INF] GetPersonList of personService reached
+2023-07-13 09:27:55.768 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-13 09:27:55.770 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-13 09:27:55.777 -03:00 [INF] Executing FileStreamResult, sending file with download name 'people.csv' ...
+2023-07-13 09:27:55.780 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.PeopleCSV (SampleApplicationCRUD) in 113.0381ms
+2023-07-13 09:27:55.781 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.PeopleCSV (SampleApplicationCRUD)'
+2023-07-13 09:27:55.781 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/octet-stream
+Date: Thu, 13 Jul 2023 12:27:54 GMT
+Server: Kestrel
+Content-Length: 1619
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+Content-Disposition: attachment; filename=people.csv; filename*=UTF-8''people.csv
+2023-07-13 09:27:55.782 -03:00 [INF] HTTP GET /Persons/PeopleCSV responded 200 in 123.0508 ms
+2023-07-13 09:27:55.784 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Persons/PeopleCSV - - - 200 1619 application/octet-stream 125.6884ms

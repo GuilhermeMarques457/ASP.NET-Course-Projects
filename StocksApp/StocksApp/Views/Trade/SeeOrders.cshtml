@@ -1,0 +1,52 @@
+﻿@model BuySellOrdersVM
+
+@{
+    ViewData["Title"] = "SeeOrders";
+}
+
+<h1 class="secondary-heading">SeeOrders</h1>
+
+
+<section class="section-see-orders">
+    <div class="pdf-generator-box">
+        <a class="pdf-generator" asp-action="TradePDF" asp-controller="Trade">Generate PDF</a>
+    </div>
+    
+    <div class="grid grid--2--cols">
+        <div class="orders-box">
+            <h3 class="heading-tertiary">Buy Orders</h3>
+            @foreach (var item in Model.buyOrders)
+            {
+                <div class="order-item mg-bt-md">
+                    <div class="info mg-bt-md">
+                        <span>@item.StockName</span>
+                        <span>(@item.StockSymbol)</span>
+                    </div>
+                    <p class="mg-bt-sm"><b>@item.Quantity</b> shares at <small>$</small><b>@item.Price</b></p>
+                    <div>
+                        <p class="trade-text mg-bt-sm">Trade Amount : <small>$</small><b>@item.TradeAmount</b></p>
+                    </div>
+                    <p class="mg-bt-sm date-time-trade">@item.DateAndTimeOfOrder</p>
+                </div>
+            }
+        </div>
+        <div class="orders-box">
+            <h3 class="heading-tertiary">Sell Orders</h3>
+            @foreach (var item in Model.sellOrders)
+            {
+                <div class="order-item mg-bt-md">
+                    <div class="info mg-bt-md">
+                        <span>@item.StockName</span>
+                        <span>(@item.StockSymbol)</span>
+                    </div>
+                    <p class="mg-bt-sm"><b>@item.Quantity</b> shares at <small>$</small><b>@item.Price</b></p>
+                    <div>
+                        <p class="trade-text mg-bt-sm">Trade Amount : <small>$</small><b>@item.TradeAmount</b></p>
+                    </div>
+                    <p class="mg-bt-sm date-time-trade">@item.DateAndTimeOfOrder</p>
+                </div>
+            }
+        </div>
+    </div>
+   
+</section>

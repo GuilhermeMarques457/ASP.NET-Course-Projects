@@ -1,0 +1,41 @@
+﻿@model IEnumerable<PersonResponse>
+
+@{
+    Layout = null;
+}
+<link href="@("http://" + Context.Request.Host.ToString() + "/StyleSheet.css")" rel="stylesheet"/>
+@*http://localhost:port/StyleSheet.css*@
+
+<h1>People</h1>
+<table class="table w-100">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Date of Birth</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Country</th>
+            <th>Address</th>
+            <th>Receive News Letters</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td style="width: 13%">@item.PersonName</td>
+                <td style="width: 15%">@item.PersonEmail</td>
+                <td style="width: 12%">@item.DateOfBirth?.ToString("dd MMM yyyy")</td>
+                <td style="width: 9%">@item.PersonAge</td>
+                <td style="width: 10%">@item.PersonGender</td>
+                <td style="width: 12%">@item.CountryName</td>
+                <td style="width: 15%">@item.PersonAddress</td>
+                <td style="width: 15%">@item.ReceiveNewsLetters</td>
+            </tr>
+        }
+    </tbody>
+
+</table>

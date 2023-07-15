@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Upload Countries from Excel";
+    ViewBag.BreadCrumbController = "Contries";
+    ViewBag.BreadCrumbAction = "Upload";
+}
+
+<div class="center-box">
+    @await Html.PartialAsync("_BreadCrumb")
+
+    <div class="form-container">
+        <h2>Upload Countries from Excel</h2>
+
+            <form asp-action="UploadFromExcel" asp-controller="countries" method="post" enctype="multipart/form-data">
+               
+                <label class="form-label mt mb">Choose an excel file</label>
+                   
+                <input type="file" name="excelFile" class="form-input mt mb" />
+                <span class="text-red">@ViewBag.ErrorMessage</span>
+                <span class="text-green">@ViewBag.Message</span>
+                <div class="form-field flex">
+                    
+                    <div class="flex-1">
+                        <button type="submit" class="button button-blue-back">Upload</button>
+                    </div>
+                </div>
+            </form>
+        
+    </div>
+    
+</div>

@@ -1,0 +1,108 @@
+﻿@model BuySellOrdersVM
+
+@{
+    Layout = null;
+}
+
+<head>
+    <style>
+        table{
+            width: 100%;
+        }
+
+        th{
+            width: 16%;
+            padding: 15px 5px;
+            font-weight: bold;
+            text-align: start;
+        }
+
+        td {
+            font-weight: 600;
+            width: 16%;
+            padding: 10px 5px;
+            color: #2a2a2a;
+        }
+
+        .box-order-header{
+            padding: 1rem 0;
+        }
+
+        .order-row {
+            padding: 0.5rem 0;
+        }
+
+        .box-order-header th{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .order-row p{
+            font-size: 1.4rem;
+        }
+
+        .buy-order {
+            background-color: #8ce99a;
+        }
+
+        .sell-order {
+            background-color: #ffa8a8;
+        }
+    </style>
+
+</head>
+
+<link href="@Url.Content("~/general.css")" rel="stylesheet" />
+<link href="@Url.Content("~/style.css")" rel="stylesheet" />
+
+<table>
+    <thead class="box-order-header">
+        <tr>
+            <th>Date Time of Order</th>
+            <th>Stock Name</th>
+            <th>Order Type</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Trade Amount</th>
+        </tr>
+    </thead>
+    <tbody class="box-order">
+        @foreach(var item in Model.buyOrders)
+        {
+            <tr class="buy-order order-row">
+ 
+                <td>@item.DateAndTimeOfOrder</td>
+
+                <td>@item.StockName (@item.StockSymbol)</td>
+
+                <td>@item.OrderType</td>
+
+                <td>@item.Quantity</td>
+
+                <td>$@item.Price</td>
+
+                <td>$@item.TradeAmount</td>
+           
+            </tr>
+        }
+        @foreach(var item in Model.sellOrders)
+        {
+            <tr class="sell-order order-row">
+
+                <td>@item.DateAndTimeOfOrder</td>
+
+                <td>@item.StockName (@item.StockSymbol)</td>
+
+                <td>@item.OrderType</td>
+
+                <td>@item.Quantity</td>
+
+                <td>$@item.Price</td>
+
+                <td>$@item.TradeAmount</td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,140 @@
+2023-07-13 18:18:22.551 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-13 18:18:22.619 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/Persons/Index - -
+2023-07-13 18:18:22.636 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+Host: localhost
+2023-07-13 18:18:22.663 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 18:18:22.681 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-13 18:18:22.760 -03:00 [INF] Reached the filter factory before
+2023-07-13 18:18:22.763 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-13 18:18:22.764 -03:00 [INF] Index action of personsControler reached
+2023-07-13 18:18:22.764 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-13 18:18:23.107 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.7' with options: StoreName=TestingDB 
+2023-07-13 18:18:23.248 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-13 18:18:23.249 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-13 18:18:23.253 -03:00 [INF] Reached the filter factory after
+2023-07-13 18:18:23.254 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 18:18:23.265 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-13 18:18:23.543 -03:00 [INF] Executed ViewResult - view Index executed in 276.7845ms.
+2023-07-13 18:18:23.546 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 18:18:23.547 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 865.1891ms
+2023-07-13 18:18:23.547 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 18:18:23.548 -03:00 [INF] Response:
+StatusCode: 200
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+X-MyCustomKeyIndex-Factory: [Redacted]
+Last-Modified: 13-07-13 18:18
+Content-Type: text/html; charset=utf-8
+2023-07-13 18:18:23.549 -03:00 [INF] HTTP GET /Persons/Index responded 200 in 918.8532 ms
+2023-07-13 18:18:23.556 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/Persons/Index - - - 200 - text/html;+charset=utf-8 938.5451ms
+2023-07-13 18:22:51.628 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-13 18:22:51.680 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/Persons/Index - -
+2023-07-13 18:22:51.689 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+Host: localhost
+2023-07-13 18:22:51.707 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 18:22:51.721 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-13 18:22:51.784 -03:00 [INF] Reached the filter factory before
+2023-07-13 18:22:51.786 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-13 18:22:51.786 -03:00 [INF] Index action of personsControler reached
+2023-07-13 18:22:51.791 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-13 18:22:52.068 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.7' with options: StoreName=TestingDB 
+2023-07-13 18:22:52.201 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-13 18:22:52.202 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-13 18:22:52.206 -03:00 [INF] Reached the filter factory after
+2023-07-13 18:22:52.208 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 18:22:52.217 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-13 18:22:52.337 -03:00 [INF] Executed ViewResult - view Index executed in 121.0667ms.
+2023-07-13 18:22:52.338 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 18:22:52.339 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 617.3421ms
+2023-07-13 18:22:52.339 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 18:22:52.340 -03:00 [INF] Response:
+StatusCode: 200
+X-MyCustomKeyIndex-Factory: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyPersonController: [Redacted]
+Last-Modified: 13-07-13 18:22
+Content-Type: text/html; charset=utf-8
+2023-07-13 18:22:52.341 -03:00 [INF] HTTP GET /Persons/Index responded 200 in 653.6974 ms
+2023-07-13 18:22:52.346 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/Persons/Index - - - 200 - text/html;+charset=utf-8 667.3362ms
+2023-07-13 18:24:30.353 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-13 18:24:30.417 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/Persons/Index - -
+2023-07-13 18:24:30.425 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+Host: localhost
+2023-07-13 18:24:30.444 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 18:24:30.460 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-13 18:24:30.524 -03:00 [INF] Reached the filter factory before
+2023-07-13 18:24:30.526 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-13 18:24:30.527 -03:00 [INF] Index action of personsControler reached
+2023-07-13 18:24:30.529 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-13 18:24:30.806 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.7' with options: StoreName=TestingDB 
+2023-07-13 18:24:30.937 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-13 18:24:30.938 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-13 18:24:30.956 -03:00 [INF] Reached the filter factory after
+2023-07-13 18:24:30.958 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 18:24:30.965 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-13 18:24:31.063 -03:00 [INF] Executed ViewResult - view Index executed in 99.1115ms.
+2023-07-13 18:24:31.064 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 18:24:31.065 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 604.1799ms
+2023-07-13 18:24:31.065 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 18:24:31.065 -03:00 [INF] Response:
+StatusCode: 200
+X-MyCustomKeyIndex-Factory: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyPersonController: [Redacted]
+Last-Modified: 13-07-13 18:24
+Content-Type: text/html; charset=utf-8
+2023-07-13 18:24:31.066 -03:00 [INF] HTTP GET /Persons/Index responded 200 in 643.1169 ms
+2023-07-13 18:24:31.070 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/Persons/Index - - - 200 - text/html;+charset=utf-8 655.1615ms
+2023-07-13 18:28:03.440 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-13 18:28:03.516 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/Persons/Index - -
+2023-07-13 18:28:03.524 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+Host: localhost
+2023-07-13 18:28:03.543 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 18:28:03.562 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-13 18:28:03.629 -03:00 [INF] Reached the filter factory before
+2023-07-13 18:28:03.631 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-13 18:28:03.631 -03:00 [INF] Index action of personsControler reached
+2023-07-13 18:28:03.631 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-13 18:28:03.966 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.7' with options: StoreName=TestingDB 
+2023-07-13 18:28:04.104 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-13 18:28:04.105 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-13 18:28:04.108 -03:00 [INF] Reached the filter factory after
+2023-07-13 18:28:04.110 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 18:28:04.119 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-13 18:28:04.232 -03:00 [INF] Executed ViewResult - view Index executed in 113.3557ms.
+2023-07-13 18:28:04.233 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-13 18:28:04.233 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 670.8399ms
+2023-07-13 18:28:04.239 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-13 18:28:04.240 -03:00 [INF] Response:
+StatusCode: 200
+X-MyCustomKeyIndex-Factory: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyPersonController: [Redacted]
+Last-Modified: 13-07-13 18:28
+Content-Type: text/html; charset=utf-8
+2023-07-13 18:28:04.241 -03:00 [INF] HTTP GET /Persons/Index responded 200 in 718.5560 ms
+2023-07-13 18:28:04.246 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost/Persons/Index - - - 200 - text/html;+charset=utf-8 732.8433ms

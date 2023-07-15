@@ -1,0 +1,52 @@
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Downloads\XUnit\XUnit\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\bin\Debug\net7.0\Entities.runtimeconfig.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\bin\Debug\net7.0\Entities.runtimeconfig.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\bin\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Entities\obj\Debug\net7.0\ref\Entities.dll

@@ -1,0 +1,22 @@
+﻿/* Index Action */
+
+.stock-price-panel {
+    border: 1px solid var(--white-color);
+    padding: 3rem 2rem;
+}
+
+.stock-title {
+    font-size: 4.2rem;
+}
+
+.info-stock-box {
+    padding: 1rem 0;
+}
+
+.stock-info-text {
+    font-size: 1.8rem
+}
+
+.btn-order-anchor {
+    width: 50%;
+}

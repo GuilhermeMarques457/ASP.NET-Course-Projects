@@ -1,0 +1,80 @@
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\bin\Debug\net7.0\Service.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\bin\Debug\net7.0\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\bin\Debug\net7.0\Service.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\bin\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\bin\Debug\net7.0\ServiceContracts.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\bin\Debug\net7.0\ServiceContracts.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\bin\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\refint\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\Service.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 18 - EntityFramwork Core\StocksApp\Service\obj\Debug\net7.0\ref\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\Service.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\Service.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\ServiceContracts.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\ServiceContracts.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\refint\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\Service.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\obj\Debug\net7.0\ref\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\Repository.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\RepositoryContracts.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\RepositoryContracts.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 19 - Unit Test [Advanced, Moq & Repository Pattern]\StocksApp\Service\bin\Debug\net7.0\Repository.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\Service.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\Service.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\Repository.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\RepositoryContracts.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\ServiceContracts.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\RepositoryContracts.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\Repository.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\ServiceContracts.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\bin\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\refint\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\Service.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 20 - Logging and Serilog\StocksApp\Service\obj\Debug\net7.0\ref\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\refint\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\Service.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\Service.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\Service.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\Service.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\Repository.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\RepositoryContracts.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\ServiceContracts.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\RepositoryContracts.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\Repository.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\ServiceContracts.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\bin\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 21 - Filters\StocksApp\Service\obj\Debug\net7.0\ref\Service.dll

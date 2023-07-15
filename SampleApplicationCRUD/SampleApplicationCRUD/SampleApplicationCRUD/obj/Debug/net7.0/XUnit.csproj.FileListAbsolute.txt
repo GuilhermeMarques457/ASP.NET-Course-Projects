@@ -1,0 +1,142 @@
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\appsettings.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.staticwebassets.runtime.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.exe
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.deps.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.runtimeconfig.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.XUnit.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.build.XUnit.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.XUnit.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.XUnit.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\scopedcss\bundle\XUnit.styles.css
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\refint\XUnit.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\ref\XUnit.dll
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\bin\Debug\net7.0\appsettings.json
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.staticwebassets.runtime.json
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.exe
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.deps.json
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.runtimeconfig.json
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.dll
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.pdb
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.AssemblyInfo.cs
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.XUnit.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.build.XUnit.props
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.XUnit.props
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.XUnit.props
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\scopedcss\bundle\XUnit.styles.css
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.dll
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\refint\XUnit.dll
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.pdb
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.genruntimeconfig.cache
+C:\Users\Microsoft\Downloads\XUnit\XUnit\XUnit\obj\Debug\net7.0\ref\XUnit.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\appsettings.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.staticwebassets.runtime.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.exe
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.runtimeconfig.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\XUnit.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Entities.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\ServiceContracts.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Services.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Entities.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\ServiceContracts.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Services.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.RazorAssemblyInfo.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.RazorAssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.XUnit.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.build.XUnit.props
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.XUnit.props
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.XUnit.props
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\scopedcss\bundle\XUnit.styles.css
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.csproj.CopyComplete
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\refint\XUnit.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\ref\XUnit.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\countries.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\persons.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Rotativa.AspNetCore.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\obj\Debug\net7.0\XUnit.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\EPPlus.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\EPPlus.Interfaces.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\XUnit\XUnit\XUnit\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll

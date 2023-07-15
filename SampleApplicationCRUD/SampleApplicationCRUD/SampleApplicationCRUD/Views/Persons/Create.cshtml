@@ -1,0 +1,108 @@
+﻿@model PersonAddRequest
+
+@{
+    ViewBag.Title = "Create Person";
+    ViewBag.BreadCrumbController = "People";
+    ViewBag.BreadCrumbAction = "Create";
+}
+
+
+
+
+<div class="center-box">
+    @await Html.PartialAsync("_BreadCrumb")
+   
+    <div class="form-container">
+        <h2 class="text-large">Create Person</h2>
+        <form asp-action="Create" asp-asp-controller="Persons" method="post" class="create-person-form">
+            <div class="form-field-input">
+                <label asp-for="PersonName">Person Name</label>
+                <input asp-for="PersonName" placeholder="Type your name here" />
+                <span asp-validation-for="PersonName" class="validate-message"></span>
+            </div>
+
+            <div class="form-field-input">
+                <label asp-for="PersonEmail">Person Email</label>
+                <input asp-for="PersonEmail" placeholder="Type your email here" />
+                <span asp-validation-for="PersonEmail" class="validate-message"></span>
+            </div>
+
+            <div class="form-field-input">
+                <label asp-for="DateOfBirth">Date Of Birth</label>
+                <input asp-for="DateOfBirth" />
+            </div>
+
+            <div class="form-field-input">
+                <div class="select-input">
+                    @{
+                        string[] genders = (string[])@Enum.GetNames(typeof(GenderOptions));
+                    }
+                    @foreach (string gender in genders)
+                    {
+                        <div>
+                            <label asp-for="@gender">@gender</label>
+                            <input type="radio" asp-for="PersonGender" value="@gender" />
+
+                        </div>
+                    }
+                </div>
+                <div class="validate-box">
+                    <span asp-validation-for="PersonGender" class="validate-message"></span>
+                </div>
+            </div>
+            <div class="form-field-input">
+                <label asp-for="CountryID">Country</label>
+                <select asp-for="CountryID" asp-items="@ViewBag.Countries">
+                    <option value="">Please Select</option>
+                    @*Nao é mais necessario pois eu estou passando uma lista de seleçao e colocando ela em asp-items*@
+                    @*@foreach (CountryResponse item in ViewBag.Countries)
+                    {
+                    <option value="@item.CountryId">@item.CountryName</option>
+                    }*@
+                </select>
+                <span asp-validation-for="CountryID" class="validate-message"></span>
+            </div>
+            <div class="form-field-input">
+                <label asp-for="PersonAddress">Address</label>
+                <textarea asp-for="PersonAddress"></textarea>
+                <span asp-validation-for="PersonAddress" class="validate-message"></span>
+            </div>
+
+            <div class="form-field">
+                <div class="checkbox-input">
+                    <label for="ReceiveNewsLetters">ReceiveNewsLetters</label>
+                    <input name="ReceiveNewsLetters" id="ReceiveNewsLetters" type="checkbox" value="true" />
+                    <span asp-validation-for="ReceiveNewsLetters" class="validate-message"></span>
+                </div>
+
+            </div>
+
+            <div class="form-field">
+                <div class="checkbox-input">
+                    <button class="button button-blue-back">Submit</button>
+                </div>
+                @*<div asp-validation-summary="All"></div>*@
+            </div>
+            @if (ViewBag.Errors != null)
+            {
+                <div class="text-red">
+                    <ul>
+                        @foreach (string error in ViewBag.Errors)
+                        {
+                            <li>@error</li>
+                        }
+                    </ul>
+                </div>
+            }
+
+        </form>
+    </div>
+</div>
+
+@section scripts{
+    @*Jquery to validate in the server side*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jquery.validate.min.js" integrity="sha512-FOhq9HThdn7ltbK8abmGn60A/EMtEzIzv1rvuh+DqzJtSGq8BRdEN0U+j0iKEIffiw/yEtVuladk6rsG4X6Uqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js" asp-fallback-test="window.jQuery.validator.unobtrusive" asp-fallback-src="~/jquery.validate.unobtrusive.min" integrity="sha512-o6XqxgrUsKmchwy9G5VRNWSSxTS4Urr4loO6/0hYdpWmFUfHqGzawGxeQGMDqYzxjY9sbktPbNlkIQJWagVZQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+}
+

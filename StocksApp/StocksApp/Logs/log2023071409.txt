@@ -1,0 +1,40 @@
+2023-07-14 09:59:40.276 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-14 09:59:40.319 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-14 09:59:40.322 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-14 09:59:40.324 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-14 09:59:40.355 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-14 09:59:40.375 -03:00 [INF] Applying migration '20230714125928_create-real-database-with-sell-and-buy'.
+2023-07-14 09:59:40.416 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE [Orders];
+2023-07-14 09:59:40.418 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [BuyOrders] (
+    [BuyOrderID] uniqueidentifier NOT NULL,
+    [StockSymbol] nvarchar(max) NULL,
+    [StockName] nvarchar(max) NULL,
+    [DateAndTimeOfOrder] datetime2 NULL,
+    [Quantity] bigint NULL,
+    [OrderType] nvarchar(max) NULL,
+    [Price] float NULL,
+    CONSTRAINT [PK_BuyOrders] PRIMARY KEY ([BuyOrderID])
+);
+2023-07-14 09:59:40.420 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SellOrders] (
+    [SellOrderID] uniqueidentifier NOT NULL,
+    [StockSymbol] nvarchar(max) NULL,
+    [StockName] nvarchar(max) NULL,
+    [DateAndTimeOfOrder] datetime2 NULL,
+    [Quantity] bigint NULL,
+    [OrderType] nvarchar(max) NULL,
+    [Price] float NULL,
+    CONSTRAINT [PK_SellOrders] PRIMARY KEY ([SellOrderID])
+);
+2023-07-14 09:59:40.421 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230714125928_create-real-database-with-sell-and-buy', N'7.0.7');
