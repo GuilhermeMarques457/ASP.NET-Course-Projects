@@ -1,0 +1,370 @@
+2023-07-29 12:00:00.785 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-29 12:00:00.947 -03:00 [INF] Now listening on: http://localhost:5255
+2023-07-29 12:00:02.329 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/ - -
+2023-07-29 12:00:02.370 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 12:00:02.420 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-29 12:00:02.432 -03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-07-29 12:00:02.433 -03:00 [INF] Response:
+StatusCode: 302
+Location: http://localhost:5255/Account/Login?ReturnUrl=%2F
+2023-07-29 12:00:02.435 -03:00 [INF] HTTP GET / responded 302 in 71.8248 ms
+2023-07-29 12:00:02.443 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/ - - - 302 0 - 117.9904ms
+2023-07-29 12:00:02.449 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - -
+2023-07-29 12:00:02.450 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-07-29 12:00:02.464 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-29 12:00:02.487 -03:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-29 12:00:02.619 -03:00 [INF] Executing ViewResult, running view Login.
+2023-07-29 12:00:02.853 -03:00 [INF] Executed ViewResult - view Login executed in 237.7183ms.
+2023-07-29 12:00:02.858 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 368.4227ms
+2023-07-29 12:00:02.859 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-29 12:00:02.861 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 29 Jul 2023 15:00:01 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-29 12:00:02.863 -03:00 [INF] HTTP GET /Account/Login responded 200 in 412.4181 ms
+2023-07-29 12:00:02.882 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 432.7283ms
+2023-07-29 12:00:02.883 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-29 12:00:02.883 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 12:00:02.886 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 3.1368ms
+2023-07-29 12:00:02.900 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.4300ms
+2023-07-29 12:00:07.288 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - -
+2023-07-29 12:00:07.290 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 12:00:07.295 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-29 12:00:07.295 -03:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-29 12:00:07.304 -03:00 [INF] Executing ViewResult, running view Login.
+2023-07-29 12:00:07.312 -03:00 [INF] Executed ViewResult - view Login executed in 8.406ms.
+2023-07-29 12:00:07.314 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 17.1399ms
+2023-07-29 12:00:07.315 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-29 12:00:07.315 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 29 Jul 2023 15:00:06 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-29 12:00:07.316 -03:00 [INF] HTTP GET /Account/Login responded 200 in 26.2625 ms
+2023-07-29 12:00:07.320 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 31.7186ms
+2023-07-29 12:00:07.324 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/StyleSheet.css - -
+2023-07-29 12:00:07.325 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 12:00:07.326 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 12:00:07.327 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-29 12:00:07.329 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 2.8614ms
+2023-07-29 12:00:07.339 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.8825ms
+2023-07-29 12:00:07.348 -03:00 [INF] Sending file. Request path: '/StyleSheet.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.UI\wwwroot\StyleSheet.css'
+2023-07-29 12:00:07.350 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Sat, 29 Jul 2023 15:00:06 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sat, 29 Jul 2023 14:04:33 GMT
+Content-Length: 12164
+2023-07-29 12:00:07.350 -03:00 [INF] HTTP GET /StyleSheet.css responded 200 in 25.4836 ms
+2023-07-29 12:00:07.352 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/StyleSheet.css - - - 200 12164 text/css 27.8832ms
+2023-07-29 12:00:07.432 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/favicon.ico - -
+2023-07-29 12:00:07.432 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 12:00:07.436 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.UI\wwwroot\favicon.ico'
+2023-07-29 12:00:07.437 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: image/x-icon
+Date: Sat, 29 Jul 2023 15:00:06 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Fri, 21 Jul 2023 12:05:26 GMT
+Content-Length: 5430
+2023-07-29 12:00:07.438 -03:00 [INF] HTTP GET /favicon.ico responded 200 in 5.6658 ms
+2023-07-29 12:00:07.442 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/favicon.ico - - - 200 5430 image/x-icon 10.0149ms
+2023-07-29 12:00:13.436 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5255/Account/Login?ReturnUrl=%2F application/x-www-form-urlencoded 241
+2023-07-29 12:00:13.438 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Account/Login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 241
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 12:00:13.439 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-29 12:00:13.449 -03:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ContactsManager.Core.DTO.AccountDTO.LoginDTO, System.String) on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-29 12:00:14.051 -03:00 [INF] Entity Framework Core 6.0.9 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2023-07-29 12:00:14.378 -03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-07-29 12:00:14.554 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-07-29 12:00:14.578 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-07-29 12:00:14.587 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-07-29 12:00:14.605 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2023-07-29 12:00:14.612 -03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-07-29 12:00:14.619 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-07-29 12:00:14.628 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2023-07-29 12:00:14.646 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid), @__get_Item_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE ([a].[UserId] = @__get_Item_0) AND ([a].[RoleId] = @__get_Item_1)
+2023-07-29 12:00:14.662 -03:00 [INF] Executing RedirectResult, redirecting to /admin/Home/Index/admin.
+2023-07-29 12:00:14.663 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 1213.0652ms
+2023-07-29 12:00:14.664 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-29 12:00:14.664 -03:00 [INF] Response:
+StatusCode: 302
+Cache-Control: [Redacted]
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Location: /admin/Home/Index/admin
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+MyGlobalKey: [Redacted]
+2023-07-29 12:00:14.665 -03:00 [INF] HTTP POST /Account/Login responded 302 in 1226.9170 ms
+2023-07-29 12:00:14.668 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5255/Account/Login?ReturnUrl=%2F application/x-www-form-urlencoded 241 - 302 0 - 1232.1157ms
+2023-07-29 12:00:14.669 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/admin/Home/Index/admin - -
+2023-07-29 12:00:14.670 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /admin/Home/Index/admin
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-07-29 12:00:14.674 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Areas.Admin.Controllers.HomeController.Index (ContactsManager.UI)'
+2023-07-29 12:00:14.675 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ContactsManager.UI.Areas.Admin.Controllers.HomeController (ContactsManager.UI).
+2023-07-29 12:00:14.677 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-29 12:00:14.689 -03:00 [INF] Executed ViewResult - view Index executed in 12.5507ms.
+2023-07-29 12:00:14.690 -03:00 [INF] Executed action ContactsManager.UI.Areas.Admin.Controllers.HomeController.Index (ContactsManager.UI) in 13.6429ms
+2023-07-29 12:00:14.690 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Areas.Admin.Controllers.HomeController.Index (ContactsManager.UI)'
+2023-07-29 12:00:14.691 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 29 Jul 2023 15:00:14 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-29 12:00:14.692 -03:00 [INF] HTTP GET /admin/Home/Index/admin responded 200 in 22.0353 ms
+2023-07-29 12:00:14.694 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/admin/Home/Index/admin - - - 200 - text/html;+charset=utf-8 24.6655ms
+2023-07-29 12:00:14.695 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 12:00:14.695 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-29 12:00:14.696 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 0.5476ms
+2023-07-29 12:00:14.708 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.8513ms
+2023-07-29 12:00:19.051 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/ - -
+2023-07-29 12:00:19.052 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 12:00:19.055 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (ContactsManager.UI)'
+2023-07-29 12:00:19.063 -03:00 [INF] Route matched with {action = "Index", controller = "Persons", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (ContactsManager.UI).
+2023-07-29 12:00:19.066 -03:00 [INF] Reached the filter factory before
+2023-07-29 12:00:19.067 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-29 12:00:19.068 -03:00 [INF] Index action of personsControler reached
+2023-07-29 12:00:19.071 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-29 12:00:19.107 -03:00 [INF] Entity Framework Core 6.0.9 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2023-07-29 12:00:19.136 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-29 12:00:19.172 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-29 12:00:19.176 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-29 12:00:19.179 -03:00 [INF] Reached the filter factory after
+2023-07-29 12:00:19.182 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-29 12:00:19.187 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-29 12:00:19.271 -03:00 [INF] Executed ViewResult - view Index executed in 83.8885ms.
+2023-07-29 12:00:19.271 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-29 12:00:19.272 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (ContactsManager.UI) in 208.6021ms
+2023-07-29 12:00:19.273 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (ContactsManager.UI)'
+2023-07-29 12:00:19.274 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 29 Jul 2023 15:00:19 GMT
+Server: Kestrel
+Last-Modified: 29-07-29 12:00
+Transfer-Encoding: chunked
+X-MyCustomKeyIndex-Factory: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyPersonController: [Redacted]
+2023-07-29 12:00:19.276 -03:00 [INF] HTTP GET / responded 200 in 223.4980 ms
+2023-07-29 12:00:19.280 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/ - - - 200 - text/html;+charset=utf-8 228.8847ms
+2023-07-29 12:00:19.301 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-29 12:00:19.301 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 12:00:19.303 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 2.0801ms
+2023-07-29 12:00:19.314 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.7335ms

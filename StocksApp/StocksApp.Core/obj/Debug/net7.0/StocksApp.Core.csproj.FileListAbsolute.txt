@@ -1,0 +1,24 @@
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\bin\Debug\net7.0\StocksApp.Core.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\bin\Debug\net7.0\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\bin\Debug\net7.0\StocksApp.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\refint\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\ref\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\bin\Debug\net7.0\StocksApp.Core.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\bin\Debug\net7.0\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\bin\Debug\net7.0\StocksApp.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\refint\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\StocksApp.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\obj\Debug\net7.0\ref\StocksApp.Core.dll

@@ -4,33 +4,36 @@
     ViewBag.Title = "StockTradesInformation";
 }
 
-<section class="trade-section grid grid--2--cols">
-    <div class="grid grid--2--cols grid-vertical-center">
+<section class="trade-section grid grid--2--cols grid-vertical-center">
+    <div class="flex flex-spaced">
         <div>
-            <h3 class="stock-name heading-tertiary mg-bt-md">@ViewBag.StockTrade.StockName (@ViewBag.StockTrade.StockSymbol)</h3>
-            <span class="stock-price subheading"><small>$</small>@ViewBag.StockTrade.Price</span>
+            <h3 class="stock-name heading-tertiary mg-bt-bg">@ViewBag.StockTrade.StockName (@ViewBag.StockTrade.StockSymbol)</h3>
+            <p class="stock-price price">Current Price: <span class="subheading"><small>$</small>@ViewBag.StockTrade.Price.ToString("N")</span> </p>
+            <p class="stock-price">Highest Price: <span class="subheading"><small>$</small>@ViewBag.Stock.HighestPrice.ToString("N")</span> </p>
+            <p class="stock-price">Lowest Price: <span class="subheading"><small>$</small>@ViewBag.Stock.LowestPrice.ToString("N")</span> </p>
+            <p class="stock-price">Open Price: <span class="subheading"><small>$</small>@ViewBag.Stock.OpenPrice.ToString("N")</span> </p>
         </div>
-        <div>
+        <div class="stock-img-box">
             <img src="@ViewBag.StockTrade.Image" alt="stock image" class="stock-img" />
         </div>
         
     </div>
     <div class="action-box">
-        <h3 class="new-order-text mg-bt-md">New Order</h3>
+        <h2 class="new-order-text mg-bt-md">New Order</h2>
 
         <form method="post">
             <div class="input-box">
-                <div class="flex ">
-                    <label asp-for="Quantity">Quantity:</label>
+                <div class="flex flex-center-vertical">
+                    <label class="label-input" asp-for="Quantity">Quantity:</label>
                     <input class="input-quantity" asp-for="Quantity" />
                 </div>
                 <span asp-validation-for="Quantity"></span>
             </div>
            
 
-            <div class="mg-tp-md">
-                <button type="submit" class="btn btn-sell mg-rg-md" asp-controller="Trade" asp-action="SellOrder">Sell</button>
-                <button type="submit" class="btn btn-buy " asp-controller="Trade" asp-action="BuyOrder">Buy</button>
+            <div class="mg-tp-md flex flex-more-spaced">
+                <button type="submit" class="btn btn-sell mg-rg-md" asp-controller="Trade" asp-action="SellOrder">Sell <i class="ph ph-coin"></i></button>
+                <button type="submit" class="btn btn-buy " asp-controller="Trade" asp-action="BuyOrder">Buy <i class="ph ph-shopping-cart-simple"></i></button>
             </div>
 
             <input type="hidden" name="Price" value="@ViewBag.StockTrade.Price" />
@@ -38,5 +41,16 @@
             <input type="hidden" name="StockSymbol" value="@ViewBag.StockTrade.StockSymbol" />
 
         </form>
+        @if (ViewBag.Errors != null)
+        {
+            <div class="errors-list mg-tp-bg">
+                <ul class="list">
+                    @foreach (var error in ViewBag.Errors)
+                    {
+                        <li class="list-item">@error</li>
+                    }
+                </ul>
+            </div>
+        }
     </div>
 </section>

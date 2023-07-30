@@ -1,0 +1,48 @@
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\refint\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ref\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\refint\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ref\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\refint\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ref\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\refint\ContactsManager.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ref\ContactsManager.Core.dll

@@ -1,0 +1,163 @@
+2023-07-28 08:39:12.526 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-28 08:39:12.534 -03:00 [INF] Hosting environment: Development
+2023-07-28 08:39:12.552 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.UI
+2023-07-28 08:40:38.987 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-28 08:40:39.134 -03:00 [INF] Now listening on: http://localhost:5255
+2023-07-28 08:40:40.211 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/ - -
+2023-07-28 08:40:40.316 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-28 08:40:40.368 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-28 08:40:40.378 -03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-07-28 08:40:40.379 -03:00 [INF] Response:
+StatusCode: 302
+Location: http://localhost:5255/Account/Login?ReturnUrl=%2F
+2023-07-28 08:40:40.381 -03:00 [INF] HTTP GET / responded 302 in 71.1953 ms
+2023-07-28 08:40:40.390 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/ - - - 302 0 - 183.7699ms
+2023-07-28 08:40:40.393 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - -
+2023-07-28 08:40:40.394 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-07-28 08:40:40.405 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-28 08:40:40.424 -03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-28 08:40:40.535 -03:00 [INF] Executing ViewResult, running view Login.
+2023-07-28 08:40:40.753 -03:00 [INF] Executed ViewResult - view Login executed in 218.905ms.
+2023-07-28 08:40:40.757 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 331.5027ms
+2023-07-28 08:40:40.758 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-28 08:40:40.760 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Fri, 28 Jul 2023 11:40:40 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-28 08:40:40.761 -03:00 [INF] HTTP GET /Account/Login responded 200 in 367.1803 ms
+2023-07-28 08:40:41.285 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 892.0370ms
+2023-07-28 08:40:41.287 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-28 08:40:41.287 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-28 08:40:41.292 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 4.9481ms
+2023-07-28 08:40:41.313 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.9637ms
+2023-07-28 08:40:42.873 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/Account/Register - -
+2023-07-28 08:40:42.875 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Register
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-28 08:40:42.880 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2023-07-28 08:40:42.882 -03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-28 08:40:42.891 -03:00 [INF] Executing ViewResult, running view Register.
+2023-07-28 08:40:42.936 -03:00 [INF] Executed ViewResult - view Register executed in 44.742ms.
+2023-07-28 08:40:42.937 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI) in 53.7778ms
+2023-07-28 08:40:42.939 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2023-07-28 08:40:42.940 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Fri, 28 Jul 2023 11:40:42 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-28 08:40:42.941 -03:00 [INF] HTTP GET /Account/Register responded 200 in 66.4116 ms
+2023-07-28 08:40:43.120 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/Account/Register - - - 200 - text/html;+charset=utf-8 246.9362ms
+2023-07-28 08:40:43.146 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-28 08:40:43.146 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-28 08:40:43.147 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 1.1827ms
+2023-07-28 08:40:43.160 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.9882ms
+2023-07-28 08:40:45.838 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/Account/EmailValidator?Email=guimarkes457%40gmail.com - -
+2023-07-28 08:40:45.840 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/EmailValidator
+Accept: application/json, text/javascript, */*; q=0.01
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-28 08:40:45.842 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.EmailValidator (ContactsManager.UI)'
+2023-07-28 08:40:45.851 -03:00 [INF] Route matched with {action = "EmailValidator", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailValidator(System.String) on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-28 08:41:02.208 -03:00 [INF] Entity Framework Core 6.0.9 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2023-07-28 08:41:02.492 -03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-07-28 08:41:07.875 -03:00 [INF] Executing JsonResult, writing value of type 'System.Boolean'.
+2023-07-28 08:41:07.879 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.EmailValidator (ContactsManager.UI) in 22026.7571ms
+2023-07-28 08:41:07.880 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.EmailValidator (ContactsManager.UI)'
+2023-07-28 08:41:07.880 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Fri, 28 Jul 2023 11:41:07 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-28 08:41:07.881 -03:00 [INF] HTTP GET /Account/EmailValidator responded 200 in 22040.6895 ms
+2023-07-28 08:41:07.884 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/Account/EmailValidator?Email=guimarkes457%40gmail.com - - - 200 - application/json;+charset=utf-8 22045.0922ms

@@ -1,0 +1,271 @@
+2023-07-21 19:13:27.110 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-21 19:13:27.275 -03:00 [INF] Now listening on: https://localhost:7140
+2023-07-21 19:13:27.276 -03:00 [INF] Now listening on: http://localhost:5291
+2023-07-21 19:13:27.277 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-21 19:13:27.278 -03:00 [INF] Hosting environment: Development
+2023-07-21 19:13:27.279 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - SOLID Principles\StocksApp\StocksApp
+2023-07-21 19:13:28.944 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/ - -
+2023-07-21 19:13:28.978 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-21 19:13:29.009 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-21 19:13:29.051 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-21 19:13:29.111 -03:00 [INF] Client wants to explore stocks
+2023-07-21 19:13:29.118 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-21 19:13:29.120 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-21 19:13:30.287 -03:00 [INF] Received HTTP response headers after 1157.4586ms - 200
+2023-07-21 19:13:30.292 -03:00 [INF] End processing HTTP request after 1176.405ms - 200
+2023-07-21 19:13:31.517 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-21 19:13:31.641 -03:00 [INF] Executed ViewResult - view Explore executed in 126.5683ms.
+2023-07-21 19:13:31.645 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 2591.5682ms
+2023-07-21 19:13:31.646 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-21 19:13:31.648 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Fri, 21 Jul 2023 22:13:31 GMT
+Server: Kestrel
+2023-07-21 19:13:31.651 -03:00 [INF] HTTP GET / responded 200 in 2677.1284 ms
+2023-07-21 19:13:31.667 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-21 19:13:31.669 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-21 19:13:31.675 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-21 19:13:31.683 -03:00 [INF] The file /Css/stocks.css was not modified
+2023-07-21 19:13:31.685 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Fri, 21 Jul 2023 21:53:05 GMT
+2023-07-21 19:13:31.685 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/ - - - 200 - text/html;+charset=utf-8 2742.4932ms
+2023-07-21 19:13:31.685 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 8.7916ms
+2023-07-21 19:13:31.685 -03:00 [INF] HTTP GET /Css/stocks.css responded 304 in 17.0940 ms
+2023-07-21 19:13:31.687 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 304 - text/css 20.5145ms
+2023-07-21 19:13:31.691 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-21 19:13:31.716 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.3829ms
+2023-07-21 19:13:31.871 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-21 19:13:31.873 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-21 19:13:31.877 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-21 19:13:31.878 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 5.8320 ms
+2023-07-21 19:13:31.880 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 9.7185ms
+2023-07-21 19:14:19.082 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-21 19:14:19.259 -03:00 [INF] Now listening on: https://localhost:7140
+2023-07-21 19:14:19.556 -03:00 [INF] Now listening on: http://localhost:5291
+2023-07-21 19:14:19.578 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-21 19:14:19.580 -03:00 [INF] Hosting environment: Development
+2023-07-21 19:14:19.581 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - SOLID Principles\StocksApp\StocksApp
+2023-07-21 19:14:21.480 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/ - -
+2023-07-21 19:14:21.578 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-21 19:14:21.857 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-21 19:14:21.941 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-21 19:14:22.022 -03:00 [INF] Client wants to explore stocks
+2023-07-21 19:14:22.027 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-21 19:14:22.028 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-21 19:14:22.896 -03:00 [INF] Received HTTP response headers after 860.115ms - 200
+2023-07-21 19:14:22.906 -03:00 [INF] End processing HTTP request after 880.9873ms - 200
+2023-07-21 19:14:24.141 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-21 19:14:24.291 -03:00 [INF] Executed ViewResult - view Explore executed in 153.3641ms.
+2023-07-21 19:14:24.294 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 2351.9101ms
+2023-07-21 19:14:24.295 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-21 19:14:24.298 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Fri, 21 Jul 2023 22:14:23 GMT
+Server: Kestrel
+2023-07-21 19:14:24.300 -03:00 [INF] HTTP GET / responded 200 in 2727.6036 ms
+2023-07-21 19:14:24.319 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-21 19:14:24.319 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-21 19:14:24.320 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/ - - - 200 - text/html;+charset=utf-8 2845.6718ms
+2023-07-21 19:14:24.331 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 11.4498ms
+2023-07-21 19:14:24.350 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.4662ms
+2023-07-21 19:14:24.522 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-21 19:14:24.524 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-21 19:14:24.527 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-21 19:14:24.528 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 3.8711 ms
+2023-07-21 19:14:24.529 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 6.8517ms
+2023-07-21 19:14:27.302 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/error - -
+2023-07-21 19:14:27.305 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /error
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-21 19:14:27.308 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.HomeController.Error (StocksApp)'
+2023-07-21 19:14:27.310 -03:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller StocksApp.Controllers.HomeController (StocksApp).
+2023-07-21 19:14:27.315 -03:00 [INF] Executing ViewResult, running view Error.
+2023-07-21 19:14:27.331 -03:00 [INF] Executed ViewResult - view Error executed in 16.6417ms.
+2023-07-21 19:14:27.332 -03:00 [INF] Executed action StocksApp.Controllers.HomeController.Error (StocksApp) in 20.7897ms
+2023-07-21 19:14:27.333 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.HomeController.Error (StocksApp)'
+2023-07-21 19:14:27.334 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Fri, 21 Jul 2023 22:14:26 GMT
+Server: Kestrel
+2023-07-21 19:14:27.335 -03:00 [INF] HTTP GET /error responded 200 in 30.0974 ms
+2023-07-21 19:14:27.337 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/error - - - 200 - text/html;+charset=utf-8 34.9053ms
+2023-07-21 19:14:27.343 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/home.css - -
+2023-07-21 19:14:27.344 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/home.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-21 19:14:27.352 -03:00 [INF] Sending file. Request path: '/Css/home.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - SOLID Principles\StocksApp\StocksApp\wwwroot\Css\home.css'
+2023-07-21 19:14:27.353 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Fri, 21 Jul 2023 22:14:26 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Fri, 14 Jul 2023 11:56:13 GMT
+Content-Length: 300
+2023-07-21 19:14:27.354 -03:00 [INF] HTTP GET /Css/home.css responded 200 in 10.1283 ms
+2023-07-21 19:14:27.354 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/home.css - - - 200 300 text/css 11.6495ms
+2023-07-21 19:14:27.356 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-21 19:14:27.356 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.8516ms
+2023-07-21 19:14:27.358 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Images/error.svg - -
+2023-07-21 19:14:27.359 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Images/error.svg
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-21 19:14:27.364 -03:00 [INF] Sending file. Request path: '/Images/error.svg'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 23 - SOLID Principles\StocksApp\StocksApp\wwwroot\Images\error.svg'
+2023-07-21 19:14:27.365 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: image/svg+xml
+Date: Fri, 21 Jul 2023 22:14:26 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sat, 15 Jul 2023 13:37:38 GMT
+Content-Length: 8946
+2023-07-21 19:14:27.366 -03:00 [INF] HTTP GET /Images/error.svg responded 200 in 7.2968 ms
+2023-07-21 19:14:27.367 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Images/error.svg - - - 200 8946 image/svg+xml 8.8574ms
+2023-07-21 19:14:27.368 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-21 19:14:27.389 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.8307ms

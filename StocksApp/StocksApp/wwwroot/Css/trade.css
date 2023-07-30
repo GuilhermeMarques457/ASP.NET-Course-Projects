@@ -16,12 +16,31 @@
     font-size: 2.8rem;
 }
 
+.stock-img-box{
+    width: 30%;
+    height: 30rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.stock-img {
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
 .stock-price {
-    font-size: 2.6rem
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    align-items: center;
 }
 
 .new-order-text {
-    font-size: 2.8rem;
+    font-size: 4.1rem;
 }
 
 .input-quantity {
@@ -29,21 +48,48 @@
     border-radius: 20px;
 }
 
+.input-box{
+    margin: 4rem 0 3rem 0;
+}
+
+.label-input{
+    font-size: 2rem !important;
+}
+
 .btn {
     border: 0px solid black;
     padding: 0.8rem 1.4rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     border-radius: 5px;
     color: var(--white-color);
-    cursor: pointer
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0.7rem;
+    width: 10rem;
+    transition: 0.4s all;
 }
 
 .btn-buy {
-    background-color: green;
+    background-color: #37b24d;
 }
 
+    .btn-buy:hover {
+        background-color: #2b8a3e
+    
+    }
+
 .btn-sell {
-    background-color: red;
+    background-color: #f03e3e;
+}
+
+    .btn-sell:hover {
+        background-color: #c92a2a;
+    }
+
+.errors-list .list-item {
+    color: #f03e3e;
 }
 
 /* End */
@@ -92,108 +138,3 @@
 
 /* End */
 
-/* Explore Action */
-
-.trade-list-header{
-    margin-bottom: 5rem;
-}
-
-.btn-search {
-    color: var(--primary-color);
-    background-color: var(--white-color);
-    width: 4rem;
-    height: 4rem;
-    border: 1px solid var(--primary-color);
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all 0.4s;
-}
-
-.btn-search:hover{
-    background-color: var(--primary-color);
-}
-
-.stock-box {
-    padding: 1.6rem 0.4rem;
-}
-
-.stock-item {
-    background-color: var(--white-color);
-    border-bottom: 1px solid #aaa;
-    width: 100%;
-    
-}
-
-    .stock-item button {
-        background-color: var(--primary-color);
-       
-        transition: all 0.4s;
-        padding: 1.6rem 0.4rem;
-        border: none;
-        width: 100%;
-        height: 100%;
-        cursor: pointer;
-    }
-
-        .stock-item button:hover {
-            background-color: var(--secondary-color);
-            cursor: pointer;
-        }
-
-.stock-symbol {
-    color: var(--gray-color);
-}
-
-.icon-search{
-    font-size: 2rem;
-    color: var(--dark-color);
-}
-
-/* End */
-
-/* Explore Item Action */
-
-.box-trade-stock{
-    height: 500px;
-    padding: 4.8rem 3.2rem;
-    border: 1px solid var(--primary-color);
-    position: relative;
-}
-
-.stock-header{
-    justify-items: center;
-}
-
-.stock-img-box {
-    width: 40%;
-}
-
-.stock-img{
-    width: 100%
-}
-
-.stock-title-trade{
-    margin-bottom: 0;
-}
-
-.industry-text {
-    font-size: 1.8rem;
-    position: absolute;
-    top: 0;
-    right: 3.2rem;
-}
-
-.exchange-text {
-    font-size: 1.6rem;
-}
-
-.price-text {
-    font-size: 3.6rem;
-}
-
-.stock-trade-bottom{
-    margin-top: 4.8rem;
-}
-
-
-/* End */

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="margin-bottom">
+            <div class="page-content">
+                <div class="flex" id="top-bar-div">
+                    <div class="flex-1" id="app-tittle-div">
+                        <h1 class="app-title">
+                            <i class="fa-solid fa-people-simple"></i>
+                            Contact Manager
+                        </h1>
+                    </div>
+                    <div class="flex-1 pr" id="search-box-div">
+                        <div class="navbar account-links">
+                            <ul>
+                                @switch (ViewBag.BreadCrumbAction)
+                                {
+                                    case "Register":
+                                        <li>
+                                            <a asp-controller="Account" asp-action="Login">Login</a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="Account" asp-action="Register" class="nav-active">Register</a>
+                                        </li>
+                                        break;
+                                    case "Login":
+                                        <li>
+                                            <a asp-controller="Account" class="nav-active" asp-action="Login">Login</a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="Account" asp-action="Register">Register</a>
+                                        </li>
+                                        break;
+                                    default:
+                                        <li>
+                                            <a asp-controller="Account" asp-action="Login">Login</a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="Account" asp-action="Register">Register</a>
+                                        </li>
+                                        break;
+                                }
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="body">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*If the view doesn't supply this section it will be ignored*@
+    @RenderSection("scripts", required: false)
+</body>
+</html>

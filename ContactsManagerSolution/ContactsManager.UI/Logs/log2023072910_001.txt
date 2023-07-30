@@ -1,0 +1,230 @@
+2023-07-29 10:57:38.562 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-29 10:57:38.572 -03:00 [INF] Hosting environment: Development
+2023-07-29 10:57:38.573 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.UI
+2023-07-29 10:58:30.304 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-29 10:58:30.437 -03:00 [INF] Now listening on: http://localhost:5255
+2023-07-29 10:58:31.305 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/ - -
+2023-07-29 10:58:31.345 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 10:58:31.394 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-29 10:58:31.404 -03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-07-29 10:58:31.405 -03:00 [INF] Response:
+StatusCode: 302
+Location: http://localhost:5255/Account/Login?ReturnUrl=%2F
+2023-07-29 10:58:31.407 -03:00 [INF] HTTP GET / responded 302 in 67.6019 ms
+2023-07-29 10:58:31.415 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/ - - - 302 0 - 112.8577ms
+2023-07-29 10:58:31.418 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - -
+2023-07-29 10:58:31.420 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-07-29 10:58:31.431 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-29 10:58:31.471 -03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-29 10:58:31.643 -03:00 [INF] Executing ViewResult, running view Login.
+2023-07-29 10:58:31.917 -03:00 [INF] Executed ViewResult - view Login executed in 279.0178ms.
+2023-07-29 10:58:31.922 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 447.9719ms
+2023-07-29 10:58:31.923 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-29 10:58:31.924 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 29 Jul 2023 13:58:31 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-29 10:58:31.926 -03:00 [INF] HTTP GET /Account/Login responded 200 in 506.0698 ms
+2023-07-29 10:58:31.939 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/StyleSheet.css - -
+2023-07-29 10:58:31.940 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /StyleSheet.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 10:58:31.945 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-29 10:58:31.946 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 527.9192ms
+2023-07-29 10:58:31.948 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 10:58:31.954 -03:00 [INF] The file /StyleSheet.css was not modified
+2023-07-29 10:58:31.956 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 8.0506ms
+2023-07-29 10:58:31.956 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Wed, 26 Jul 2023 23:39:38 GMT
+2023-07-29 10:58:31.958 -03:00 [INF] HTTP GET /StyleSheet.css responded 304 in 17.4596 ms
+2023-07-29 10:58:31.959 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/StyleSheet.css - - - 304 - text/css 19.6337ms
+2023-07-29 10:58:32.011 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.2098ms
+2023-07-29 10:58:33.983 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/Account/Register - -
+2023-07-29 10:58:33.985 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Register
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 10:58:33.990 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2023-07-29 10:58:33.992 -03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-29 10:58:34.005 -03:00 [INF] Executing ViewResult, running view Register.
+2023-07-29 10:58:34.051 -03:00 [INF] Executed ViewResult - view Register executed in 47.2889ms.
+2023-07-29 10:58:34.052 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI) in 58.2769ms
+2023-07-29 10:58:34.053 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2023-07-29 10:58:34.054 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 29 Jul 2023 13:58:33 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-29 10:58:34.055 -03:00 [INF] HTTP GET /Account/Register responded 200 in 69.3022 ms
+2023-07-29 10:58:34.059 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/Account/Register - - - 200 - text/html;+charset=utf-8 75.8237ms
+2023-07-29 10:58:34.074 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-29 10:58:34.074 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 10:58:34.077 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 2.5363ms
+2023-07-29 10:58:34.089 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.2089ms
+2023-07-29 10:59:08.891 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/Account/Register - -
+2023-07-29 10:59:08.894 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Register
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 10:59:08.896 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2023-07-29 10:59:08.898 -03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-29 10:59:08.910 -03:00 [INF] Executing ViewResult, running view Register.
+2023-07-29 10:59:08.956 -03:00 [INF] Executed ViewResult - view Register executed in 47.7614ms.
+2023-07-29 10:59:08.957 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI) in 58.364ms
+2023-07-29 10:59:08.959 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2023-07-29 10:59:08.962 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 29 Jul 2023 13:59:08 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+2023-07-29 10:59:08.963 -03:00 [INF] HTTP GET /Account/Register responded 200 in 69.2359 ms
+2023-07-29 10:59:08.966 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/Account/Register - - - 200 - text/html;+charset=utf-8 75.4015ms
+2023-07-29 10:59:08.975 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-29 10:59:08.975 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 10:59:08.977 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 2.3474ms
+2023-07-29 10:59:08.991 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.1817ms
+2023-07-29 10:59:09.040 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/favicon.ico - -
+2023-07-29 10:59:09.041 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-29 10:59:09.044 -03:00 [INF] The file /favicon.ico was not modified
+2023-07-29 10:59:09.045 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: image/x-icon
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Fri, 21 Jul 2023 12:05:26 GMT
+2023-07-29 10:59:09.046 -03:00 [INF] HTTP GET /favicon.ico responded 304 in 5.2775 ms
+2023-07-29 10:59:09.047 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/favicon.ico - - - 304 - image/x-icon 7.2706ms

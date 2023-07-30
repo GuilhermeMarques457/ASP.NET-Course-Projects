@@ -1,0 +1,78 @@
+2023-07-27 09:51:45.435 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-27 09:51:45.441 -03:00 [INF] Hosting environment: Development
+2023-07-27 09:51:45.443 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\ContactsManagerSolution\ContactsManager.UI
+2023-07-27 09:53:29.261 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-27 09:53:29.394 -03:00 [INF] Now listening on: http://localhost:5255
+2023-07-27 09:53:30.269 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/ - -
+2023-07-27 09:53:30.339 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-27 09:53:30.415 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-27 09:53:30.429 -03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-07-27 09:53:30.430 -03:00 [INF] Response:
+StatusCode: 302
+Location: http://localhost:5255/Account/Login?ReturnUrl=%2F
+2023-07-27 09:53:30.433 -03:00 [INF] HTTP GET / responded 302 in 108.9891 ms
+2023-07-27 09:53:30.441 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/ - - - 302 0 - 179.7766ms
+2023-07-27 09:53:30.444 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - -
+2023-07-27 09:53:30.447 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5255
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-07-27 09:53:30.460 -03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-27 09:53:30.483 -03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-07-27 09:53:30.622 -03:00 [INF] Executing ViewResult, running view Login.
+2023-07-27 09:53:30.870 -03:00 [INF] Executed ViewResult - view Login executed in 249.5809ms.
+2023-07-27 09:53:30.874 -03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 389.2315ms
+2023-07-27 09:53:30.875 -03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-07-27 09:53:30.877 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 27 Jul 2023 12:53:30 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+Transfer-Encoding: chunked
+MyGlobalKey: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-27 09:53:30.878 -03:00 [INF] HTTP GET /Account/Login responded 200 in 430.5980 ms
+2023-07-27 09:53:30.889 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_vs/browserLink - -
+2023-07-27 09:53:30.890 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 445.8027ms
+2023-07-27 09:53:30.891 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - -
+2023-07-27 09:53:30.894 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 3.0544ms
+2023-07-27 09:53:30.907 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5255/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.6101ms

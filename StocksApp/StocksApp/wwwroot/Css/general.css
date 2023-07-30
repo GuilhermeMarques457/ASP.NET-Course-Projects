@@ -2,8 +2,8 @@
 
 :root {
     --primary-color: #DAFFFB;
-    /*    --primary-color-lighter: #9dcfd9;
-    --primary-color-darker: #457079;*/
+    --primary-color-lighter: #f8fffe;
+    --primary-color-darker: #576664;
     --secondary-color: #64CCC5;
     --tertiary-color: #176B87;
     --dark-color: #00080e;
@@ -125,7 +125,9 @@ body {
 .btn-full,
 .btn-outline {
     text-decoration:none;
-  display: block;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
   text-align: center;
   border: none;
   border-radius: 3px;
@@ -177,7 +179,7 @@ body {
 }
 
 .secondary-heading {
-  font-size: 4.4rem;
+  font-size: 3.2rem;
   margin-bottom: 2.4rem;
   font-weight: 200;
 }
@@ -190,8 +192,9 @@ body {
 
 .subheading {
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 2.6rem;
   text-transform: uppercase;
+
 }
 
 .list {

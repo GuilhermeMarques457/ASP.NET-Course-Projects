@@ -1,0 +1,2484 @@
+2023-07-17 19:43:15.287 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-17 19:43:15.487 -03:00 [INF] Now listening on: https://localhost:7140
+2023-07-17 19:43:15.488 -03:00 [INF] Now listening on: http://localhost:5291
+2023-07-17 19:43:15.490 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-17 19:43:15.490 -03:00 [INF] Hosting environment: Development
+2023-07-17 19:43:15.491 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp
+2023-07-17 19:43:18.702 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/ - -
+2023-07-17 19:43:18.770 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:43:18.805 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:43:18.861 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:43:18.937 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:43:18.944 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:18.946 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:19.527 -03:00 [INF] Received HTTP response headers after 577.8207ms - 200
+2023-07-17 19:43:19.530 -03:00 [INF] End processing HTTP request after 588.6723ms - 200
+2023-07-17 19:43:19.545 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:19.547 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:19.717 -03:00 [INF] Received HTTP response headers after 169.3181ms - 200
+2023-07-17 19:43:19.722 -03:00 [INF] End processing HTTP request after 176.8784ms - 200
+2023-07-17 19:43:19.731 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:19.734 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:19.900 -03:00 [INF] Received HTTP response headers after 162.6377ms - 200
+2023-07-17 19:43:19.902 -03:00 [INF] End processing HTTP request after 171.4103ms - 200
+2023-07-17 19:43:19.904 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:19.905 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:20.422 -03:00 [INF] Received HTTP response headers after 515.5419ms - 200
+2023-07-17 19:43:20.423 -03:00 [INF] End processing HTTP request after 519.3859ms - 200
+2023-07-17 19:43:20.424 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:20.425 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:20.588 -03:00 [INF] Received HTTP response headers after 162.8337ms - 200
+2023-07-17 19:43:20.590 -03:00 [INF] End processing HTTP request after 166.1326ms - 200
+2023-07-17 19:43:20.591 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:20.592 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:20.768 -03:00 [INF] Received HTTP response headers after 176.1144ms - 200
+2023-07-17 19:43:20.769 -03:00 [INF] End processing HTTP request after 177.9748ms - 200
+2023-07-17 19:43:20.770 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:20.770 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:20.936 -03:00 [INF] Received HTTP response headers after 164.995ms - 200
+2023-07-17 19:43:20.938 -03:00 [INF] End processing HTTP request after 167.9942ms - 200
+2023-07-17 19:43:20.938 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:20.939 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.121 -03:00 [INF] Received HTTP response headers after 181.6491ms - 200
+2023-07-17 19:43:21.123 -03:00 [INF] End processing HTTP request after 184.1836ms - 200
+2023-07-17 19:43:21.123 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.124 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.288 -03:00 [INF] Received HTTP response headers after 162.7837ms - 200
+2023-07-17 19:43:21.290 -03:00 [INF] End processing HTTP request after 166.3096ms - 200
+2023-07-17 19:43:21.290 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.291 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.459 -03:00 [INF] Received HTTP response headers after 167.262ms - 200
+2023-07-17 19:43:21.460 -03:00 [INF] End processing HTTP request after 169.4476ms - 200
+2023-07-17 19:43:21.461 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.461 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.644 -03:00 [INF] Received HTTP response headers after 182.0987ms - 200
+2023-07-17 19:43:21.645 -03:00 [INF] End processing HTTP request after 183.8609ms - 200
+2023-07-17 19:43:21.645 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.646 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.809 -03:00 [INF] Received HTTP response headers after 162.9354ms - 200
+2023-07-17 19:43:21.810 -03:00 [INF] End processing HTTP request after 164.7956ms - 200
+2023-07-17 19:43:21.811 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.812 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.993 -03:00 [INF] Received HTTP response headers after 180.8796ms - 200
+2023-07-17 19:43:21.994 -03:00 [INF] End processing HTTP request after 183.0231ms - 200
+2023-07-17 19:43:21.995 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:21.995 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.160 -03:00 [INF] Received HTTP response headers after 163.7445ms - 200
+2023-07-17 19:43:22.161 -03:00 [INF] End processing HTTP request after 165.807ms - 200
+2023-07-17 19:43:22.161 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.162 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.333 -03:00 [INF] Received HTTP response headers after 170.1555ms - 200
+2023-07-17 19:43:22.334 -03:00 [INF] End processing HTTP request after 172.183ms - 200
+2023-07-17 19:43:22.334 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.335 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.507 -03:00 [INF] Received HTTP response headers after 171.0245ms - 200
+2023-07-17 19:43:22.507 -03:00 [INF] End processing HTTP request after 172.966ms - 200
+2023-07-17 19:43:22.508 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.509 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.672 -03:00 [INF] Received HTTP response headers after 162.5323ms - 200
+2023-07-17 19:43:22.673 -03:00 [INF] End processing HTTP request after 164.6148ms - 200
+2023-07-17 19:43:22.674 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.675 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.845 -03:00 [INF] Received HTTP response headers after 169.5313ms - 200
+2023-07-17 19:43:22.847 -03:00 [INF] End processing HTTP request after 173.0283ms - 200
+2023-07-17 19:43:22.847 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:22.848 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.017 -03:00 [INF] Received HTTP response headers after 167.7576ms - 200
+2023-07-17 19:43:23.018 -03:00 [INF] End processing HTTP request after 170.4547ms - 200
+2023-07-17 19:43:23.019 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.020 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.186 -03:00 [INF] Received HTTP response headers after 165.2854ms - 200
+2023-07-17 19:43:23.187 -03:00 [INF] End processing HTTP request after 167.6914ms - 200
+2023-07-17 19:43:23.187 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.188 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.357 -03:00 [INF] Received HTTP response headers after 167.9266ms - 200
+2023-07-17 19:43:23.358 -03:00 [INF] End processing HTTP request after 170.1971ms - 200
+2023-07-17 19:43:23.358 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.359 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.523 -03:00 [INF] Received HTTP response headers after 163.1423ms - 200
+2023-07-17 19:43:23.524 -03:00 [INF] End processing HTTP request after 165.6439ms - 200
+2023-07-17 19:43:23.525 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.526 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.694 -03:00 [INF] Received HTTP response headers after 168.1008ms - 200
+2023-07-17 19:43:23.695 -03:00 [INF] End processing HTTP request after 170.1265ms - 200
+2023-07-17 19:43:23.696 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.697 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.878 -03:00 [INF] Received HTTP response headers after 179.4349ms - 200
+2023-07-17 19:43:23.963 -03:00 [INF] End processing HTTP request after 266.8181ms - 200
+2023-07-17 19:43:23.968 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:23.970 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.147 -03:00 [INF] Received HTTP response headers after 175.8385ms - 200
+2023-07-17 19:43:24.148 -03:00 [INF] End processing HTTP request after 179.2421ms - 200
+2023-07-17 19:43:24.149 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.150 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.324 -03:00 [INF] Received HTTP response headers after 173.6334ms - 200
+2023-07-17 19:43:24.325 -03:00 [INF] End processing HTTP request after 176.4251ms - 200
+2023-07-17 19:43:24.326 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.326 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.511 -03:00 [INF] Received HTTP response headers after 184.0722ms - 200
+2023-07-17 19:43:24.513 -03:00 [INF] End processing HTTP request after 187.4293ms - 200
+2023-07-17 19:43:24.514 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.515 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.680 -03:00 [INF] Received HTTP response headers after 164.3183ms - 200
+2023-07-17 19:43:24.681 -03:00 [INF] End processing HTTP request after 166.3369ms - 200
+2023-07-17 19:43:24.682 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.684 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.850 -03:00 [INF] Received HTTP response headers after 165.6853ms - 200
+2023-07-17 19:43:24.853 -03:00 [INF] End processing HTTP request after 171.1772ms - 200
+2023-07-17 19:43:24.856 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:24.858 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.028 -03:00 [INF] Received HTTP response headers after 169.8727ms - 200
+2023-07-17 19:43:25.191 -03:00 [INF] End processing HTTP request after 335.0898ms - 200
+2023-07-17 19:43:25.200 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.202 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.370 -03:00 [INF] Received HTTP response headers after 167.2864ms - 200
+2023-07-17 19:43:25.371 -03:00 [INF] End processing HTTP request after 170.3629ms - 200
+2023-07-17 19:43:25.372 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.372 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.540 -03:00 [INF] Received HTTP response headers after 167.031ms - 200
+2023-07-17 19:43:25.541 -03:00 [INF] End processing HTTP request after 169.8434ms - 200
+2023-07-17 19:43:25.542 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.543 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.707 -03:00 [INF] Received HTTP response headers after 163.2977ms - 200
+2023-07-17 19:43:25.708 -03:00 [INF] End processing HTTP request after 165.7819ms - 200
+2023-07-17 19:43:25.709 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.710 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.906 -03:00 [INF] Received HTTP response headers after 196.1579ms - 200
+2023-07-17 19:43:25.907 -03:00 [INF] End processing HTTP request after 198.6379ms - 200
+2023-07-17 19:43:25.908 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:25.909 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:26.076 -03:00 [INF] Received HTTP response headers after 165.5388ms - 200
+2023-07-17 19:43:26.077 -03:00 [INF] End processing HTTP request after 168.3874ms - 200
+2023-07-17 19:43:26.077 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:26.078 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:26.249 -03:00 [INF] Received HTTP response headers after 170.5567ms - 200
+2023-07-17 19:43:26.251 -03:00 [INF] End processing HTTP request after 173.2051ms - 200
+2023-07-17 19:43:26.251 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:26.252 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:26.416 -03:00 [INF] Received HTTP response headers after 163.3867ms - 200
+2023-07-17 19:43:26.417 -03:00 [INF] End processing HTTP request after 165.5696ms - 200
+2023-07-17 19:43:26.417 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:26.418 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:26.588 -03:00 [INF] Received HTTP response headers after 169.2247ms - 200
+2023-07-17 19:43:26.589 -03:00 [INF] End processing HTTP request after 171.5227ms - 200
+2023-07-17 19:43:26.590 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:26.592 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:26.783 -03:00 [INF] Received HTTP response headers after 189.9312ms - 200
+2023-07-17 19:43:27.062 -03:00 [INF] End processing HTTP request after 472.2461ms - 200
+2023-07-17 19:43:27.063 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:27.065 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:27.233 -03:00 [INF] Received HTTP response headers after 167.2089ms - 200
+2023-07-17 19:43:27.330 -03:00 [INF] End processing HTTP request after 266.3784ms - 200
+2023-07-17 19:43:27.340 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:27.341 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:27.509 -03:00 [INF] Received HTTP response headers after 165.6724ms - 200
+2023-07-17 19:43:27.509 -03:00 [INF] End processing HTTP request after 169.5731ms - 200
+2023-07-17 19:43:27.510 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:27.511 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:27.679 -03:00 [INF] Received HTTP response headers after 167.2976ms - 200
+2023-07-17 19:43:27.679 -03:00 [INF] End processing HTTP request after 169.2893ms - 200
+2023-07-17 19:43:27.680 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:27.681 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:27.844 -03:00 [INF] Received HTTP response headers after 162.9009ms - 200
+2023-07-17 19:43:27.845 -03:00 [INF] End processing HTTP request after 164.9859ms - 200
+2023-07-17 19:43:27.846 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:27.846 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.015 -03:00 [INF] Received HTTP response headers after 168.3142ms - 200
+2023-07-17 19:43:28.017 -03:00 [INF] End processing HTTP request after 171.362ms - 200
+2023-07-17 19:43:28.018 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.018 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.182 -03:00 [INF] Received HTTP response headers after 163.3992ms - 200
+2023-07-17 19:43:28.183 -03:00 [INF] End processing HTTP request after 165.7035ms - 200
+2023-07-17 19:43:28.184 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.185 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.355 -03:00 [INF] Received HTTP response headers after 169.1685ms - 200
+2023-07-17 19:43:28.356 -03:00 [INF] End processing HTTP request after 171.6001ms - 200
+2023-07-17 19:43:28.357 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.358 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.525 -03:00 [INF] Received HTTP response headers after 164.841ms - 200
+2023-07-17 19:43:28.525 -03:00 [INF] End processing HTTP request after 168.031ms - 200
+2023-07-17 19:43:28.526 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.526 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.694 -03:00 [INF] Received HTTP response headers after 166.7954ms - 200
+2023-07-17 19:43:28.695 -03:00 [INF] End processing HTTP request after 168.9924ms - 200
+2023-07-17 19:43:28.695 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.696 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.860 -03:00 [INF] Received HTTP response headers after 163.6745ms - 200
+2023-07-17 19:43:28.861 -03:00 [INF] End processing HTTP request after 165.6645ms - 200
+2023-07-17 19:43:28.862 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:28.862 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:29.048 -03:00 [INF] Received HTTP response headers after 184.6893ms - 200
+2023-07-17 19:43:29.049 -03:00 [INF] End processing HTTP request after 186.9352ms - 200
+2023-07-17 19:43:29.060 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:43:29.242 -03:00 [INF] Executed ViewResult - view Explore executed in 184.7323ms.
+2023-07-17 19:43:29.245 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 10381.9175ms
+2023-07-17 19:43:29.246 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:43:29.247 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:43:28 GMT
+Server: Kestrel
+2023-07-17 19:43:29.249 -03:00 [INF] HTTP GET / responded 200 in 10485.6807 ms
+2023-07-17 19:43:29.267 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-17 19:43:29.268 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:43:29.273 -03:00 [INF] The file /Css/stocks.css was not modified
+2023-07-17 19:43:29.274 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:43:29.275 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sat, 15 Jul 2023 14:57:15 GMT
+2023-07-17 19:43:29.275 -03:00 [INF] HTTP GET /Css/stocks.css responded 304 in 7.2437 ms
+2023-07-17 19:43:29.275 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/ - - - 200 - text/html;+charset=utf-8 10576.9115ms
+2023-07-17 19:43:29.276 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 304 - text/css 9.5316ms
+2023-07-17 19:43:29.279 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 5.1478ms
+2023-07-17 19:43:29.282 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:43:29.333 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.5965ms
+2023-07-17 19:43:29.470 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-17 19:43:29.472 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:43:29.475 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-17 19:43:29.475 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 3.6450 ms
+2023-07-17 19:43:29.476 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 6.5831ms
+2023-07-17 19:43:31.921 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:43:31.923 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:43:31.924 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:43:31.925 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:43:31.931 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:43:31.932 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:31.933 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:32.097 -03:00 [INF] Received HTTP response headers after 162.8687ms - 200
+2023-07-17 19:43:32.098 -03:00 [INF] End processing HTTP request after 165.2466ms - 200
+2023-07-17 19:43:32.099 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:32.100 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:43:32.267 -03:00 [INF] Received HTTP response headers after 165.7533ms - 200
+2023-07-17 19:43:32.269 -03:00 [INF] End processing HTTP request after 169.7102ms - 200
+2023-07-17 19:43:32.271 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:43:32.290 -03:00 [INF] Executed ViewResult - view Explore executed in 19.0076ms.
+2023-07-17 19:43:32.291 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 365.3446ms
+2023-07-17 19:43:32.292 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:43:32.293 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:43:31 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-17 19:43:32.294 -03:00 [INF] HTTP GET / responded 200 in 371.6032 ms
+2023-07-17 19:43:32.297 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 376.1928ms
+2023-07-17 19:43:32.326 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:43:32.328 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:43:32.329 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.5412ms
+2023-07-17 19:43:32.358 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.0211ms
+2023-07-17 19:44:44.248 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:44:44.250 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:44:44.251 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:44:44.255 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:44:44.257 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:44:44.257 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:44:44.258 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:44:44.672 -03:00 [INF] Received HTTP response headers after 413.0963ms - 200
+2023-07-17 19:44:44.674 -03:00 [INF] End processing HTTP request after 416.4485ms - 200
+2023-07-17 19:44:44.676 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:44:44.677 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:44:44.843 -03:00 [INF] Received HTTP response headers after 166.1188ms - 200
+2023-07-17 19:44:44.845 -03:00 [INF] End processing HTTP request after 168.8583ms - 200
+2023-07-17 19:44:44.847 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:44:44.869 -03:00 [INF] Executed ViewResult - view Explore executed in 23.3638ms.
+2023-07-17 19:44:44.871 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 614.7034ms
+2023-07-17 19:44:44.872 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:44:44.873 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:44:44 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:44:44.874 -03:00 [INF] HTTP GET / responded 200 in 624.0152 ms
+2023-07-17 19:44:44.877 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 628.3342ms
+2023-07-17 19:44:44.905 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:44:44.907 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.4266ms
+2023-07-17 19:44:44.972 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:44:44.998 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.6321ms
+2023-07-17 19:45:11.305 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:45:11.308 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:45:11.310 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:45:11.316 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:45:11.319 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:45:11.319 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:45:11.321 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:45:11.490 -03:00 [INF] Received HTTP response headers after 168.1838ms - 200
+2023-07-17 19:45:11.494 -03:00 [INF] End processing HTTP request after 174.4685ms - 200
+2023-07-17 19:45:11.495 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:45:11.496 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:45:11.669 -03:00 [INF] Received HTTP response headers after 172.2884ms - 200
+2023-07-17 19:45:11.675 -03:00 [INF] End processing HTTP request after 179.2831ms - 200
+2023-07-17 19:45:11.677 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:45:11.699 -03:00 [INF] Executed ViewResult - view Explore executed in 22.7663ms.
+2023-07-17 19:45:11.700 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 382.1977ms
+2023-07-17 19:45:11.701 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:45:11.702 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:45:11 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:45:11.702 -03:00 [INF] HTTP GET / responded 200 in 394.5816 ms
+2023-07-17 19:45:11.704 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 399.3495ms
+2023-07-17 19:45:11.710 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:45:11.712 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.6731ms
+2023-07-17 19:45:11.734 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:45:11.764 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.8856ms
+2023-07-17 19:45:49.052 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:45:49.054 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:45:49.056 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:45:49.059 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:45:49.060 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:45:49.061 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:45:49.062 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:45:49.476 -03:00 [INF] Received HTTP response headers after 414.0925ms - 200
+2023-07-17 19:45:49.618 -03:00 [INF] End processing HTTP request after 556.8801ms - 200
+2023-07-17 19:45:49.665 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:45:49.668 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:45:49.837 -03:00 [INF] Received HTTP response headers after 167.8774ms - 200
+2023-07-17 19:45:49.838 -03:00 [INF] End processing HTTP request after 173.1639ms - 200
+2023-07-17 19:45:49.839 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:45:49.862 -03:00 [INF] Executed ViewResult - view Explore executed in 23.343ms.
+2023-07-17 19:45:49.863 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 802.8182ms
+2023-07-17 19:45:49.864 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:45:49.865 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:45:49 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:45:49.865 -03:00 [INF] HTTP GET / responded 200 in 811.3114 ms
+2023-07-17 19:45:49.868 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 815.6640ms
+2023-07-17 19:45:49.872 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:45:49.874 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.9469ms
+2023-07-17 19:45:49.904 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:45:49.955 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.9710ms
+2023-07-17 19:47:38.035 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css?__browserLink_refresh=14cca41d5e774ee78c119f2f96da391d - -
+2023-07-17 19:47:38.036 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:47:38.041 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-17 19:47:38.042 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:47:38 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:47:37 GMT
+Content-Length: 1750
+2023-07-17 19:47:38.043 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 6.6131 ms
+2023-07-17 19:47:38.043 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css?__browserLink_refresh=14cca41d5e774ee78c119f2f96da391d - - - 200 1750 text/css 8.6864ms
+2023-07-17 19:47:40.084 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:47:40.085 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:47:40.086 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:47:40.090 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:47:40.091 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:47:40.092 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:47:40.092 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:47:40.498 -03:00 [INF] Received HTTP response headers after 404.8228ms - 200
+2023-07-17 19:47:40.500 -03:00 [INF] End processing HTTP request after 407.9424ms - 200
+2023-07-17 19:47:40.502 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:47:40.503 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:47:40.673 -03:00 [INF] Received HTTP response headers after 168.6521ms - 200
+2023-07-17 19:47:40.678 -03:00 [INF] End processing HTTP request after 175.87ms - 200
+2023-07-17 19:47:40.680 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:47:40.700 -03:00 [INF] Executed ViewResult - view Explore executed in 20.4799ms.
+2023-07-17 19:47:40.701 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 609.8158ms
+2023-07-17 19:47:40.701 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:47:40.702 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:47:40 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:47:40.703 -03:00 [INF] HTTP GET / responded 200 in 617.3060 ms
+2023-07-17 19:47:40.705 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 621.3969ms
+2023-07-17 19:47:40.712 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:47:40.715 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 2.4798ms
+2023-07-17 19:47:40.737 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:47:40.792 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.3300ms
+2023-07-17 19:47:46.746 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:47:46.747 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:47:46.749 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:47:46.749 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:47:46.750 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:47:46.751 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:47:46.751 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:47:46.920 -03:00 [INF] Received HTTP response headers after 168.4415ms - 200
+2023-07-17 19:47:46.922 -03:00 [INF] End processing HTTP request after 171.1444ms - 200
+2023-07-17 19:47:46.923 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:47:46.924 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:47:47.088 -03:00 [INF] Received HTTP response headers after 162.8287ms - 200
+2023-07-17 19:47:47.089 -03:00 [INF] End processing HTTP request after 166.2261ms - 200
+2023-07-17 19:47:47.090 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:47:47.094 -03:00 [INF] Executed ViewResult - view Explore executed in 3.8469ms.
+2023-07-17 19:47:47.095 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 344.8483ms
+2023-07-17 19:47:47.096 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:47:47.096 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:47:46 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:47:47.097 -03:00 [INF] HTTP GET / responded 200 in 349.7704 ms
+2023-07-17 19:47:47.101 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 354.8984ms
+2023-07-17 19:47:47.104 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:47:47.104 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-17 19:47:47.106 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:47:47.106 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:47:47.126 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-17 19:47:47.126 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:47:47.128 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:47:46 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:47:38 GMT
+Content-Length: 1750
+2023-07-17 19:47:47.130 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:47:46 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Fri, 14 Jul 2023 11:56:13 GMT
+Content-Length: 5517
+2023-07-17 19:47:47.130 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 23.8871 ms
+2023-07-17 19:47:47.132 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 25.4744 ms
+2023-07-17 19:47:47.133 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 200 1750 text/css 28.7180ms
+2023-07-17 19:47:47.134 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 200 5517 text/css 30.0481ms
+2023-07-17 19:47:47.136 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:47:47.138 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.6722ms
+2023-07-17 19:47:47.176 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:47:47.200 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.2156ms
+2023-07-17 19:47:47.543 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-17 19:47:47.545 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:47:47.547 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-17 19:47:47.548 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 3.8832 ms
+2023-07-17 19:47:47.550 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 6.4894ms
+2023-07-17 19:48:05.525 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:48:05.534 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:48:05.536 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:48:05.540 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:48:05.542 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:48:05.543 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:48:05.544 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:48:05.954 -03:00 [INF] Received HTTP response headers after 409.317ms - 200
+2023-07-17 19:48:05.958 -03:00 [INF] End processing HTTP request after 415.04ms - 200
+2023-07-17 19:48:05.959 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:48:05.960 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:48:06.171 -03:00 [INF] Received HTTP response headers after 210.0232ms - 200
+2023-07-17 19:48:06.172 -03:00 [INF] End processing HTTP request after 213.0014ms - 200
+2023-07-17 19:48:06.174 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:48:06.194 -03:00 [INF] Executed ViewResult - view Explore executed in 20.3855ms.
+2023-07-17 19:48:06.194 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 652.5652ms
+2023-07-17 19:48:06.195 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:48:06.196 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:48:05 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:48:06.196 -03:00 [INF] HTTP GET / responded 200 in 662.3997 ms
+2023-07-17 19:48:06.199 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 674.1377ms
+2023-07-17 19:48:06.204 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-17 19:48:06.206 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:48:06.210 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:48:06.212 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:48:06.214 -03:00 [INF] The file /Css/stocks.css was not modified
+2023-07-17 19:48:06.215 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 5.1830ms
+2023-07-17 19:48:06.217 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:47:38 GMT
+2023-07-17 19:48:06.219 -03:00 [INF] HTTP GET /Css/stocks.css responded 304 in 12.9391 ms
+2023-07-17 19:48:06.221 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 304 - text/css 16.6090ms
+2023-07-17 19:48:06.267 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.0088ms
+2023-07-17 19:48:43.956 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=1b7a1e29b311445bba345c9e2c6aa80a - -
+2023-07-17 19:48:43.957 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:48:43.963 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:48:43.968 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:48:43 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:48:43 GMT
+Content-Length: 5517
+2023-07-17 19:48:43.969 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 12.6126 ms
+2023-07-17 19:48:43.971 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=1b7a1e29b311445bba345c9e2c6aa80a - - - 200 5517 text/css 15.1438ms
+2023-07-17 19:48:44.031 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/clear-browser-cache - -
+2023-07-17 19:48:44.032 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/clear-browser-cache - - - 200 0 - 1.1942ms
+2023-07-17 19:48:44.111 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css?nonce=1689634124109 - -
+2023-07-17 19:48:44.111 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css?nonce=1689634124109 - -
+2023-07-17 19:48:44.112 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:48:44.112 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:48:44.116 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:48:44.119 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-17 19:48:44.120 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:48:43 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:48:43 GMT
+Content-Length: 5517
+2023-07-17 19:48:44.121 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:48:43 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:47:38 GMT
+Content-Length: 1750
+2023-07-17 19:48:44.122 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 9.8136 ms
+2023-07-17 19:48:44.122 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 9.8557 ms
+2023-07-17 19:48:44.123 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css?nonce=1689634124109 - - - 200 5517 text/css 12.0299ms
+2023-07-17 19:48:44.124 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css?nonce=1689634124109 - - - 200 1750 text/css 12.7096ms
+2023-07-17 19:48:44.734 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:48:44.736 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:48:44.737 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:48:44.741 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:48:44.744 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:48:44.745 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:48:44.746 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:48:44.956 -03:00 [INF] Received HTTP response headers after 209.3686ms - 200
+2023-07-17 19:48:44.958 -03:00 [INF] End processing HTTP request after 212.5841ms - 200
+2023-07-17 19:48:44.960 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:48:44.960 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:48:45.135 -03:00 [INF] Received HTTP response headers after 173.808ms - 200
+2023-07-17 19:48:45.136 -03:00 [INF] End processing HTTP request after 176.8321ms - 200
+2023-07-17 19:48:45.138 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:48:45.157 -03:00 [INF] Executed ViewResult - view Explore executed in 19.926ms.
+2023-07-17 19:48:45.158 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 414.726ms
+2023-07-17 19:48:45.159 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:48:45.161 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:48:44 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:48:45.162 -03:00 [INF] HTTP GET / responded 200 in 426.3859 ms
+2023-07-17 19:48:45.164 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 430.4927ms
+2023-07-17 19:48:45.166 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-17 19:48:45.166 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:48:45.167 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:48:45.168 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:48:45.171 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-17 19:48:45.173 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:48:44 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:47:38 GMT
+Content-Length: 1750
+2023-07-17 19:48:45.173 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:48:45.174 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 6.6805 ms
+2023-07-17 19:48:45.175 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:48:44 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:48:43 GMT
+Content-Length: 5517
+2023-07-17 19:48:45.177 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 200 1750 text/css 10.6383ms
+2023-07-17 19:48:45.178 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 9.9640 ms
+2023-07-17 19:48:45.180 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 200 5517 text/css 14.0293ms
+2023-07-17 19:48:45.184 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:48:45.185 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.6258ms
+2023-07-17 19:48:45.192 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:48:45.256 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.3946ms
+2023-07-17 19:49:24.834 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:49:24.837 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:49:24.839 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:49:24.847 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:49:24.849 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:49:24.849 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:49:24.850 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:49:25.023 -03:00 [INF] Received HTTP response headers after 172.5322ms - 200
+2023-07-17 19:49:25.024 -03:00 [INF] End processing HTTP request after 174.6522ms - 200
+2023-07-17 19:49:25.025 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:49:25.026 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:49:25.194 -03:00 [INF] Received HTTP response headers after 167.8598ms - 200
+2023-07-17 19:49:25.195 -03:00 [INF] End processing HTTP request after 170.1833ms - 200
+2023-07-17 19:49:25.197 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:49:25.217 -03:00 [INF] Executed ViewResult - view Explore executed in 20.9955ms.
+2023-07-17 19:49:25.218 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 369.4986ms
+2023-07-17 19:49:25.219 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:49:25.220 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:49:24 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:49:25.221 -03:00 [INF] HTTP GET / responded 200 in 384.5768 ms
+2023-07-17 19:49:25.224 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 389.9841ms
+2023-07-17 19:49:25.229 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-17 19:49:25.229 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:49:25.230 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:49:25.231 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:49:25.234 -03:00 [INF] The file /Css/stocks.css was not modified
+2023-07-17 19:49:25.239 -03:00 [INF] The file /Css/general.css was not modified
+2023-07-17 19:49:25.242 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:47:38 GMT
+2023-07-17 19:49:25.245 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:48:43 GMT
+2023-07-17 19:49:25.248 -03:00 [INF] HTTP GET /Css/stocks.css responded 304 in 17.2768 ms
+2023-07-17 19:49:25.249 -03:00 [INF] HTTP GET /Css/general.css responded 304 in 17.8523 ms
+2023-07-17 19:49:25.250 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 304 - text/css 21.5325ms
+2023-07-17 19:49:25.252 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 304 - text/css 23.5488ms
+2023-07-17 19:49:25.258 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:49:25.259 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.7317ms
+2023-07-17 19:49:25.271 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:49:25.324 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.3474ms
+2023-07-17 19:49:54.391 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css?__browserLink_refresh=ff083d5097dc4bafa3fc80cc88ad241d - -
+2023-07-17 19:49:54.392 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:49:54.397 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-17 19:49:54.398 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:49:53 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:49:54 GMT
+Content-Length: 1730
+2023-07-17 19:49:54.399 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 7.3269 ms
+2023-07-17 19:49:54.401 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css?__browserLink_refresh=ff083d5097dc4bafa3fc80cc88ad241d - - - 200 1730 text/css 10.1974ms
+2023-07-17 19:49:59.487 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css?__browserLink_refresh=a8001bb6d90e4f5f84c15bbbf3f3cd1a - -
+2023-07-17 19:49:59.489 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:49:59.491 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-17 19:49:59.493 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:49:58 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:49:59 GMT
+Content-Length: 1730
+2023-07-17 19:49:59.493 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 4.6131 ms
+2023-07-17 19:49:59.494 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css?__browserLink_refresh=a8001bb6d90e4f5f84c15bbbf3f3cd1a - - - 200 1730 text/css 6.4499ms
+2023-07-17 19:51:59.260 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:51:59.261 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:51:59.262 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:51:59.265 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:51:59.267 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:51:59.267 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:51:59.268 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:51:59.711 -03:00 [INF] Received HTTP response headers after 442.0369ms - 200
+2023-07-17 19:51:59.712 -03:00 [INF] End processing HTTP request after 444.758ms - 200
+2023-07-17 19:51:59.713 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:51:59.714 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:52:01.941 -03:00 [INF] Received HTTP response headers after 2225.4037ms - 200
+2023-07-17 19:52:01.942 -03:00 [INF] End processing HTTP request after 2228.3678ms - 200
+2023-07-17 19:52:01.943 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:52:01.962 -03:00 [INF] Executed ViewResult - view Explore executed in 19.194ms.
+2023-07-17 19:52:01.962 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 2695.7632ms
+2023-07-17 19:52:01.963 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:52:01.963 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:52:01 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:52:01.964 -03:00 [INF] HTTP GET / responded 200 in 2702.8814 ms
+2023-07-17 19:52:01.967 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 2706.9434ms
+2023-07-17 19:52:01.973 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-17 19:52:01.973 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:52:01.974 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:52:01.974 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:52:01.978 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-17 19:52:01.979 -03:00 [INF] The file /Css/general.css was not modified
+2023-07-17 19:52:01.980 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:52:01 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:50:01 GMT
+Content-Length: 1730
+2023-07-17 19:52:01.980 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:48:43 GMT
+2023-07-17 19:52:01.981 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 7.2420 ms
+2023-07-17 19:52:01.982 -03:00 [INF] HTTP GET /Css/general.css responded 304 in 7.5296 ms
+2023-07-17 19:52:01.983 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 200 1730 text/css 10.2519ms
+2023-07-17 19:52:01.984 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 304 - text/css 11.5788ms
+2023-07-17 19:52:01.990 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:52:01.992 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 2.1605ms
+2023-07-17 19:52:02.003 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:52:02.058 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.5101ms
+2023-07-17 19:52:28.007 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=426a74649dc34adaa8e97ba2de5566f5 - -
+2023-07-17 19:52:28.008 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:52:28.011 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:52:28.012 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:52:27 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:52:27 GMT
+Content-Length: 5516
+2023-07-17 19:52:28.013 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 4.6746 ms
+2023-07-17 19:52:28.014 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=426a74649dc34adaa8e97ba2de5566f5 - - - 200 5516 text/css 7.0190ms
+2023-07-17 19:52:44.231 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=2b6186771f4241d2b294788c16333f9e - -
+2023-07-17 19:52:44.232 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:52:44.236 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:52:44.238 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:52:44 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:52:44 GMT
+Content-Length: 5555
+2023-07-17 19:52:44.239 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 7.3155 ms
+2023-07-17 19:52:44.240 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=2b6186771f4241d2b294788c16333f9e - - - 200 5555 text/css 9.8874ms
+2023-07-17 19:52:48.609 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=f47c3aa1d26c4dc6b795622e17e79376 - -
+2023-07-17 19:52:48.611 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:52:48.614 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:52:48.615 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:52:48 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:52:48 GMT
+Content-Length: 5554
+2023-07-17 19:52:48.615 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 4.3689 ms
+2023-07-17 19:52:48.616 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=f47c3aa1d26c4dc6b795622e17e79376 - - - 200 5554 text/css 7.1591ms
+2023-07-17 19:54:13.991 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=ad3af221f4574d6794158de6b7b1b30f - -
+2023-07-17 19:54:13.992 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:13.996 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:54:14.000 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:54:13 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:13 GMT
+Content-Length: 5546
+2023-07-17 19:54:14.000 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 8.4164 ms
+2023-07-17 19:54:14.001 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css?__browserLink_refresh=ad3af221f4574d6794158de6b7b1b30f - - - 200 5546 text/css 10.6096ms
+2023-07-17 19:54:19.764 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css?__browserLink_refresh=92311b6dbca147e2b9208feeeba6a337 - -
+2023-07-17 19:54:19.766 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:19.768 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-17 19:54:19.769 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:54:19 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:19 GMT
+Content-Length: 1737
+2023-07-17 19:54:19.769 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 3.6281 ms
+2023-07-17 19:54:19.770 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css?__browserLink_refresh=92311b6dbca147e2b9208feeeba6a337 - - - 200 1737 text/css 5.9441ms
+2023-07-17 19:54:33.519 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200
+2023-07-17 19:54:33.521 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Trade/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 200
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:33.523 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:54:33.527 -03:00 [INF] Route matched with {action = "Index", controller = "Trade"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller StocksApp.Controllers.TradeController (StocksApp).
+2023-07-17 19:54:33.662 -03:00 [INF] Index action reached
+2023-07-17 19:54:33.664 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:33.665 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:34.437 -03:00 [INF] Received HTTP response headers after 771.2769ms - 200
+2023-07-17 19:54:34.439 -03:00 [INF] End processing HTTP request after 775.3618ms - 200
+2023-07-17 19:54:34.440 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:34.441 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:35.337 -03:00 [INF] Received HTTP response headers after 895.1831ms - 200
+2023-07-17 19:54:35.338 -03:00 [INF] End processing HTTP request after 897.6165ms - 200
+2023-07-17 19:54:35.342 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-17 19:54:35.379 -03:00 [INF] Executed ViewResult - view Index executed in 37.7383ms.
+2023-07-17 19:54:35.380 -03:00 [INF] Executed action StocksApp.Controllers.TradeController.Index (StocksApp) in 1851.8681ms
+2023-07-17 19:54:35.380 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:54:35.381 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:54:35 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-07-17 19:54:35.381 -03:00 [INF] HTTP POST /Trade/Index responded 200 in 1860.6958 ms
+2023-07-17 19:54:35.385 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200 - 200 - text/html;+charset=utf-8 1866.3582ms
+2023-07-17 19:54:35.386 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:54:35.386 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css - -
+2023-07-17 19:54:35.387 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:35.387 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:35.391 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:54:35.397 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-17 19:54:35.397 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:54:35 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:14 GMT
+Content-Length: 5546
+2023-07-17 19:54:35.398 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:54:35 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sat, 15 Jul 2023 14:57:30 GMT
+Content-Length: 1511
+2023-07-17 19:54:35.398 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 11.6269 ms
+2023-07-17 19:54:35.399 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 11.8330 ms
+2023-07-17 19:54:35.400 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 200 5546 text/css 13.8152ms
+2023-07-17 19:54:35.401 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css - - - 200 1511 text/css 14.9397ms
+2023-07-17 19:54:35.403 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:54:35.404 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.0971ms
+2023-07-17 19:54:35.415 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:54:35.442 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.0502ms
+2023-07-17 19:54:40.475 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:54:40.476 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:40.477 -03:00 [INF] The file /Css/general.css was not modified
+2023-07-17 19:54:40.478 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:14 GMT
+2023-07-17 19:54:40.478 -03:00 [INF] HTTP GET /Css/general.css responded 304 in 2.5734 ms
+2023-07-17 19:54:40.479 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 304 - text/css 4.3178ms
+2023-07-17 19:54:50.572 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:54:50.574 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:50.575 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:54:50.575 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:54:50.576 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:54:50.577 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:50.577 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:51.184 -03:00 [INF] Received HTTP response headers after 605.8754ms - 200
+2023-07-17 19:54:51.185 -03:00 [INF] End processing HTTP request after 608.4356ms - 200
+2023-07-17 19:54:51.186 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:51.186 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:51.356 -03:00 [INF] Received HTTP response headers after 168.6972ms - 200
+2023-07-17 19:54:51.362 -03:00 [INF] End processing HTTP request after 176.1003ms - 200
+2023-07-17 19:54:51.363 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:54:51.367 -03:00 [INF] Executed ViewResult - view Explore executed in 3.13ms.
+2023-07-17 19:54:51.367 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 791.122ms
+2023-07-17 19:54:51.368 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:54:51.368 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:54:51 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:54:51.369 -03:00 [INF] HTTP GET / responded 200 in 795.3049 ms
+2023-07-17 19:54:52.351 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 1778.5772ms
+2023-07-17 19:54:52.359 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:54:52.363 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.9811ms
+2023-07-17 19:54:55.687 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - -
+2023-07-17 19:54:55.689 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:55.690 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:54:55.690 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-17 19:54:55.691 -03:00 [INF] Client wants to explore stocks
+2023-07-17 19:54:55.691 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:55.692 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:55.853 -03:00 [INF] Received HTTP response headers after 159.9636ms - 200
+2023-07-17 19:54:55.858 -03:00 [INF] End processing HTTP request after 166.6837ms - 200
+2023-07-17 19:54:55.859 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:55.859 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:54:56.385 -03:00 [INF] Received HTTP response headers after 525.1585ms - 200
+2023-07-17 19:54:56.390 -03:00 [INF] End processing HTTP request after 531.1778ms - 200
+2023-07-17 19:54:56.391 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-17 19:54:56.394 -03:00 [INF] Executed ViewResult - view Explore executed in 3.5536ms.
+2023-07-17 19:54:56.395 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 704.4148ms
+2023-07-17 19:54:56.396 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-17 19:54:56.397 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:54:55 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-17 19:54:56.398 -03:00 [INF] HTTP GET / responded 200 in 708.8978 ms
+2023-07-17 19:54:56.400 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=AMZN&searchStock= - - - 200 - text/html;+charset=utf-8 713.3628ms
+2023-07-17 19:54:56.402 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-17 19:54:56.402 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:54:56.404 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:56.405 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:56.409 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-17 19:54:56.410 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:54:56.411 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:54:56 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:20 GMT
+Content-Length: 1737
+2023-07-17 19:54:56.412 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:54:56 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:14 GMT
+Content-Length: 5546
+2023-07-17 19:54:56.413 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 9.5785 ms
+2023-07-17 19:54:56.414 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 9.0693 ms
+2023-07-17 19:54:56.415 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 200 1737 text/css 12.4583ms
+2023-07-17 19:54:56.416 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 200 5546 text/css 13.9018ms
+2023-07-17 19:54:56.419 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:54:56.420 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.2611ms
+2023-07-17 19:54:56.480 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:54:56.502 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.7763ms
+2023-07-17 19:54:56.813 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-17 19:54:56.814 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:54:56.816 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-17 19:54:56.816 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 2.4998 ms
+2023-07-17 19:54:56.817 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 4.4211ms
+2023-07-17 19:55:07.367 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200
+2023-07-17 19:55:07.369 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Trade/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 200
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:55:07.372 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:55:07.373 -03:00 [INF] Route matched with {action = "Index", controller = "Trade"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller StocksApp.Controllers.TradeController (StocksApp).
+2023-07-17 19:55:07.383 -03:00 [INF] Index action reached
+2023-07-17 19:55:07.384 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:55:07.385 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:55:08.608 -03:00 [INF] Received HTTP response headers after 1222.6402ms - 200
+2023-07-17 19:55:08.614 -03:00 [INF] End processing HTTP request after 1229.5576ms - 200
+2023-07-17 19:55:08.615 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:55:08.616 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:55:10.657 -03:00 [INF] Received HTTP response headers after 2040.2595ms - 200
+2023-07-17 19:55:10.661 -03:00 [INF] End processing HTTP request after 2045.8119ms - 200
+2023-07-17 19:55:10.662 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-17 19:55:10.667 -03:00 [INF] Executed ViewResult - view Index executed in 4.9788ms.
+2023-07-17 19:55:10.668 -03:00 [INF] Executed action StocksApp.Controllers.TradeController.Index (StocksApp) in 3292.4131ms
+2023-07-17 19:55:10.668 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:55:10.669 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:55:10 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-07-17 19:55:10.670 -03:00 [INF] HTTP POST /Trade/Index responded 200 in 3301.2045 ms
+2023-07-17 19:55:10.673 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200 - 200 - text/html;+charset=utf-8 3306.2974ms
+2023-07-17 19:55:10.676 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:55:10.677 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:55:10.679 -03:00 [INF] The file /Css/general.css was not modified
+2023-07-17 19:55:10.680 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:14 GMT
+2023-07-17 19:55:10.682 -03:00 [INF] HTTP GET /Css/general.css responded 304 in 4.8251 ms
+2023-07-17 19:55:10.684 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 304 - text/css 8.0843ms
+2023-07-17 19:55:10.687 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:55:10.689 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.8788ms
+2023-07-17 19:55:10.709 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:55:10.778 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.2107ms
+2023-07-17 19:55:46.002 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=e8bbe17095d0465486ae65e6d59ad391 - -
+2023-07-17 19:55:46.003 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:55:46.011 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-17 19:55:46.017 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:55:45 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:55:45 GMT
+Content-Length: 1548
+2023-07-17 19:55:46.019 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 16.3284 ms
+2023-07-17 19:55:46.021 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=e8bbe17095d0465486ae65e6d59ad391 - - - 200 1548 text/css 18.8849ms
+2023-07-17 19:55:47.610 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200
+2023-07-17 19:55:47.612 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Trade/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 200
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:55:47.613 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:55:47.614 -03:00 [INF] Route matched with {action = "Index", controller = "Trade"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller StocksApp.Controllers.TradeController (StocksApp).
+2023-07-17 19:55:47.619 -03:00 [INF] Index action reached
+2023-07-17 19:55:47.619 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:55:47.620 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:55:48.249 -03:00 [INF] Received HTTP response headers after 628.0737ms - 200
+2023-07-17 19:55:48.253 -03:00 [INF] End processing HTTP request after 634.1445ms - 200
+2023-07-17 19:55:48.254 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:55:48.255 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:55:51.233 -03:00 [INF] Received HTTP response headers after 2976.9559ms - 200
+2023-07-17 19:55:51.238 -03:00 [INF] End processing HTTP request after 2984.1111ms - 200
+2023-07-17 19:55:51.239 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-17 19:55:51.244 -03:00 [INF] Executed ViewResult - view Index executed in 4.1888ms.
+2023-07-17 19:55:51.247 -03:00 [INF] Executed action StocksApp.Controllers.TradeController.Index (StocksApp) in 3631.6274ms
+2023-07-17 19:55:51.248 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:55:51.249 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:55:50 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-07-17 19:55:51.250 -03:00 [INF] HTTP POST /Trade/Index responded 200 in 3638.0118 ms
+2023-07-17 19:55:51.252 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200 - 200 - text/html;+charset=utf-8 3641.9618ms
+2023-07-17 19:55:51.257 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css - -
+2023-07-17 19:55:51.257 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:55:51.258 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:55:51.259 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:55:51.262 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-17 19:55:51.265 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:55:50 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:55:46 GMT
+Content-Length: 1548
+2023-07-17 19:55:51.267 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-17 19:55:51.271 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 13.2613 ms
+2023-07-17 19:55:51.273 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:55:50 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:14 GMT
+Content-Length: 5546
+2023-07-17 19:55:51.275 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css - - - 200 1548 text/css 17.5908ms
+2023-07-17 19:55:51.276 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 17.0549 ms
+2023-07-17 19:55:51.278 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 200 5546 text/css 20.5896ms
+2023-07-17 19:55:51.281 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:55:51.288 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 2.3292ms
+2023-07-17 19:55:51.334 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:55:51.353 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.0364ms
+2023-07-17 19:55:51.698 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-17 19:55:51.699 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:55:51.701 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-17 19:55:51.701 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 2.1956 ms
+2023-07-17 19:55:51.702 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 4.2524ms
+2023-07-17 19:56:04.066 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=11c9bbd3274f4ef6874909df7a9d7437 - -
+2023-07-17 19:56:04.068 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:56:04.071 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-17 19:56:04.073 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:56:03 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:56:04 GMT
+Content-Length: 1546
+2023-07-17 19:56:04.075 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 6.8685 ms
+2023-07-17 19:56:04.076 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=11c9bbd3274f4ef6874909df7a9d7437 - - - 200 1546 text/css 9.5584ms
+2023-07-17 19:56:16.021 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=e39923a67fd840378abd582f556635fe - -
+2023-07-17 19:56:16.025 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:56:16.029 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-17 19:56:16.031 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:56:15 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:56:15 GMT
+Content-Length: 1545
+2023-07-17 19:56:16.032 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 6.5484 ms
+2023-07-17 19:56:16.034 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=e39923a67fd840378abd582f556635fe - - - 200 1545 text/css 12.6082ms
+2023-07-17 19:57:06.638 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200
+2023-07-17 19:57:06.641 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Trade/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 200
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:57:06.644 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:57:06.649 -03:00 [INF] Route matched with {action = "Index", controller = "Trade"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller StocksApp.Controllers.TradeController (StocksApp).
+2023-07-17 19:57:06.652 -03:00 [INF] Index action reached
+2023-07-17 19:57:06.653 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:57:06.654 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:57:07.111 -03:00 [INF] Received HTTP response headers after 456.3137ms - 200
+2023-07-17 19:57:07.112 -03:00 [INF] End processing HTTP request after 459.2264ms - 200
+2023-07-17 19:57:07.113 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:57:07.114 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:57:08.007 -03:00 [INF] Received HTTP response headers after 892.2309ms - 200
+2023-07-17 19:57:08.008 -03:00 [INF] End processing HTTP request after 895.1844ms - 200
+2023-07-17 19:57:08.009 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-17 19:57:08.031 -03:00 [INF] Executed ViewResult - view Index executed in 22.4291ms.
+2023-07-17 19:57:08.032 -03:00 [INF] Executed action StocksApp.Controllers.TradeController.Index (StocksApp) in 1381.0074ms
+2023-07-17 19:57:08.033 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:57:08.033 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:57:07 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-07-17 19:57:08.034 -03:00 [INF] HTTP POST /Trade/Index responded 200 in 1393.2263 ms
+2023-07-17 19:57:08.039 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200 - 200 - text/html;+charset=utf-8 1400.3212ms
+2023-07-17 19:57:08.043 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css - -
+2023-07-17 19:57:08.043 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:57:08.044 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:57:08.045 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:57:08.049 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-17 19:57:08.050 -03:00 [INF] The file /Css/general.css was not modified
+2023-07-17 19:57:08.051 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:57:07 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:56:20 GMT
+Content-Length: 1545
+2023-07-17 19:57:08.052 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:14 GMT
+2023-07-17 19:57:08.054 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 9.2251 ms
+2023-07-17 19:57:08.054 -03:00 [INF] HTTP GET /Css/general.css responded 304 in 9.2608 ms
+2023-07-17 19:57:08.056 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css - - - 200 1545 text/css 12.5234ms
+2023-07-17 19:57:08.057 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 304 - text/css 13.9227ms
+2023-07-17 19:57:08.061 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:57:08.062 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.8687ms
+2023-07-17 19:57:08.079 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:57:08.124 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.2823ms
+2023-07-17 19:57:19.703 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=ea7c5817f8f548da83c554b4fe27c6d4 - -
+2023-07-17 19:57:19.704 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:57:19.708 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-17 19:57:19.710 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:57:18 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:57:19 GMT
+Content-Length: 1546
+2023-07-17 19:57:19.711 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 6.9290 ms
+2023-07-17 19:57:19.713 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=ea7c5817f8f548da83c554b4fe27c6d4 - - - 200 1546 text/css 10.0621ms
+2023-07-17 19:58:11.236 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=0c2e9b16d13d4d2ca9e3bb488d4ec382 - -
+2023-07-17 19:58:11.237 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:58:11.241 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-17 19:58:11.242 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:58:10 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:58:11 GMT
+Content-Length: 1587
+2023-07-17 19:58:11.242 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 5.0535 ms
+2023-07-17 19:58:11.243 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css?__browserLink_refresh=0c2e9b16d13d4d2ca9e3bb488d4ec382 - - - 200 1587 text/css 7.5777ms
+2023-07-17 19:58:13.934 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200
+2023-07-17 19:58:13.941 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Trade/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 200
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:58:13.959 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:58:13.964 -03:00 [INF] Route matched with {action = "Index", controller = "Trade"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller StocksApp.Controllers.TradeController (StocksApp).
+2023-07-17 19:58:13.967 -03:00 [INF] Index action reached
+2023-07-17 19:58:13.968 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:58:13.969 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:58:14.148 -03:00 [INF] Received HTTP response headers after 178.3993ms - 200
+2023-07-17 19:58:14.233 -03:00 [INF] End processing HTTP request after 265.3618ms - 200
+2023-07-17 19:58:14.235 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:58:14.236 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:58:14.405 -03:00 [INF] Received HTTP response headers after 168.2632ms - 200
+2023-07-17 19:58:14.407 -03:00 [INF] End processing HTTP request after 171.8916ms - 200
+2023-07-17 19:58:14.408 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-17 19:58:14.432 -03:00 [INF] Executed ViewResult - view Index executed in 24.169ms.
+2023-07-17 19:58:14.433 -03:00 [INF] Executed action StocksApp.Controllers.TradeController.Index (StocksApp) in 466.6122ms
+2023-07-17 19:58:14.433 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:58:14.434 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 17 Jul 2023 22:58:14 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-07-17 19:58:14.434 -03:00 [INF] HTTP POST /Trade/Index responded 200 in 494.1059 ms
+2023-07-17 19:58:14.437 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200 - 200 - text/html;+charset=utf-8 502.6709ms
+2023-07-17 19:58:14.439 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-17 19:58:14.439 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css - -
+2023-07-17 19:58:14.440 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:58:14.441 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:58:14.443 -03:00 [INF] The file /Css/general.css was not modified
+2023-07-17 19:58:14.446 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:14 GMT
+2023-07-17 19:58:14.446 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-17 19:58:14.447 -03:00 [INF] HTTP GET /Css/general.css responded 304 in 7.1518 ms
+2023-07-17 19:58:14.449 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 17 Jul 2023 22:58:14 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:58:12 GMT
+Content-Length: 1588
+2023-07-17 19:58:14.450 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 304 - text/css 10.2268ms
+2023-07-17 19:58:14.451 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 10.1482 ms
+2023-07-17 19:58:14.453 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css - - - 200 1588 text/css 13.2896ms
+2023-07-17 19:58:14.455 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 19:58:14.458 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 2.3544ms
+2023-07-17 19:58:14.501 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-17 19:58:14.557 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.5323ms
+2023-07-17 19:59:58.621 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7140/Trade/Index application/x-www-form-urlencoded 200
+2023-07-17 19:59:58.622 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Trade/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 200
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-17 19:59:58.624 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-17 19:59:58.627 -03:00 [INF] Route matched with {action = "Index", controller = "Trade"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller StocksApp.Controllers.TradeController (StocksApp).
+2023-07-17 19:59:58.628 -03:00 [INF] Index action reached
+2023-07-17 19:59:58.628 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-17 19:59:58.629 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0

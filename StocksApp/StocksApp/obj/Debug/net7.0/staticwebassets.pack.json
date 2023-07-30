@@ -1,36 +1,44 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\StocksApp\\wwwroot\\Css\\general.css",
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\wwwroot\\Css\\general.css",
       "PackagePath": "staticwebassets\\Css\\general.css"
     },
     {
-      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\StocksApp\\wwwroot\\Css\\home.css",
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\wwwroot\\Css\\home.css",
       "PackagePath": "staticwebassets\\Css\\home.css"
     },
     {
-      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\StocksApp\\wwwroot\\Css\\trade.css",
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\wwwroot\\Css\\stocks.css",
+      "PackagePath": "staticwebassets\\Css\\stocks.css"
+    },
+    {
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\wwwroot\\Css\\trade.css",
       "PackagePath": "staticwebassets\\Css\\trade.css"
     },
     {
-      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\StocksApp\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\wwwroot\\Images\\error.svg",
+      "PackagePath": "staticwebassets\\Images\\error.svg"
+    },
+    {
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
       "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.StocksApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.StocksApp.UI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.StocksApp.props",
-      "PackagePath": "build\\StocksApp.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.StocksApp.UI.props",
+      "PackagePath": "build\\StocksApp.UI.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.StocksApp.props",
-      "PackagePath": "buildMultiTargeting\\StocksApp.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.StocksApp.UI.props",
+      "PackagePath": "buildMultiTargeting\\StocksApp.UI.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.StocksApp.props",
-      "PackagePath": "buildTransitive\\StocksApp.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.StocksApp.UI.props",
+      "PackagePath": "buildTransitive\\StocksApp.UI.props"
     }
   ],
   "ElementsToRemove": []

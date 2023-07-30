@@ -1,0 +1,192 @@
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.RazorAssemblyInfo.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.RazorAssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\appsettings.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.staticwebassets.runtime.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.exe
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.runtimeconfig.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Rotativa.AspNetCore.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.MSSqlServer.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.Infrastructure.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.Infrastructure.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets\msbuild.StocksApp.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets\msbuild.build.StocksApp.UI.props
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.StocksApp.UI.props
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.StocksApp.UI.props
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\scopedcss\bundle\StocksApp.UI.styles.css
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.csproj.CopyComplete
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\refint\StocksApp.UI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\ref\StocksApp.UI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.Seq.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\appsettings.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.staticwebassets.runtime.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.exe
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.runtimeconfig.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.UI.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Rotativa.AspNetCore.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.MSSqlServer.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\Serilog.Sinks.Seq.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.Infrastructure.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\bin\Debug\net7.0\StocksApp.Infrastructure.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.RazorAssemblyInfo.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.RazorAssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets\msbuild.StocksApp.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets\msbuild.build.StocksApp.UI.props
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.StocksApp.UI.props
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.StocksApp.UI.props
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\scopedcss\bundle\StocksApp.UI.styles.css
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.csproj.CopyComplete
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\refint\StocksApp.UI.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\StocksApp.UI.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp\obj\Debug\net7.0\ref\StocksApp.UI.dll

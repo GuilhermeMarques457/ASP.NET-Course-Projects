@@ -17,9 +17,11 @@ namespace StocksApp.Filters.ActionFilter
 
             if (!controller.ModelState.IsValid)
             {
-                controller.ViewBag.Erros = context.ModelState.Values
+                controller.ViewBag.Errors = context.ModelState.Values
                         .SelectMany(v => v.Errors)
                         .Select(e => e.ErrorMessage).ToList();
+
+                controller.TempData["Errors"] = controller.ViewBag.Errors;
 
 
                 if (context.ActionArguments["Order"] is BuyOrderRequest order &&
@@ -36,7 +38,6 @@ namespace StocksApp.Filters.ActionFilter
 
                     context.Result = controller.RedirectToAction("Index", "Trade", new { stockToTrade = orderRequest!.StockSymbol });
                 }
-                
 
                 
             }

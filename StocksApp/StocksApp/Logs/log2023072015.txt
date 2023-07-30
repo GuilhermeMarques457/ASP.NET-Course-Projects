@@ -1,0 +1,523 @@
+2023-07-20 15:30:22.065 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-20 15:30:22.974 -03:00 [INF] Now listening on: https://localhost:7140
+2023-07-20 15:30:22.978 -03:00 [INF] Now listening on: http://localhost:5291
+2023-07-20 15:30:22.989 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-20 15:30:22.990 -03:00 [INF] Hosting environment: Development
+2023-07-20 15:30:22.991 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp
+2023-07-20 15:30:26.260 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/ - -
+2023-07-20 15:30:26.316 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:30:26.355 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:30:26.411 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-20 15:30:26.477 -03:00 [INF] Client wants to explore stocks
+2023-07-20 15:30:26.482 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:30:26.485 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:30:28.145 -03:00 [INF] Received HTTP response headers after 1657.0988ms - 200
+2023-07-20 15:30:28.148 -03:00 [INF] End processing HTTP request after 1667.8926ms - 200
+2023-07-20 15:31:25.005 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-20 15:31:25.154 -03:00 [INF] Now listening on: https://localhost:7140
+2023-07-20 15:31:25.155 -03:00 [INF] Now listening on: http://localhost:5291
+2023-07-20 15:31:25.157 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-20 15:31:25.157 -03:00 [INF] Hosting environment: Development
+2023-07-20 15:31:25.157 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp
+2023-07-20 15:31:26.192 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/ - -
+2023-07-20 15:31:26.253 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:31:26.301 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:31:26.340 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-20 15:31:29.554 -03:00 [INF] Client wants to explore stocks
+2023-07-20 15:31:35.351 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:31:35.355 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:31:36.946 -03:00 [INF] Received HTTP response headers after 1585.1615ms - 200
+2023-07-20 15:31:36.951 -03:00 [INF] End processing HTTP request after 1601.5803ms - 200
+2023-07-20 15:33:11.944 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-20 15:33:12.178 -03:00 [INF] Executed ViewResult - view Explore executed in 281.4619ms.
+2023-07-20 15:33:12.181 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 105839.4704ms
+2023-07-20 15:33:12.182 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:33:12.183 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 18:33:11 GMT
+Server: Kestrel
+2023-07-20 15:33:12.185 -03:00 [INF] HTTP GET / responded 200 in 105937.6507 ms
+2023-07-20 15:33:12.205 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-20 15:33:12.205 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-20 15:33:12.208 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:33:12.208 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:33:12.210 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 15:33:12.218 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/ - - - 200 - text/html;+charset=utf-8 106028.8374ms
+2023-07-20 15:33:12.219 -03:00 [INF] The file /Css/general.css was not modified
+2023-07-20 15:33:12.219 -03:00 [INF] The file /Css/stocks.css was not modified
+2023-07-20 15:33:12.219 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 8.5626ms
+2023-07-20 15:33:12.220 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 23:03:29 GMT
+2023-07-20 15:33:12.220 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:20 GMT
+2023-07-20 15:33:12.221 -03:00 [INF] HTTP GET /Css/general.css responded 304 in 13.8939 ms
+2023-07-20 15:33:12.222 -03:00 [INF] HTTP GET /Css/stocks.css responded 304 in 14.4618 ms
+2023-07-20 15:33:12.223 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 304 - text/css 18.3057ms
+2023-07-20 15:33:12.224 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 304 - text/css 18.9581ms
+2023-07-20 15:33:12.228 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-20 15:33:12.277 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.4413ms
+2023-07-20 15:33:12.433 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-20 15:33:12.436 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:33:12.439 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-20 15:33:12.440 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 4.3910 ms
+2023-07-20 15:33:12.442 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 8.0624ms
+2023-07-20 15:34:17.311 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-20 15:34:17.453 -03:00 [INF] Now listening on: https://localhost:7140
+2023-07-20 15:34:17.454 -03:00 [INF] Now listening on: http://localhost:5291
+2023-07-20 15:34:17.456 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-20 15:34:17.457 -03:00 [INF] Hosting environment: Development
+2023-07-20 15:34:17.457 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp
+2023-07-20 15:34:18.431 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/ - -
+2023-07-20 15:34:18.458 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:34:18.488 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:34:18.526 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-20 15:34:24.262 -03:00 [INF] Client wants to explore stocks
+2023-07-20 15:34:24.269 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:34:24.271 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:34:25.511 -03:00 [INF] Received HTTP response headers after 1234.4032ms - 200
+2023-07-20 15:34:25.515 -03:00 [INF] End processing HTTP request after 1248.5715ms - 200
+2023-07-20 15:34:57.816 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-20 15:34:57.954 -03:00 [INF] Executed ViewResult - view Explore executed in 139.5464ms.
+2023-07-20 15:34:57.958 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 39430.4604ms
+2023-07-20 15:34:57.960 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:34:57.962 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 18:34:57 GMT
+Server: Kestrel
+2023-07-20 15:34:57.964 -03:00 [INF] HTTP GET / responded 200 in 39509.3169 ms
+2023-07-20 15:34:57.983 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 15:34:57.983 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-20 15:34:57.985 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/ - - - 200 - text/html;+charset=utf-8 39556.8268ms
+2023-07-20 15:34:57.999 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 15.1907ms
+2023-07-20 15:34:58.031 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.5627ms
+2023-07-20 15:34:58.184 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-20 15:34:58.186 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:34:58.189 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-20 15:34:58.190 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 4.2296 ms
+2023-07-20 15:34:58.191 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 6.8785ms
+2023-07-20 15:35:05.235 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?searchStock=M - -
+2023-07-20 15:35:05.238 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:35:05.239 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:35:05.240 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-20 15:35:05.247 -03:00 [INF] Client wants to explore stocks
+2023-07-20 15:35:05.247 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:35:05.248 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:35:06.248 -03:00 [INF] Received HTTP response headers after 999.5095ms - 200
+2023-07-20 15:35:06.250 -03:00 [INF] End processing HTTP request after 1002.7147ms - 200
+2023-07-20 15:36:44.565 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?searchStock=M - -
+2023-07-20 15:36:44.566 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:36:44.567 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:36:44.568 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-20 15:36:44.569 -03:00 [INF] Client wants to explore stocks
+2023-07-20 15:36:48.009 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:36:48.010 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:36:48.011 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 102769.9318ms
+2023-07-20 15:36:48.027 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:36:48.029 -03:00 [ERR] HTTP GET / responded 500 in 102791.0033 ms
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpConnection.CopyToContentLengthAsync(Stream destination, Boolean async, UInt64 length, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.ContentLengthReadStream.CompleteCopyToAsync(Task copyTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionResponseContent.<SerializeToStreamAsync>g__Impl|6_0(Stream stream, TransportContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.LoadIntoBufferAsyncCore(Task serializeToStreamTask, MemoryStream tempBuffer)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Service.FinnhubService.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\Service\FinnhubService.cs:line 120
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\Controllers\StocksController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-07-20 15:36:48.067 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpConnection.CopyToContentLengthAsync(Stream destination, Boolean async, UInt64 length, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.ContentLengthReadStream.CompleteCopyToAsync(Task copyTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionResponseContent.<SerializeToStreamAsync>g__Impl|6_0(Stream stream, TransportContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.LoadIntoBufferAsyncCore(Task serializeToStreamTask, MemoryStream tempBuffer)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Service.FinnhubService.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\Service\FinnhubService.cs:line 120
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\Controllers\StocksController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-07-20 15:36:48.099 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?searchStock=M - - - 500 - text/html;+charset=utf-8 102863.1604ms
+2023-07-20 15:36:48.796 -03:00 [INF] Received HTTP response headers after 784.1578ms - 200
+2023-07-20 15:36:48.798 -03:00 [INF] End processing HTTP request after 788.9271ms - 200
+2023-07-20 15:38:23.653 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-20 15:38:23.661 -03:00 [INF] Executed ViewResult - view Explore executed in 8.1567ms.
+2023-07-20 15:38:23.661 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 99092.803ms
+2023-07-20 15:38:23.662 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:38:23.663 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 18:38:23 GMT
+Server: Kestrel
+2023-07-20 15:38:23.663 -03:00 [INF] HTTP GET / responded 200 in 99097.0687 ms
+2023-07-20 15:38:23.665 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?searchStock=M - - - 200 - text/html;+charset=utf-8 99101.1354ms
+2023-07-20 15:38:23.671 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 15:38:23.672 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.4102ms
+2023-07-20 15:38:23.676 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-20 15:38:23.700 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.0632ms
+2023-07-20 15:38:34.461 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=JPM&searchStock=M - -
+2023-07-20 15:38:34.462 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:38:34.463 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:38:34.464 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-20 15:38:34.465 -03:00 [INF] Client wants to explore stocks
+2023-07-20 15:38:34.465 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:38:34.466 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:38:35.343 -03:00 [INF] Received HTTP response headers after 875.6698ms - 200
+2023-07-20 15:38:35.345 -03:00 [INF] End processing HTTP request after 879.652ms - 200
+2023-07-20 15:39:31.828 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:39:31.829 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:39:32.242 -03:00 [INF] Received HTTP response headers after 411.3241ms - 200
+2023-07-20 15:39:32.243 -03:00 [INF] End processing HTTP request after 415.1492ms - 200
+2023-07-20 15:39:37.848 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:39:37.850 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:39:38.028 -03:00 [INF] Received HTTP response headers after 177.9378ms - 200
+2023-07-20 15:39:38.030 -03:00 [INF] End processing HTTP request after 181.0597ms - 200
+2023-07-20 15:39:56.157 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-20 15:39:56.182 -03:00 [INF] Executed ViewResult - view Explore executed in 24.7786ms.
+2023-07-20 15:39:56.182 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 81717.8178ms
+2023-07-20 15:39:56.183 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:39:56.184 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 18:39:56 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-20 15:39:56.185 -03:00 [INF] HTTP GET / responded 200 in 81722.6598 ms
+2023-07-20 15:39:56.190 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=JPM&searchStock=M - - - 200 - text/html;+charset=utf-8 81729.7751ms
+2023-07-20 15:39:56.195 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 15:39:56.197 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 2.3474ms
+2023-07-20 15:39:56.218 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-20 15:39:56.246 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.1167ms
+2023-07-20 15:40:03.670 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?searchStock= - -
+2023-07-20 15:40:03.673 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:40:03.675 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:40:03.675 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-20 15:40:03.677 -03:00 [INF] Client wants to explore stocks
+2023-07-20 15:40:03.677 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:40:03.678 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:40:04.341 -03:00 [INF] Received HTTP response headers after 662.0479ms - 200
+2023-07-20 15:40:04.346 -03:00 [INF] End processing HTTP request after 668.9771ms - 200
+2023-07-20 15:40:47.294 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-20 15:40:47.298 -03:00 [INF] Executed ViewResult - view Explore executed in 4.3676ms.
+2023-07-20 15:40:47.299 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 43622.5851ms
+2023-07-20 15:40:47.300 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:40:47.300 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 18:40:46 GMT
+Server: Kestrel
+2023-07-20 15:40:47.301 -03:00 [INF] HTTP GET / responded 200 in 43628.2250 ms
+2023-07-20 15:40:47.305 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?searchStock= - - - 200 - text/html;+charset=utf-8 43634.2175ms
+2023-07-20 15:40:47.308 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 15:40:47.310 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.2732ms
+2023-07-20 15:40:47.312 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-20 15:40:47.332 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.7957ms
+2023-07-20 15:40:49.493 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/?clickedStock=MSFT&searchStock= - -
+2023-07-20 15:40:49.494 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-20 15:40:49.495 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:40:49.496 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-20 15:40:49.497 -03:00 [INF] Client wants to explore stocks
+2023-07-20 15:40:49.497 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:40:49.498 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:40:50.151 -03:00 [INF] Received HTTP response headers after 652.0219ms - 200
+2023-07-20 15:40:50.151 -03:00 [INF] End processing HTTP request after 654.0338ms - 200
+2023-07-20 15:41:04.498 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:41:04.499 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:41:04.685 -03:00 [INF] Received HTTP response headers after 184.992ms - 200
+2023-07-20 15:41:04.686 -03:00 [INF] End processing HTTP request after 187.4406ms - 200
+2023-07-20 15:41:04.687 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:41:04.687 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-20 15:41:04.870 -03:00 [INF] Received HTTP response headers after 182.1777ms - 200
+2023-07-20 15:41:04.872 -03:00 [INF] End processing HTTP request after 185.2959ms - 200
+2023-07-20 15:41:21.793 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-20 15:41:21.798 -03:00 [INF] Executed ViewResult - view Explore executed in 5.8171ms.
+2023-07-20 15:41:21.799 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 32302.0219ms
+2023-07-20 15:41:21.799 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-20 15:41:21.800 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 18:41:21 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-07-20 15:41:21.801 -03:00 [INF] HTTP GET / responded 200 in 32306.5508 ms
+2023-07-20 15:41:21.804 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/?clickedStock=MSFT&searchStock= - - - 200 - text/html;+charset=utf-8 32311.5535ms
+2023-07-20 15:41:21.809 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 15:41:21.811 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.1916ms
+2023-07-20 15:41:21.830 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-20 15:41:21.860 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.4418ms

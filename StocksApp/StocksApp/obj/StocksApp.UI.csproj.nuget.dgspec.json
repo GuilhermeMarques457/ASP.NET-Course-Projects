@@ -1,0 +1,264 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\StocksApp.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Core\\StocksApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Core\\StocksApp.Core.csproj",
+        "projectName": "StocksApp.Core",
+        "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Core\\StocksApp.Core.csproj",
+        "packagesPath": "C:\\Users\\Microsoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Programas Programaçao\\Componentes VS 2022\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Microsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Infrastructure\\StocksApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Infrastructure\\StocksApp.Infrastructure.csproj",
+        "projectName": "StocksApp.Infrastructure",
+        "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Infrastructure\\StocksApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Microsoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Programas Programaçao\\Componentes VS 2022\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Microsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Core\\StocksApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Core\\StocksApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\StocksApp.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\StocksApp.UI.csproj",
+        "projectName": "StocksApp.UI",
+        "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\StocksApp.UI.csproj",
+        "packagesPath": "C:\\Users\\Microsoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Programas Programaçao\\Componentes VS 2022\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Microsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Core\\StocksApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Core\\StocksApp.Core.csproj"
+              },
+              "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Infrastructure\\StocksApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects and Lectures\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Infrastructure\\StocksApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

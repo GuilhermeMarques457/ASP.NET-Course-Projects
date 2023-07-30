@@ -1,0 +1,847 @@
+2023-07-24 09:43:34.468 -03:00 [INF] Entity Framework Core 6.0.9 initialized 'StockDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2023-07-24 09:43:43.389 -03:00 [INF] Entity Framework Core 6.0.9 initialized 'StockDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2023-07-24 09:43:43.630 -03:00 [INF] Executed DbCommand (156ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [StockDatabase];
+2023-07-24 09:43:43.674 -03:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [StockDatabase] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-07-24 09:43:43.681 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-24 09:43:43.750 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-07-24 09:43:43.751 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-24 09:43:43.762 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-24 09:43:43.765 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-24 09:43:43.775 -03:00 [INF] Applying migration '20230724124334_initial'.
+2023-07-24 09:43:43.795 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [BuyOrders] (
+    [BuyOrderID] uniqueidentifier NOT NULL,
+    [StockSymbol] nvarchar(max) NULL,
+    [StockName] nvarchar(max) NULL,
+    [DateAndTimeOfOrder] datetime2 NULL,
+    [Quantity] bigint NULL,
+    [OrderType] nvarchar(max) NULL,
+    [Price] float NULL,
+    CONSTRAINT [PK_BuyOrders] PRIMARY KEY ([BuyOrderID])
+);
+2023-07-24 09:43:43.796 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SellOrders] (
+    [SellOrderID] uniqueidentifier NOT NULL,
+    [StockSymbol] nvarchar(max) NULL,
+    [StockName] nvarchar(max) NULL,
+    [DateAndTimeOfOrder] datetime2 NULL,
+    [Quantity] bigint NULL,
+    [OrderType] nvarchar(max) NULL,
+    [Price] float NULL,
+    CONSTRAINT [PK_SellOrders] PRIMARY KEY ([SellOrderID])
+);
+2023-07-24 09:43:43.797 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230724124334_initial', N'6.0.9');
+2023-07-24 09:43:54.191 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-24 09:43:54.514 -03:00 [INF] Now listening on: http://localhost:5100
+2023-07-24 09:43:54.533 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-24 09:43:54.536 -03:00 [INF] Hosting environment: Development
+2023-07-24 09:43:54.539 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp
+2023-07-24 09:43:56.837 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/ - -
+2023-07-24 09:43:56.874 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:43:56.908 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:43:56.962 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp.UI).
+2023-07-24 09:43:57.018 -03:00 [INF] Client wants to explore stocks
+2023-07-24 09:43:57.025 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=
+2023-07-24 09:43:57.027 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=
+2023-07-24 09:43:57.773 -03:00 [INF] Received HTTP response headers after 743.7311ms - 401
+2023-07-24 09:43:57.777 -03:00 [INF] End processing HTTP request after 753.6011ms - 401
+2023-07-24 09:43:57.903 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp.UI) in 938.1465ms
+2023-07-24 09:43:57.906 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:43:57.908 -03:00 [ERR] HTTP GET / responded 500 in 1038.7659 ms
+System.Text.Json.JsonException: The JSON value could not be converted to System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at StocksApp.Infrastructure.Repositories.FinnhubRepository.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\Repositories\FinnhubRepository.cs:line 130
+   at Service.FinnhubServiceStockGetter.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\Services\FinnhubService\FinnhubServiceStockGetter.cs:line 22
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\Controllers\StocksController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-07-24 09:43:57.944 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON value could not be converted to System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at StocksApp.Infrastructure.Repositories.FinnhubRepository.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\Repositories\FinnhubRepository.cs:line 130
+   at Service.FinnhubServiceStockGetter.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\Services\FinnhubService\FinnhubServiceStockGetter.cs:line 22
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\Controllers\StocksController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-07-24 09:43:58.074 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_vs/browserLink - -
+2023-07-24 09:43:58.077 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - -
+2023-07-24 09:43:58.079 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/ - - - 500 - text/html;+charset=utf-8 1244.6656ms
+2023-07-24 09:43:58.085 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.0433ms
+2023-07-24 09:43:58.166 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 91.6522ms
+2023-07-24 09:43:58.201 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/favicon.ico - -
+2023-07-24 09:43:58.202 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:43:58.208 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-24 09:43:58.208 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 6.4418 ms
+2023-07-24 09:43:58.210 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/favicon.ico - - - 404 0 - 8.7000ms
+2023-07-24 09:46:26.601 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-24 09:46:26.788 -03:00 [INF] Now listening on: http://localhost:5100
+2023-07-24 09:46:26.837 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-24 09:46:26.839 -03:00 [INF] Hosting environment: Development
+2023-07-24 09:46:26.841 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp
+2023-07-24 09:46:28.369 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/ - -
+2023-07-24 09:46:28.492 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:46:28.585 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:46:28.632 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp.UI).
+2023-07-24 09:46:28.695 -03:00 [INF] Client wants to explore stocks
+2023-07-24 09:46:28.700 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=
+2023-07-24 09:46:28.703 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=
+2023-07-24 09:46:29.263 -03:00 [INF] Received HTTP response headers after 558.0208ms - 401
+2023-07-24 09:46:29.267 -03:00 [INF] End processing HTTP request after 568.4024ms - 401
+2023-07-24 09:46:29.375 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp.UI) in 738.7972ms
+2023-07-24 09:46:29.377 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:46:29.379 -03:00 [ERR] HTTP GET / responded 500 in 925.3701 ms
+System.Text.Json.JsonException: The JSON value could not be converted to System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at StocksApp.Infrastructure.Repositories.FinnhubRepository.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\Repositories\FinnhubRepository.cs:line 130
+   at Service.FinnhubServiceStockGetter.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\Services\FinnhubService\FinnhubServiceStockGetter.cs:line 22
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\Controllers\StocksController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-07-24 09:46:29.415 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON value could not be converted to System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at StocksApp.Infrastructure.Repositories.FinnhubRepository.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\Repositories\FinnhubRepository.cs:line 130
+   at Service.FinnhubServiceStockGetter.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\Services\FinnhubService\FinnhubServiceStockGetter.cs:line 22
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\Controllers\StocksController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-07-24 09:46:29.489 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - -
+2023-07-24 09:46:29.489 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/ - - - 500 - text/html;+charset=utf-8 1124.3430ms
+2023-07-24 09:46:29.498 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_vs/browserLink - -
+2023-07-24 09:46:29.503 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 13.6536ms
+2023-07-24 09:46:29.530 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.2675ms
+2023-07-24 09:46:29.623 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/favicon.ico - -
+2023-07-24 09:46:29.628 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:46:29.633 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-24 09:46:29.634 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 6.4367 ms
+2023-07-24 09:46:29.635 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/favicon.ico - - - 404 0 - 12.5335ms
+2023-07-24 09:47:40.739 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-24 09:47:40.990 -03:00 [INF] Now listening on: http://localhost:5100
+2023-07-24 09:47:40.992 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-24 09:47:40.993 -03:00 [INF] Hosting environment: Development
+2023-07-24 09:47:40.994 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp
+2023-07-24 09:47:42.395 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/ - -
+2023-07-24 09:47:42.457 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:47:42.506 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:47:42.554 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp.UI).
+2023-07-24 09:47:42.608 -03:00 [INF] Client wants to explore stocks
+2023-07-24 09:47:42.615 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=
+2023-07-24 09:47:42.616 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=
+2023-07-24 09:47:43.184 -03:00 [INF] Received HTTP response headers after 564.6386ms - 401
+2023-07-24 09:47:43.186 -03:00 [INF] End processing HTTP request after 573.5049ms - 401
+2023-07-24 09:47:43.303 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp.UI) in 744.0858ms
+2023-07-24 09:47:43.306 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:47:43.309 -03:00 [ERR] HTTP GET / responded 500 in 864.4664 ms
+System.Text.Json.JsonException: The JSON value could not be converted to System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at StocksApp.Infrastructure.Repositories.FinnhubRepository.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\Repositories\FinnhubRepository.cs:line 130
+   at Service.FinnhubServiceStockGetter.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\Services\FinnhubService\FinnhubServiceStockGetter.cs:line 22
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\Controllers\StocksController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-07-24 09:47:43.344 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON value could not be converted to System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at StocksApp.Infrastructure.Repositories.FinnhubRepository.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\Repositories\FinnhubRepository.cs:line 130
+   at Service.FinnhubServiceStockGetter.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\Services\FinnhubService\FinnhubServiceStockGetter.cs:line 22
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\Controllers\StocksController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-07-24 09:47:43.422 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - -
+2023-07-24 09:47:43.422 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_vs/browserLink - -
+2023-07-24 09:47:43.425 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/ - - - 500 - text/html;+charset=utf-8 1035.2919ms
+2023-07-24 09:47:43.438 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 15.1649ms
+2023-07-24 09:47:43.457 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.4763ms
+2023-07-24 09:47:43.549 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/favicon.ico - -
+2023-07-24 09:47:43.550 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:47:43.554 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-24 09:47:43.555 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 4.5535 ms
+2023-07-24 09:47:43.556 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/favicon.ico - - - 404 0 - 7.2480ms
+2023-07-24 09:47:56.929 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-24 09:47:57.073 -03:00 [INF] Now listening on: http://localhost:5100
+2023-07-24 09:47:57.077 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-24 09:47:57.079 -03:00 [INF] Hosting environment: Development
+2023-07-24 09:47:57.079 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp
+2023-07-24 09:47:58.263 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/ - -
+2023-07-24 09:47:58.323 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:47:58.359 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:47:58.437 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp.UI).
+2023-07-24 09:47:58.494 -03:00 [INF] Client wants to explore stocks
+2023-07-24 09:48:12.360 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=
+2023-07-24 09:48:12.367 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=
+2023-07-24 09:48:12.940 -03:00 [INF] Received HTTP response headers after 565.9291ms - 401
+2023-07-24 09:48:12.942 -03:00 [INF] End processing HTTP request after 584.3351ms - 401
+2023-07-24 09:48:21.720 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp.UI) in 23279.4355ms
+2023-07-24 09:48:21.722 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:48:21.724 -03:00 [ERR] HTTP GET / responded 500 in 23410.7788 ms
+System.Text.Json.JsonException: The JSON value could not be converted to System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at StocksApp.Infrastructure.Repositories.FinnhubRepository.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\Repositories\FinnhubRepository.cs:line 130
+   at Service.FinnhubServiceStockGetter.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\Services\FinnhubService\FinnhubServiceStockGetter.cs:line 22
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\Controllers\StocksController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-07-24 09:48:21.738 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON value could not be converted to System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at StocksApp.Infrastructure.Repositories.FinnhubRepository.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\Repositories\FinnhubRepository.cs:line 130
+   at Service.FinnhubServiceStockGetter.GetStocks() in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Core\Services\FinnhubService\FinnhubServiceStockGetter.cs:line 22
+   at StocksApp.Controllers.StocksController.Explore(String searchStock, String clickedStock) in C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\Controllers\StocksController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-07-24 09:48:21.933 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/ - - - 500 - text/html;+charset=utf-8 23675.4433ms
+2023-07-24 09:48:21.933 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - -
+2023-07-24 09:48:21.938 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_vs/browserLink - -
+2023-07-24 09:48:21.938 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.5533ms
+2023-07-24 09:48:21.956 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.9922ms
+2023-07-24 09:48:22.060 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/favicon.ico - -
+2023-07-24 09:48:22.062 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:48:22.068 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-24 09:48:22.069 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 7.4584 ms
+2023-07-24 09:48:22.070 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/favicon.ico - - - 404 0 - 10.3235ms
+2023-07-24 09:53:25.655 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-24 09:53:25.797 -03:00 [INF] Now listening on: http://localhost:5100
+2023-07-24 09:53:25.798 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-24 09:53:25.799 -03:00 [INF] Hosting environment: Development
+2023-07-24 09:53:25.799 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp
+2023-07-24 09:53:26.701 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/ - -
+2023-07-24 09:53:26.744 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:53:26.796 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:53:26.843 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp.UI).
+2023-07-24 09:53:26.897 -03:00 [INF] Client wants to explore stocks
+2023-07-24 09:53:38.448 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:53:38.450 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:53:39.502 -03:00 [INF] Received HTTP response headers after 1048.9605ms - 200
+2023-07-24 09:53:39.505 -03:00 [INF] End processing HTTP request after 1059.7731ms - 200
+2023-07-24 09:53:41.504 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-24 09:53:41.638 -03:00 [INF] Executed ViewResult - view Explore executed in 136.0066ms.
+2023-07-24 09:53:41.641 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp.UI) in 14796.3053ms
+2023-07-24 09:53:41.642 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:53:41.643 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 24 Jul 2023 12:53:41 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-07-24 09:53:41.645 -03:00 [INF] HTTP GET / responded 200 in 14912.9721 ms
+2023-07-24 09:53:41.660 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/Css/stocks.css - -
+2023-07-24 09:53:41.660 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/Css/general.css - -
+2023-07-24 09:53:41.660 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - -
+2023-07-24 09:53:41.665 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:53:41.666 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:53:41.668 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.7413ms
+2023-07-24 09:53:41.668 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/ - - - 200 - text/html;+charset=utf-8 14969.8259ms
+2023-07-24 09:53:41.676 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-24 09:53:41.676 -03:00 [INF] Sending file. Request path: '/Css/general.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp\wwwroot\Css\general.css'
+2023-07-24 09:53:41.677 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 24 Jul 2023 12:53:41 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Fri, 21 Jul 2023 21:53:05 GMT
+Content-Length: 1757
+2023-07-24 09:53:41.678 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Mon, 24 Jul 2023 12:53:41 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 23:03:29 GMT
+Content-Length: 5550
+2023-07-24 09:53:41.678 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 13.2151 ms
+2023-07-24 09:53:41.679 -03:00 [INF] HTTP GET /Css/general.css responded 200 in 13.4431 ms
+2023-07-24 09:53:41.680 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/Css/stocks.css - - - 200 1757 text/css 20.2202ms
+2023-07-24 09:53:41.681 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/Css/general.css - - - 200 5550 text/css 20.9719ms
+2023-07-24 09:53:41.684 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_vs/browserLink - -
+2023-07-24 09:53:41.701 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.9415ms
+2023-07-24 09:53:42.083 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/favicon.ico - -
+2023-07-24 09:53:42.084 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:53:42.088 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-24 09:53:42.089 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 5.2421 ms
+2023-07-24 09:53:42.090 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/favicon.ico - - - 404 0 - 7.5755ms
+2023-07-24 09:53:45.764 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/?clickedStock=NVDA&searchStock= - -
+2023-07-24 09:53:45.766 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:53:45.767 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:53:45.768 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp.UI).
+2023-07-24 09:53:45.774 -03:00 [INF] Client wants to explore stocks
+2023-07-24 09:53:48.651 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:53:48.653 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:53:49.294 -03:00 [INF] Received HTTP response headers after 639.9286ms - 200
+2023-07-24 09:53:49.295 -03:00 [INF] End processing HTTP request after 643.5914ms - 200
+2023-07-24 09:53:50.004 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:53:50.005 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:53:50.171 -03:00 [INF] Received HTTP response headers after 164.812ms - 200
+2023-07-24 09:53:50.174 -03:00 [INF] End processing HTTP request after 170.3754ms - 200
+2023-07-24 09:53:50.178 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:53:50.179 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:53:50.393 -03:00 [INF] Received HTTP response headers after 213.7339ms - 200
+2023-07-24 09:53:50.395 -03:00 [INF] End processing HTTP request after 216.7015ms - 200
+2023-07-24 09:53:50.398 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-24 09:53:50.426 -03:00 [INF] Executed ViewResult - view Explore executed in 27.5728ms.
+2023-07-24 09:53:50.427 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp.UI) in 4658.5036ms
+2023-07-24 09:53:50.428 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:53:50.429 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 24 Jul 2023 12:53:49 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+Transfer-Encoding: chunked
+X-Frame-Options: [Redacted]
+2023-07-24 09:53:50.429 -03:00 [INF] HTTP GET / responded 200 in 4663.6550 ms
+2023-07-24 09:53:50.433 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/?clickedStock=NVDA&searchStock= - - - 200 - text/html;+charset=utf-8 4669.3765ms
+2023-07-24 09:53:50.457 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - -
+2023-07-24 09:53:50.458 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 0.7996ms
+2023-07-24 09:53:50.459 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_vs/browserLink - -
+2023-07-24 09:53:50.468 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.5313ms
+2023-07-24 09:53:51.896 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5100/?clickedStock=NVDA&searchStock= application/x-www-form-urlencoded 200
+2023-07-24 09:53:51.898 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 200
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:53:51.899 -03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-07-24 09:53:51.900 -03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-07-24 09:53:51.900 -03:00 [INF] Response:
+StatusCode: 405
+Allow: GET
+2023-07-24 09:53:51.900 -03:00 [INF] HTTP POST / responded 405 in 2.7688 ms
+2023-07-24 09:53:51.901 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5100/?clickedStock=NVDA&searchStock= application/x-www-form-urlencoded 200 - 405 0 - 5.3757ms
+2023-07-24 09:54:00.362 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - -
+2023-07-24 09:54:00.393 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 31.2778ms
+2023-07-24 09:54:01.566 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/?clickedStock=NVDA&searchStock= - -
+2023-07-24 09:54:01.567 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:54:01.568 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:54:01.569 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp.UI).
+2023-07-24 09:54:01.572 -03:00 [INF] Client wants to explore stocks
+2023-07-24 09:54:01.573 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:54:01.574 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:54:02.522 -03:00 [INF] Received HTTP response headers after 947.1868ms - 200
+2023-07-24 09:54:02.523 -03:00 [INF] End processing HTTP request after 950.4961ms - 200
+2023-07-24 09:54:03.406 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:54:03.407 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:54:03.571 -03:00 [INF] Received HTTP response headers after 161.9343ms - 200
+2023-07-24 09:54:03.571 -03:00 [INF] End processing HTTP request after 165.4354ms - 200
+2023-07-24 09:54:03.572 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:54:03.573 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-24 09:54:03.737 -03:00 [INF] Received HTTP response headers after 163.8305ms - 200
+2023-07-24 09:54:03.739 -03:00 [INF] End processing HTTP request after 167.2328ms - 200
+2023-07-24 09:54:03.741 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-24 09:54:03.747 -03:00 [INF] Executed ViewResult - view Explore executed in 6.4184ms.
+2023-07-24 09:54:03.748 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp.UI) in 2178.1791ms
+2023-07-24 09:54:03.749 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp.UI)'
+2023-07-24 09:54:03.749 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 24 Jul 2023 12:54:02 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+2023-07-24 09:54:03.750 -03:00 [INF] HTTP GET / responded 200 in 2182.7980 ms
+2023-07-24 09:54:03.754 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/?clickedStock=NVDA&searchStock= - - - 200 - text/html;+charset=utf-8 2187.7433ms
+2023-07-24 09:54:03.776 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - -
+2023-07-24 09:54:03.776 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 0.7012ms
+2023-07-24 09:54:03.778 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/_vs/browserLink - -
+2023-07-24 09:54:03.782 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.9665ms
+2023-07-24 09:54:06.630 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5100/?clickedStock=NVDA&searchStock= application/x-www-form-urlencoded 200
+2023-07-24 09:54:06.632 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 200
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-24 09:54:06.634 -03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-07-24 09:54:06.635 -03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-07-24 09:54:06.635 -03:00 [INF] Response:
+StatusCode: 405
+Allow: GET
+2023-07-24 09:54:06.636 -03:00 [INF] HTTP POST / responded 405 in 3.9629 ms
+2023-07-24 09:54:06.637 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5100/?clickedStock=NVDA&searchStock= application/x-www-form-urlencoded 200 - 405 0 - 6.8157ms

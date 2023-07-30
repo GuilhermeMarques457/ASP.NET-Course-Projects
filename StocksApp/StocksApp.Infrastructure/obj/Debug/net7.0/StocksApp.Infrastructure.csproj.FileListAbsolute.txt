@@ -1,0 +1,30 @@
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Infrastructure.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Infrastructure.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Infrastructure.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.csproj.CopyComplete
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\refint\StocksApp.Infrastructure.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\ref\StocksApp.Infrastructure.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Infrastructure.deps.json
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Infrastructure.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Infrastructure.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Core.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\bin\Debug\net7.0\StocksApp.Core.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.csproj.CopyComplete
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\refint\StocksApp.Infrastructure.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\StocksApp.Infrastructure.pdb
+C:\Users\Microsoft\Documents\AspNet\My Projects and Lectures\Section 24 - Clean Architecture\StocksApp\StocksApp.Infrastructure\obj\Debug\net7.0\ref\StocksApp.Infrastructure.dll

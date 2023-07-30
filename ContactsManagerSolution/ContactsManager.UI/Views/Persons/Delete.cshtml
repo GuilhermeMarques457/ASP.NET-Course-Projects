@@ -1,0 +1,37 @@
+﻿@model PersonResponse
+
+@{
+    ViewBag.Title = "Delete Person";
+    ViewBag.BreadCrumbController = "People";
+    ViewBag.BreadCrumbAction = "Delete";
+    ViewBag.CurrentUrl = "~/Persons/Delete";
+}
+
+<div class="center-box">
+    @await Html.PartialAsync("_BreadCrumb")
+
+    <div class="form-container">
+        <h2 class="text-large">Delete Person</h2>
+        <h3>Are you sure to delete this person?</h3>
+        <form asp-controller="Persons" asp-action="Delete" method="post" class="create-person-form">
+            <input type="hidden" asp-for="PersonId" />
+
+            <div class="form-field-input">
+                <label asp-for="PersonName">Person Name</label>
+                <input asp-for="PersonName" disabled="disabled" placeholder="Type your name here" />
+                <span asp-validation-for="PersonName" class="validate-message"></span>
+            </div>
+
+            <div class="form-field">
+                <div class="checkbox-input">
+                    <button class="button button-red-back">Delete</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    
+</div>
+
+
+

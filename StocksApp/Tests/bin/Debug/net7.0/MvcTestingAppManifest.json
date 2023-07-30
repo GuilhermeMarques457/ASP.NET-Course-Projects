@@ -1,8 +1,0 @@
-{
-  "Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\Entities",
-  "Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\Repository",
-  "RepositoryContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\RepositoryContracts",
-  "Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\Service",
-  "ServiceContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\ServiceContracts",
-  "StocksApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 21 - Filters\\StocksApp\\StocksApp"
-}

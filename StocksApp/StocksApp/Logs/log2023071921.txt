@@ -1,0 +1,778 @@
+2023-07-19 21:12:33.768 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-19 21:12:33.965 -03:00 [INF] Now listening on: https://localhost:7140
+2023-07-19 21:12:33.967 -03:00 [INF] Now listening on: http://localhost:5291
+2023-07-19 21:12:33.968 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 21:12:33.969 -03:00 [INF] Hosting environment: Development
+2023-07-19 21:12:33.969 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp
+2023-07-19 21:12:36.294 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/ - -
+2023-07-19 21:12:36.356 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:12:36.419 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-19 21:12:36.646 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-19 21:12:36.705 -03:00 [INF] Client wants to explore stocks
+2023-07-19 21:12:36.710 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:36.712 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:38.956 -03:00 [INF] Received HTTP response headers after 2241.6995ms - 200
+2023-07-19 21:12:38.959 -03:00 [INF] End processing HTTP request after 2251.1429ms - 200
+2023-07-19 21:12:38.974 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:38.975 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.157 -03:00 [INF] Received HTTP response headers after 180.998ms - 200
+2023-07-19 21:12:39.158 -03:00 [INF] End processing HTTP request after 184.4264ms - 200
+2023-07-19 21:12:39.161 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.161 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.324 -03:00 [INF] Received HTTP response headers after 161.9696ms - 200
+2023-07-19 21:12:39.325 -03:00 [INF] End processing HTTP request after 164.0691ms - 200
+2023-07-19 21:12:39.325 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.326 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.500 -03:00 [INF] Received HTTP response headers after 173.0434ms - 200
+2023-07-19 21:12:39.508 -03:00 [INF] End processing HTTP request after 182.476ms - 200
+2023-07-19 21:12:39.510 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.512 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.673 -03:00 [INF] Received HTTP response headers after 160.3832ms - 200
+2023-07-19 21:12:39.675 -03:00 [INF] End processing HTTP request after 165.0278ms - 200
+2023-07-19 21:12:39.676 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.677 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.857 -03:00 [INF] Received HTTP response headers after 179.6551ms - 200
+2023-07-19 21:12:39.860 -03:00 [INF] End processing HTTP request after 183.0323ms - 200
+2023-07-19 21:12:39.861 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:39.862 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:40.027 -03:00 [INF] Received HTTP response headers after 164.6644ms - 200
+2023-07-19 21:12:40.028 -03:00 [INF] End processing HTTP request after 167.6801ms - 200
+2023-07-19 21:12:40.029 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:40.030 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:40.236 -03:00 [INF] Received HTTP response headers after 205.3312ms - 200
+2023-07-19 21:12:40.237 -03:00 [INF] End processing HTTP request after 207.9184ms - 200
+2023-07-19 21:12:40.238 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:40.239 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:40.760 -03:00 [INF] Received HTTP response headers after 520.0252ms - 200
+2023-07-19 21:12:40.761 -03:00 [INF] End processing HTTP request after 523.0618ms - 200
+2023-07-19 21:12:40.762 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:40.763 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:40.934 -03:00 [INF] Received HTTP response headers after 170.1542ms - 200
+2023-07-19 21:12:40.935 -03:00 [INF] End processing HTTP request after 172.9014ms - 200
+2023-07-19 21:12:40.936 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:40.937 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:41.455 -03:00 [INF] Received HTTP response headers after 517.9824ms - 200
+2023-07-19 21:12:41.458 -03:00 [INF] End processing HTTP request after 522.326ms - 200
+2023-07-19 21:12:41.460 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:41.461 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:42.687 -03:00 [INF] Received HTTP response headers after 1226.0698ms - 200
+2023-07-19 21:12:42.689 -03:00 [INF] End processing HTTP request after 1228.9136ms - 200
+2023-07-19 21:12:42.690 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:42.690 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:44.735 -03:00 [INF] Received HTTP response headers after 2043.7512ms - 200
+2023-07-19 21:12:44.736 -03:00 [INF] End processing HTTP request after 2046.0981ms - 200
+2023-07-19 21:12:44.737 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:44.738 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:48.192 -03:00 [INF] Received HTTP response headers after 3453.8174ms - 200
+2023-07-19 21:12:48.193 -03:00 [INF] End processing HTTP request after 3456.4982ms - 200
+2023-07-19 21:12:48.194 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:48.195 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:48.364 -03:00 [INF] Received HTTP response headers after 168.2408ms - 200
+2023-07-19 21:12:48.366 -03:00 [INF] End processing HTTP request after 171.4045ms - 200
+2023-07-19 21:12:48.366 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:48.367 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:48.550 -03:00 [INF] Received HTTP response headers after 182.5135ms - 200
+2023-07-19 21:12:48.552 -03:00 [INF] End processing HTTP request after 185.4112ms - 200
+2023-07-19 21:12:48.552 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:48.553 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.063 -03:00 [INF] Received HTTP response headers after 509.3802ms - 200
+2023-07-19 21:12:49.064 -03:00 [INF] End processing HTTP request after 511.2909ms - 200
+2023-07-19 21:12:49.064 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.065 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.236 -03:00 [INF] Received HTTP response headers after 170.3864ms - 200
+2023-07-19 21:12:49.239 -03:00 [INF] End processing HTTP request after 174.8325ms - 200
+2023-07-19 21:12:49.240 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.240 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.406 -03:00 [INF] Received HTTP response headers after 165.2167ms - 200
+2023-07-19 21:12:49.408 -03:00 [INF] End processing HTTP request after 168.0778ms - 200
+2023-07-19 21:12:49.409 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.409 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.580 -03:00 [INF] Received HTTP response headers after 170.5176ms - 200
+2023-07-19 21:12:49.581 -03:00 [INF] End processing HTTP request after 172.8179ms - 200
+2023-07-19 21:12:49.582 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.583 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.747 -03:00 [INF] Received HTTP response headers after 163.6272ms - 200
+2023-07-19 21:12:49.748 -03:00 [INF] End processing HTTP request after 166.1008ms - 200
+2023-07-19 21:12:49.749 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.750 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.917 -03:00 [INF] Received HTTP response headers after 165.6377ms - 200
+2023-07-19 21:12:49.918 -03:00 [INF] End processing HTTP request after 169.2685ms - 200
+2023-07-19 21:12:49.919 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:49.920 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:50.091 -03:00 [INF] Received HTTP response headers after 170.7331ms - 200
+2023-07-19 21:12:50.092 -03:00 [INF] End processing HTTP request after 172.7272ms - 200
+2023-07-19 21:12:50.093 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:50.094 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:50.261 -03:00 [INF] Received HTTP response headers after 166.1401ms - 200
+2023-07-19 21:12:50.262 -03:00 [INF] End processing HTTP request after 169.2684ms - 200
+2023-07-19 21:12:50.263 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:50.264 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:50.777 -03:00 [INF] Received HTTP response headers after 513.0477ms - 200
+2023-07-19 21:12:50.780 -03:00 [INF] End processing HTTP request after 516.6168ms - 200
+2023-07-19 21:12:50.781 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:50.782 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:51.018 -03:00 [INF] Received HTTP response headers after 235.74ms - 200
+2023-07-19 21:12:51.020 -03:00 [INF] End processing HTTP request after 238.5491ms - 200
+2023-07-19 21:12:51.021 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:51.022 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:51.188 -03:00 [INF] Received HTTP response headers after 165.7481ms - 200
+2023-07-19 21:12:51.190 -03:00 [INF] End processing HTTP request after 169.5101ms - 200
+2023-07-19 21:12:51.191 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:51.192 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:51.687 -03:00 [INF] Received HTTP response headers after 494.7214ms - 200
+2023-07-19 21:12:51.689 -03:00 [INF] End processing HTTP request after 497.3245ms - 200
+2023-07-19 21:12:51.689 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:51.690 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:51.857 -03:00 [INF] Received HTTP response headers after 166.7742ms - 200
+2023-07-19 21:12:51.862 -03:00 [INF] End processing HTTP request after 172.738ms - 200
+2023-07-19 21:12:51.863 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:51.864 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:52.068 -03:00 [INF] Received HTTP response headers after 203.6815ms - 200
+2023-07-19 21:12:52.069 -03:00 [INF] End processing HTTP request after 206.5041ms - 200
+2023-07-19 21:12:52.070 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:52.071 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:52.237 -03:00 [INF] Received HTTP response headers after 165.5978ms - 200
+2023-07-19 21:12:52.239 -03:00 [INF] End processing HTTP request after 168.3696ms - 200
+2023-07-19 21:12:52.240 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:52.241 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:52.412 -03:00 [INF] Received HTTP response headers after 170.6674ms - 200
+2023-07-19 21:12:52.414 -03:00 [INF] End processing HTTP request after 173.712ms - 200
+2023-07-19 21:12:52.414 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:52.415 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:52.919 -03:00 [INF] Received HTTP response headers after 503.7001ms - 200
+2023-07-19 21:12:52.921 -03:00 [INF] End processing HTTP request after 506.4327ms - 200
+2023-07-19 21:12:52.921 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:52.922 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:53.112 -03:00 [INF] Received HTTP response headers after 189.1472ms - 200
+2023-07-19 21:12:53.113 -03:00 [INF] End processing HTTP request after 191.7448ms - 200
+2023-07-19 21:12:53.114 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:53.115 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:53.615 -03:00 [INF] Received HTTP response headers after 499.6734ms - 200
+2023-07-19 21:12:53.617 -03:00 [INF] End processing HTTP request after 502.849ms - 200
+2023-07-19 21:12:53.617 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:53.618 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:53.786 -03:00 [INF] Received HTTP response headers after 167.5394ms - 200
+2023-07-19 21:12:53.787 -03:00 [INF] End processing HTTP request after 169.3293ms - 200
+2023-07-19 21:12:53.787 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:53.788 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.279 -03:00 [INF] Received HTTP response headers after 490.5053ms - 200
+2023-07-19 21:12:54.280 -03:00 [INF] End processing HTTP request after 492.6039ms - 200
+2023-07-19 21:12:54.281 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.282 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.452 -03:00 [INF] Received HTTP response headers after 169.243ms - 200
+2023-07-19 21:12:54.453 -03:00 [INF] End processing HTTP request after 172.8742ms - 200
+2023-07-19 21:12:54.454 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.455 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.622 -03:00 [INF] Received HTTP response headers after 166.9191ms - 200
+2023-07-19 21:12:54.624 -03:00 [INF] End processing HTTP request after 169.5082ms - 200
+2023-07-19 21:12:54.624 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.625 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.792 -03:00 [INF] Received HTTP response headers after 166.8559ms - 200
+2023-07-19 21:12:54.793 -03:00 [INF] End processing HTTP request after 168.9239ms - 200
+2023-07-19 21:12:54.794 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.795 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.960 -03:00 [INF] Received HTTP response headers after 164.4367ms - 200
+2023-07-19 21:12:54.962 -03:00 [INF] End processing HTTP request after 167.7901ms - 200
+2023-07-19 21:12:54.963 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:54.963 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:55.455 -03:00 [INF] Received HTTP response headers after 491.4437ms - 200
+2023-07-19 21:12:55.457 -03:00 [INF] End processing HTTP request after 494.017ms - 200
+2023-07-19 21:12:55.457 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:55.458 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:55.953 -03:00 [INF] Received HTTP response headers after 494.6394ms - 200
+2023-07-19 21:12:55.954 -03:00 [INF] End processing HTTP request after 497.1027ms - 200
+2023-07-19 21:12:55.955 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:55.956 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:56.138 -03:00 [INF] Received HTTP response headers after 181.9702ms - 200
+2023-07-19 21:12:56.140 -03:00 [INF] End processing HTTP request after 184.9015ms - 200
+2023-07-19 21:12:56.141 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:56.141 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:56.640 -03:00 [INF] Received HTTP response headers after 498.0572ms - 200
+2023-07-19 21:12:56.641 -03:00 [INF] End processing HTTP request after 500.2694ms - 200
+2023-07-19 21:12:56.642 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:56.643 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:56.807 -03:00 [INF] Received HTTP response headers after 162.8965ms - 200
+2023-07-19 21:12:56.808 -03:00 [INF] End processing HTTP request after 166.3427ms - 200
+2023-07-19 21:12:56.809 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:56.809 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:56.974 -03:00 [INF] Received HTTP response headers after 163.3901ms - 200
+2023-07-19 21:12:56.976 -03:00 [INF] End processing HTTP request after 167.1364ms - 200
+2023-07-19 21:12:56.977 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:56.977 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:57.151 -03:00 [INF] Received HTTP response headers after 172.7297ms - 200
+2023-07-19 21:12:57.153 -03:00 [INF] End processing HTTP request after 176.6211ms - 200
+2023-07-19 21:12:57.154 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:57.155 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:57.321 -03:00 [INF] Received HTTP response headers after 165.2193ms - 200
+2023-07-19 21:12:57.322 -03:00 [INF] End processing HTTP request after 167.6732ms - 200
+2023-07-19 21:12:57.323 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:57.324 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:12:57.496 -03:00 [INF] Received HTTP response headers after 170.7254ms - 200
+2023-07-19 21:12:57.497 -03:00 [INF] End processing HTTP request after 173.5149ms - 200
+2023-07-19 21:12:57.506 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-19 21:12:57.668 -03:00 [INF] Executed ViewResult - view Explore executed in 164.4713ms.
+2023-07-19 21:12:57.671 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 21023.1403ms
+2023-07-19 21:12:57.672 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-19 21:12:57.673 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 00:12:57 GMT
+Server: Kestrel
+2023-07-19 21:12:57.675 -03:00 [INF] HTTP GET / responded 200 in 21330.2895 ms
+2023-07-19 21:12:57.692 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/stocks.css - -
+2023-07-19 21:12:57.692 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/general.css - -
+2023-07-19 21:12:57.697 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/stocks.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:12:57.697 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/general.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:12:57.702 -03:00 [INF] The file /Css/general.css was not modified
+2023-07-19 21:12:57.703 -03:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 23:03:29 GMT
+2023-07-19 21:12:57.704 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 21:12:57.707 -03:00 [INF] HTTP GET /Css/general.css responded 304 in 10.1371 ms
+2023-07-19 21:12:57.709 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/general.css - - - 304 - text/css 16.6474ms
+2023-07-19 21:12:57.709 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/ - - - 200 - text/html;+charset=utf-8 21417.7956ms
+2023-07-19 21:12:57.710 -03:00 [INF] Sending file. Request path: '/Css/stocks.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\stocks.css'
+2023-07-19 21:12:57.713 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Thu, 20 Jul 2023 00:12:57 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 22:54:20 GMT
+Content-Length: 1737
+2023-07-19 21:12:57.713 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 9.4883ms
+2023-07-19 21:12:57.713 -03:00 [INF] HTTP GET /Css/stocks.css responded 200 in 16.5596 ms
+2023-07-19 21:12:57.715 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/stocks.css - - - 200 1737 text/css 22.7625ms
+2023-07-19 21:12:57.718 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-19 21:12:57.907 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 189.2669ms
+2023-07-19 21:12:57.957 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-19 21:12:57.958 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:12:57.962 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-19 21:12:57.963 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 4.4908 ms
+2023-07-19 21:12:57.964 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 6.7916ms
+2023-07-19 21:13:05.540 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Trade/Index/MSFT - -
+2023-07-19 21:13:05.541 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Trade/Index/MSFT
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:13:05.543 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-19 21:13:05.544 -03:00 [INF] HTTP GET /Trade/Index/MSFT responded 404 in 2.6522 ms
+2023-07-19 21:13:05.545 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Trade/Index/MSFT - - - 404 0 - 5.0853ms
+2023-07-19 21:13:11.642 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Trade/Index - -
+2023-07-19 21:13:11.644 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Trade/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:13:11.647 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-19 21:13:11.652 -03:00 [INF] Route matched with {action = "Index", controller = "Trade"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller StocksApp.Controllers.TradeController (StocksApp).
+2023-07-19 21:13:11.796 -03:00 [INF] Index action reached
+2023-07-19 21:13:11.798 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:13:11.799 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:13:12.312 -03:00 [INF] Received HTTP response headers after 512.8797ms - 200
+2023-07-19 21:13:12.320 -03:00 [INF] End processing HTTP request after 521.908ms - 200
+2023-07-19 21:13:12.322 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:13:12.323 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:13:12.491 -03:00 [INF] Received HTTP response headers after 166.6716ms - 200
+2023-07-19 21:13:12.492 -03:00 [INF] End processing HTTP request after 169.8507ms - 200
+2023-07-19 21:13:12.498 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-19 21:13:12.550 -03:00 [INF] Executed ViewResult - view Index executed in 52.5418ms.
+2023-07-19 21:13:12.553 -03:00 [INF] Executed action StocksApp.Controllers.TradeController.Index (StocksApp) in 898.6136ms
+2023-07-19 21:13:12.554 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-19 21:13:12.555 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 00:13:12 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-19 21:13:12.558 -03:00 [INF] HTTP GET /Trade/Index responded 200 in 914.6081 ms
+2023-07-19 21:13:12.574 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Css/trade.css - -
+2023-07-19 21:13:12.575 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Trade/Index - - - 200 - text/html;+charset=utf-8 933.0190ms
+2023-07-19 21:13:12.575 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Css/trade.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:13:12.583 -03:00 [INF] Sending file. Request path: '/Css/trade.css'. Physical path: 'C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp\wwwroot\Css\trade.css'
+2023-07-19 21:13:12.584 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Thu, 20 Jul 2023 00:13:12 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 17 Jul 2023 23:31:15 GMT
+Content-Length: 2304
+2023-07-19 21:13:12.585 -03:00 [INF] HTTP GET /Css/trade.css responded 200 in 10.0486 ms
+2023-07-19 21:13:12.586 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Css/trade.css - - - 200 2304 text/css 11.8762ms
+2023-07-19 21:13:12.587 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 21:13:12.588 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1.1112ms
+2023-07-19 21:13:12.595 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-19 21:13:12.625 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.6525ms
+2023-07-19 21:13:22.982 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/Trade/msft - -
+2023-07-19 21:13:22.983 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Trade/msft
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:13:22.984 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-19 21:13:22.985 -03:00 [INF] HTTP GET /Trade/msft responded 404 in 1.7502 ms
+2023-07-19 21:13:22.986 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/Trade/msft - - - 404 0 - 3.8883ms
+2023-07-19 21:14:05.474 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-19 21:14:05.807 -03:00 [INF] Now listening on: https://localhost:7140
+2023-07-19 21:14:05.827 -03:00 [INF] Now listening on: http://localhost:5291
+2023-07-19 21:14:05.832 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 21:14:05.833 -03:00 [INF] Hosting environment: Development
+2023-07-19 21:14:05.837 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\Section 22 - Error Handling\StocksApp\StocksApp
+2023-07-19 21:14:07.167 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/ - -
+2023-07-19 21:14:07.204 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:14:07.227 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-19 21:14:07.268 -03:00 [INF] Route matched with {action = "Explore", controller = "Stocks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Explore(System.String, System.String) on controller StocksApp.Controllers.StocksController (StocksApp).
+2023-07-19 21:14:07.324 -03:00 [INF] Client wants to explore stocks
+2023-07-19 21:14:07.330 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:07.332 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:07.881 -03:00 [INF] Received HTTP response headers after 545.0004ms - 200
+2023-07-19 21:14:07.885 -03:00 [INF] End processing HTTP request after 557.2774ms - 200
+2023-07-19 21:14:07.903 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:07.905 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AAPL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:08.071 -03:00 [INF] Received HTTP response headers after 165.6812ms - 200
+2023-07-19 21:14:08.072 -03:00 [INF] End processing HTTP request after 169.6083ms - 200
+2023-07-19 21:14:08.074 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:08.075 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:08.581 -03:00 [INF] Received HTTP response headers after 505.9601ms - 200
+2023-07-19 21:14:08.582 -03:00 [INF] End processing HTTP request after 508.4318ms - 200
+2023-07-19 21:14:08.583 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:08.584 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MSFT&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:08.765 -03:00 [INF] Received HTTP response headers after 180.4371ms - 200
+2023-07-19 21:14:08.766 -03:00 [INF] End processing HTTP request after 183.0415ms - 200
+2023-07-19 21:14:08.767 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:08.768 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:09.270 -03:00 [INF] Received HTTP response headers after 501.7451ms - 200
+2023-07-19 21:14:09.271 -03:00 [INF] End processing HTTP request after 504.1712ms - 200
+2023-07-19 21:14:09.272 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:09.272 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AMZN&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:09.445 -03:00 [INF] Received HTTP response headers after 172.3711ms - 200
+2023-07-19 21:14:09.446 -03:00 [INF] End processing HTTP request after 174.7647ms - 200
+2023-07-19 21:14:09.447 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:09.448 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:09.958 -03:00 [INF] Received HTTP response headers after 509.4835ms - 200
+2023-07-19 21:14:09.959 -03:00 [INF] End processing HTTP request after 511.9234ms - 200
+2023-07-19 21:14:09.960 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:09.961 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=TSLA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.157 -03:00 [INF] Received HTTP response headers after 1194.7234ms - 200
+2023-07-19 21:14:11.159 -03:00 [INF] End processing HTTP request after 1199.0823ms - 200
+2023-07-19 21:14:11.160 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.161 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.326 -03:00 [INF] Received HTTP response headers after 165.0035ms - 200
+2023-07-19 21:14:11.328 -03:00 [INF] End processing HTTP request after 167.6223ms - 200
+2023-07-19 21:14:11.328 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.329 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOGL&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.498 -03:00 [INF] Received HTTP response headers after 167.9176ms - 200
+2023-07-19 21:14:11.500 -03:00 [INF] End processing HTTP request after 171.1039ms - 200
+2023-07-19 21:14:11.500 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.501 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.669 -03:00 [INF] Received HTTP response headers after 167.2329ms - 200
+2023-07-19 21:14:11.670 -03:00 [INF] End processing HTTP request after 170.0593ms - 200
+2023-07-19 21:14:11.672 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.672 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=GOOG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.844 -03:00 [INF] Received HTTP response headers after 170.5637ms - 200
+2023-07-19 21:14:11.845 -03:00 [INF] End processing HTTP request after 172.7644ms - 200
+2023-07-19 21:14:11.846 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:11.847 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:12.343 -03:00 [INF] Received HTTP response headers after 494.9298ms - 200
+2023-07-19 21:14:12.345 -03:00 [INF] End processing HTTP request after 498.4327ms - 200
+2023-07-19 21:14:12.345 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:12.346 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=NVDA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:12.560 -03:00 [INF] Received HTTP response headers after 212.6136ms - 200
+2023-07-19 21:14:12.560 -03:00 [INF] End processing HTTP request after 214.9339ms - 200
+2023-07-19 21:14:12.561 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:12.562 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:12.728 -03:00 [INF] Received HTTP response headers after 165.6347ms - 200
+2023-07-19 21:14:12.732 -03:00 [INF] End processing HTTP request after 171.3176ms - 200
+2023-07-19 21:14:12.734 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:12.734 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BRK.B&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:14.230 -03:00 [INF] Received HTTP response headers after 1494.4007ms - 200
+2023-07-19 21:14:14.234 -03:00 [INF] End processing HTTP request after 1499.6981ms - 200
+2023-07-19 21:14:14.234 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:14.235 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:14.404 -03:00 [INF] Received HTTP response headers after 168.6023ms - 200
+2023-07-19 21:14:14.406 -03:00 [INF] End processing HTTP request after 171.346ms - 200
+2023-07-19 21:14:14.406 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:14.407 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=META&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:14.573 -03:00 [INF] Received HTTP response headers after 165.3799ms - 200
+2023-07-19 21:14:14.574 -03:00 [INF] End processing HTTP request after 167.1347ms - 200
+2023-07-19 21:14:14.574 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:14.575 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:14.749 -03:00 [INF] Received HTTP response headers after 173.5874ms - 200
+2023-07-19 21:14:14.750 -03:00 [INF] End processing HTTP request after 175.9796ms - 200
+2023-07-19 21:14:14.752 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:14.753 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=UNH&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:15.253 -03:00 [INF] Received HTTP response headers after 499.2835ms - 200
+2023-07-19 21:14:15.256 -03:00 [INF] End processing HTTP request after 504.1134ms - 200
+2023-07-19 21:14:15.256 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:15.257 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:15.428 -03:00 [INF] Received HTTP response headers after 170.5403ms - 200
+2023-07-19 21:14:15.430 -03:00 [INF] End processing HTTP request after 173.3747ms - 200
+2023-07-19 21:14:15.431 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:15.431 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JNJ&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:15.925 -03:00 [INF] Received HTTP response headers after 493.0833ms - 200
+2023-07-19 21:14:15.926 -03:00 [INF] End processing HTTP request after 495.6466ms - 200
+2023-07-19 21:14:15.927 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:15.928 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:16.090 -03:00 [INF] Received HTTP response headers after 161.3208ms - 200
+2023-07-19 21:14:16.094 -03:00 [INF] End processing HTTP request after 166.7741ms - 200
+2023-07-19 21:14:16.095 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:16.095 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=JPM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:16.261 -03:00 [INF] Received HTTP response headers after 164.6099ms - 200
+2023-07-19 21:14:16.262 -03:00 [INF] End processing HTTP request after 167.4571ms - 200
+2023-07-19 21:14:16.263 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:16.264 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:16.434 -03:00 [INF] Received HTTP response headers after 169.7189ms - 200
+2023-07-19 21:14:16.435 -03:00 [INF] End processing HTTP request after 172.0964ms - 200
+2023-07-19 21:14:16.436 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:16.436 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=V&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:16.602 -03:00 [INF] Received HTTP response headers after 165.1731ms - 200
+2023-07-19 21:14:16.603 -03:00 [INF] End processing HTTP request after 167.1945ms - 200
+2023-07-19 21:14:16.604 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:16.605 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.094 -03:00 [INF] Received HTTP response headers after 488.3473ms - 200
+2023-07-19 21:14:17.096 -03:00 [INF] End processing HTTP request after 491.7951ms - 200
+2023-07-19 21:14:17.097 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.098 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PG&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.272 -03:00 [INF] Received HTTP response headers after 173.4439ms - 200
+2023-07-19 21:14:17.274 -03:00 [INF] End processing HTTP request after 176.4981ms - 200
+2023-07-19 21:14:17.275 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.275 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.443 -03:00 [INF] Received HTTP response headers after 166.5997ms - 200
+2023-07-19 21:14:17.443 -03:00 [INF] End processing HTTP request after 168.757ms - 200
+2023-07-19 21:14:17.444 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.445 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=XOM&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.653 -03:00 [INF] Received HTTP response headers after 207.9904ms - 200
+2023-07-19 21:14:17.654 -03:00 [INF] End processing HTTP request after 209.9005ms - 200
+2023-07-19 21:14:17.655 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.655 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.820 -03:00 [INF] Received HTTP response headers after 163.9085ms - 200
+2023-07-19 21:14:17.824 -03:00 [INF] End processing HTTP request after 169.4879ms - 200
+2023-07-19 21:14:17.825 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.826 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=HD&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.995 -03:00 [INF] Received HTTP response headers after 168.2464ms - 200
+2023-07-19 21:14:17.996 -03:00 [INF] End processing HTTP request after 171.1867ms - 200
+2023-07-19 21:14:17.997 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:17.998 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.163 -03:00 [INF] Received HTTP response headers after 163.726ms - 200
+2023-07-19 21:14:18.168 -03:00 [INF] End processing HTTP request after 170.3658ms - 200
+2023-07-19 21:14:18.169 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.169 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=CVX&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.338 -03:00 [INF] Received HTTP response headers after 168.1045ms - 200
+2023-07-19 21:14:18.343 -03:00 [INF] End processing HTTP request after 174.6966ms - 200
+2023-07-19 21:14:18.344 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.345 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.510 -03:00 [INF] Received HTTP response headers after 163.9858ms - 200
+2023-07-19 21:14:18.513 -03:00 [INF] End processing HTTP request after 169.2183ms - 200
+2023-07-19 21:14:18.514 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.515 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=MA&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.680 -03:00 [INF] Received HTTP response headers after 164.0188ms - 200
+2023-07-19 21:14:18.680 -03:00 [INF] End processing HTTP request after 166.195ms - 200
+2023-07-19 21:14:18.681 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.682 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.847 -03:00 [INF] Received HTTP response headers after 164.1059ms - 200
+2023-07-19 21:14:18.851 -03:00 [INF] End processing HTTP request after 170.1424ms - 200
+2023-07-19 21:14:18.852 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:18.853 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=BAC&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.018 -03:00 [INF] Received HTTP response headers after 164.5586ms - 200
+2023-07-19 21:14:19.019 -03:00 [INF] End processing HTTP request after 167.3603ms - 200
+2023-07-19 21:14:19.020 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.021 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.188 -03:00 [INF] Received HTTP response headers after 166.3702ms - 200
+2023-07-19 21:14:19.193 -03:00 [INF] End processing HTTP request after 172.8157ms - 200
+2023-07-19 21:14:19.194 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.194 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=ABBV&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.361 -03:00 [INF] Received HTTP response headers after 166.2204ms - 200
+2023-07-19 21:14:19.366 -03:00 [INF] End processing HTTP request after 172.5115ms - 200
+2023-07-19 21:14:19.368 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.369 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.537 -03:00 [INF] Received HTTP response headers after 167.4206ms - 200
+2023-07-19 21:14:19.540 -03:00 [INF] End processing HTTP request after 171.7605ms - 200
+2023-07-19 21:14:19.541 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.541 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=PFE&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.710 -03:00 [INF] Received HTTP response headers after 168.4194ms - 200
+2023-07-19 21:14:19.711 -03:00 [INF] End processing HTTP request after 170.1592ms - 200
+2023-07-19 21:14:19.712 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.713 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.882 -03:00 [INF] Received HTTP response headers after 168.1028ms - 200
+2023-07-19 21:14:19.886 -03:00 [INF] End processing HTTP request after 174.0209ms - 200
+2023-07-19 21:14:19.887 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:19.888 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=AVGO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:20.055 -03:00 [INF] Received HTTP response headers after 166.7919ms - 200
+2023-07-19 21:14:20.059 -03:00 [INF] End processing HTTP request after 172.1123ms - 200
+2023-07-19 21:14:20.060 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:20.060 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:20.239 -03:00 [INF] Received HTTP response headers after 178.0457ms - 200
+2023-07-19 21:14:20.242 -03:00 [INF] End processing HTTP request after 181.9445ms - 200
+2023-07-19 21:14:20.242 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:20.243 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=COST&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:20.410 -03:00 [INF] Received HTTP response headers after 166.4034ms - 200
+2023-07-19 21:14:20.411 -03:00 [INF] End processing HTTP request after 169.1434ms - 200
+2023-07-19 21:14:20.412 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:20.414 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:20.909 -03:00 [INF] Received HTTP response headers after 494.9969ms - 200
+2023-07-19 21:14:20.911 -03:00 [INF] End processing HTTP request after 498.8839ms - 200
+2023-07-19 21:14:20.912 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:20.912 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=DIS&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:21.078 -03:00 [INF] Received HTTP response headers after 164.881ms - 200
+2023-07-19 21:14:21.082 -03:00 [INF] End processing HTTP request after 170.0355ms - 200
+2023-07-19 21:14:21.083 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:21.084 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:21.581 -03:00 [INF] Received HTTP response headers after 496.7118ms - 200
+2023-07-19 21:14:21.582 -03:00 [INF] End processing HTTP request after 499.4087ms - 200
+2023-07-19 21:14:21.583 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:21.584 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=KO&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:21.768 -03:00 [INF] Received HTTP response headers after 183.9819ms - 200
+2023-07-19 21:14:21.769 -03:00 [INF] End processing HTTP request after 185.8765ms - 200
+2023-07-19 21:14:21.778 -03:00 [INF] Executing ViewResult, running view Explore.
+2023-07-19 21:14:21.900 -03:00 [INF] Executed ViewResult - view Explore executed in 123.4196ms.
+2023-07-19 21:14:21.904 -03:00 [INF] Executed action StocksApp.Controllers.StocksController.Explore (StocksApp) in 14634.2933ms
+2023-07-19 21:14:21.906 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.StocksController.Explore (StocksApp)'
+2023-07-19 21:14:21.907 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 00:14:20 GMT
+Server: Kestrel
+2023-07-19 21:14:21.909 -03:00 [INF] HTTP GET / responded 200 in 14708.2337 ms
+2023-07-19 21:14:21.929 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/ - - - 200 - text/html;+charset=utf-8 14765.7393ms
+2023-07-19 21:14:21.929 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 21:14:21.929 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-19 21:14:21.935 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 5.7675ms
+2023-07-19 21:14:21.954 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.2092ms
+2023-07-19 21:14:22.133 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/favicon.ico - -
+2023-07-19 21:14:22.136 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:14:22.139 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-19 21:14:22.140 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 4.4403 ms
+2023-07-19 21:14:22.141 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/favicon.ico - - - 404 0 - 7.6689ms
+2023-07-19 21:14:27.695 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/trade/index/msft - -
+2023-07-19 21:14:27.697 -03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /trade/index/msft
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7140
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-07-19 21:14:27.699 -03:00 [INF] Executing endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-19 21:14:27.703 -03:00 [INF] Route matched with {action = "Index", controller = "Trade"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller StocksApp.Controllers.TradeController (StocksApp).
+2023-07-19 21:14:30.967 -03:00 [INF] Index action reached
+2023-07-19 21:14:30.971 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?symbol=msft&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:30.977 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?symbol=msft&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:31.149 -03:00 [INF] Received HTTP response headers after 171.915ms - 200
+2023-07-19 21:14:31.150 -03:00 [INF] End processing HTTP request after 179.6294ms - 200
+2023-07-19 21:14:31.151 -03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=msft&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:31.152 -03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?symbol=msft&token=ch1anbhr01qn6tg71hdgch1anbhr01qn6tg71he0
+2023-07-19 21:14:31.336 -03:00 [INF] Received HTTP response headers after 183.6666ms - 200
+2023-07-19 21:14:31.337 -03:00 [INF] End processing HTTP request after 186.1873ms - 200
+2023-07-19 21:14:31.341 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-19 21:14:31.396 -03:00 [INF] Executed ViewResult - view Index executed in 54.9125ms.
+2023-07-19 21:14:31.397 -03:00 [INF] Executed action StocksApp.Controllers.TradeController.Index (StocksApp) in 3693.6053ms
+2023-07-19 21:14:31.398 -03:00 [INF] Executed endpoint 'StocksApp.Controllers.TradeController.Index (StocksApp)'
+2023-07-19 21:14:31.399 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 20 Jul 2023 00:14:30 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-19 21:14:31.400 -03:00 [INF] HTTP GET /trade/index/msft responded 200 in 3702.6014 ms
+2023-07-19 21:14:31.404 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/trade/index/msft - - - 200 - text/html;+charset=utf-8 3709.5485ms
+2023-07-19 21:14:31.405 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - -
+2023-07-19 21:14:31.408 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 2.4077ms
+2023-07-19 21:14:31.429 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7140/_vs/browserLink - -
+2023-07-19 21:14:31.456 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7140/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.6510ms

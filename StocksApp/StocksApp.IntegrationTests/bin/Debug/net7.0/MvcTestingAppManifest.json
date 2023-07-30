@@ -1,0 +1,5 @@
+{
+  "StocksApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Core",
+  "StocksApp.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 24 - Clean Architecture\\StocksApp\\StocksApp.Infrastructure",
+  "StocksApp.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 24 - Clean Architecture\\StocksApp\\StocksApp"
+}
